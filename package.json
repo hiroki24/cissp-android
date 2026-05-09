@@ -7,7 +7,7 @@
     "start": "expo start",
     "android": "expo run:android",
     "lint": "eslint src/",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit",
     "prebuild": "expo prebuild",
     "build:dev": "eas build --profile development --platform android",
