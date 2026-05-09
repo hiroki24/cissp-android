@@ -43,7 +43,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   extra: {
     appVariant: process.env.APP_VARIANT ?? 'production',
     eas: {
-      projectId: '',
+      projectId: '7d1a8533-6c5d-43ec-af4e-0e433cbb8b9f',
     },
   },
   plugins: ['expo-router', 'expo-sqlite'],
