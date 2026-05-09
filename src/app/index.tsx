@@ -34,7 +34,9 @@ export default function HomeScreen() {
 
   useFocusEffect(
     useCallback(() => {
-      getOverallStats().then(setStats);
+      getOverallStats()
+        .then(setStats)
+        .catch(err => console.error('Failed to load stats:', err));
     }, []),
   );
 
