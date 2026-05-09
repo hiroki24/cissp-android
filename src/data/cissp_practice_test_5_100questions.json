@@ -1,6 +1,7 @@
 {
   "course": "ISC2 CISSP 6 Practice Exams - Practice Test 5",
   "totalQuestions": 100,
+  "extractedAt": "2026-05-08T15:31:50.642Z",
   "questions": [
     {
       "questionNumber": 1,
@@ -39,7 +40,8 @@
       "explanation": "OBJ. 3.6 - Asymmetric encryption ensures data confidentiality by encrypting information with a recipient's public key, which can only be decrypted with the corresponding private key. This prevents unauthorized access, as only the intended recipient can read the message. Unlike symmetric encryption, which requires secure key exchange, asymmetric cryptography eliminates the need to share a secret key. It is widely used in secure communication protocols, such as TLS, and supports digital certificates for authentication and secure key distribution.\n  For support or reporting issues, include Question ID: 67d967cc57ec55fc36ab692e in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティエンジニアが安全なメッセージングアプリケーション用の公開鍵基盤（PKI）を設計しています。非対称暗号が機密性を確保する方法として最も適切なものはどれですか？",
+      "question_ja": "セキュリティエンジニアが、安全なメッセージングアプリケーション用の公開鍵基盤（PKI）を設計しています。非対称暗号方式が機密性を確保する仕組みとして、次のうち最も適切に説明しているものはどれですか？",
+      "explanation_ja": "OBJ. 3.6 - 非対称暗号方式は、受信者の公開鍵で情報を暗号化し、対応する秘密鍵でのみ復号できるようにすることで、データの機密性を確保します。これにより、意図された受信者のみがメッセージを読むことができ、不正アクセスを防止します。対称暗号方式とは異なり、秘密鍵の共有が不要です。TLSなどの安全な通信プロトコルで広く使用され、認証や安全な鍵配布のためのデジタル証明書もサポートしています。",
       "answers_ja": [
         {
           "id": "b",
@@ -48,7 +50,7 @@
         },
         {
           "id": "c",
-          "text": "送信者が共有対称鍵でメッセージを暗号化し、その鍵を安全なチャネルで交換する。",
+          "text": "送信者が共有対称鍵を使用してメッセージを暗号化し、その鍵は安全なチャネルを通じて交換される。",
           "isCorrect": false
         },
         {
@@ -61,8 +63,7 @@
           "text": "受信者が自分の秘密鍵でメッセージを暗号化し、送信者が受信者の公開鍵で復号する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.6 - 非対称暗号化は、受信者の公開鍵で情報を暗号化し、対応する秘密鍵でのみ復号できるようにすることで、データの機密性を確保します。これにより、意図された受信者のみがメッセージを読むことができるため、不正アクセスが防止されます。安全な鍵交換が必要な対称暗号化とは異なり、非対称暗号は秘密鍵を共有する必要がありません。TLSなどの安全な通信プロトコルで広く使用されており、認証と安全な鍵配布のためのデジタル証明書をサポートしています。"
+      ]
     },
     {
       "questionNumber": 2,
@@ -101,30 +102,30 @@
       "explanation": "OBJ. 5.2 - A retina scan is considered one of the most secure and precise forms of biometric authentication due to the unique and stable nature of the blood vessels in the retina. Iris scans are also strong but less accurate than retina scans. Facial recognition and voice pattern analysis are convenient but not as reliable in high-security environments like data centers.\n  For support or reporting issues, include Question ID: 67d9684809b528909e7c1c05 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "Jasmineはデータセンターの構築を支援しています。最高情報セキュリティ責任者（CISO）は、データセンターへの入室要件として生体認証の使用を指示しており、処理されるデータの性質を考慮して最も精度の高いオプションである必要があります。Jasmineはこの場合、何を選択すべきですか？",
+      "question_ja": "Jasmineはデータセンターの建設を支援しています。最高情報セキュリティ責任者（CISO）は、データセンターへの入場要件として生体認証の使用を指示しており、処理されるデータの性質を考慮して最も精度の高いオプションが必要です。Jasmineはどれを選択すべきですか？",
+      "explanation_ja": "OBJ. 5.2 - 網膜スキャンは、網膜の血管パターンの一意性と安定性により、最も安全で精度の高い生体認証の一つと考えられています。虹彩スキャンも優れていますが、網膜スキャンほどの精度はありません。顔認識や声紋分析は便利ですが、データセンターのような高セキュリティ環境では信頼性が劣ります。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "データセンターに入室する対象者の虹彩スキャン。",
+          "text": "データセンターに入る対象者の虹彩スキャン。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "データセンターに入室する対象者の網膜スキャン。",
+          "text": "データセンターに入る対象者の網膜スキャン。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "データセンターに入室する対象者の顔認識スキャン。",
+          "text": "データセンターに入る対象者の顔認識スキャン。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "データセンターに入室する対象者の音声パターン認識分析。",
+          "text": "データセンターに入る対象者の声紋認識分析。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.2 - 網膜スキャンは、網膜の血管の固有かつ安定した性質により、最も安全で精密な生体認証の一つとされています。虹彩スキャンも強力ですが、網膜スキャンほど正確ではありません。顔認識と音声パターン分析は便利ですが、データセンターのような高セキュリティ環境では信頼性が低くなります。"
+      ]
     },
     {
       "questionNumber": 3,
@@ -163,30 +164,30 @@
       "explanation": "OBJ. 3.1 - The principle of least privilege is a fundamental secure design principle that minimizes potential security risks by restricting user access to only what is necessary. Avoiding segregation of duties and creating complex processes increases security risks, while minimizing encryption compromises data security.\n  For support or reporting issues, include Question ID: 67d96768e37da7c9c4a28905 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "あなたは安全なソフトウェアシステムを設計するチームを率いています。設計が最初から安全であることを保証するために、安全なエンジニアリングプロセスを実装する際に従うべき最も重要な原則はどれですか？",
+      "question_ja": "あなたは安全なソフトウェアシステムの設計チームを率いています。設計当初からセキュリティを確保するために、セキュアエンジニアリングプロセスを実装する際に最も重要な原則はどれですか？",
+      "explanation_ja": "OBJ. 3.1 - 最小権限の原則は、ユーザーアクセスを必要最小限に制限することでセキュリティリスクを最小化する基本的なセキュア設計原則です。職務分離を避けたり、複雑なプロセスを作成したりするとセキュリティリスクが増大し、暗号化を最小化するとデータセキュリティが損なわれます。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "パフォーマンスを向上させるために暗号化の使用を最小限にするようにシステムを設計する。",
+          "text": "パフォーマンス向上のために暗号化の使用を最小限にしてシステムを設計する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "効率を確保するために職務分離なしでシステムを設計する。",
+          "text": "効率性を確保するために職務分離を行わずにシステムを設計する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "最小権限の原則を適用して、ユーザーが必要な機能のみにアクセスできるようにする。",
+          "text": "最小権限の原則を適用し、ユーザーが必要な機能のみにアクセスできるようにする。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "システムを管理するために高度な知識を必要とする複雑なプロセスを作成する。",
+          "text": "システム管理に高度な知識を必要とする複雑なプロセスを作成する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.1 - 最小権限の原則は、ユーザーアクセスを必要なものだけに制限することで、潜在的なセキュリティリスクを最小化する基本的なセキュアデザインの原則です。職務分離を回避したり、複雑なプロセスを作成したりすることはセキュリティリスクを増大させ、暗号化を最小限にすることはデータセキュリティを損ないます。"
+      ]
     },
     {
       "questionNumber": 4,
@@ -225,7 +226,8 @@
       "explanation": "OBJ. 5.6 - OAuth is a widely used open standard for access delegation, allowing third-party services to access resources on behalf of a user without sharing credentials. This makes it ideal for APIs requiring federated identification and authentication. SAML and OIDC also support federated identity, but OAuth is better suited for API interactions. RADIUS is primarily for network access authentication, not API access.\n  For support or reporting issues, include Question ID: 67d96873358caaeb098e22b0 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "Marcusはソフトウェアインターフェースのアクセス制御プロジェクトに取り組んでいます。要件として、Application Programming Interface（API）を使用するソフトウェアは、インターフェースの認可された使用のためにフェデレーション識別と認証を必要とします。Marcusはこの要件にどの標準を使用すべきですか？",
+      "question_ja": "Marcusはソフトウェアインターフェースのアクセス制御プロジェクトに取り組んでいます。Application Programming Interface（API）を使用するすべてのソフトウェアは、インターフェースの承認された使用のためにフェデレーション識別と認証を要求する必要があります。Marcusがこの要件に使用すべき標準はどれですか？",
+      "explanation_ja": "OBJ. 5.6 - OAuthは、資格情報を共有せずにユーザーに代わってサードパーティサービスがリソースにアクセスすることを可能にする、広く使用されているアクセス委任のオープンスタンダードです。フェデレーション識別と認証を必要とするAPIに最適です。SAMLやOIDCもフェデレーションIDをサポートしていますが、OAuthはAPIインタラクションにより適しています。RADIUSは主にネットワークアクセス認証用であり、APIアクセスには使用されません。",
       "answers_ja": [
         {
           "id": "d",
@@ -247,8 +249,7 @@
           "text": "OpenID Connect。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.6 - OAuthは、サードパーティサービスが資格情報を共有せずにユーザーに代わってリソースにアクセスできるようにする、アクセス委譲のための広く使用されているオープン標準です。これにより、フェデレーション識別と認証を必要とするAPIに最適です。SAMLとOIDCもフェデレーションIDをサポートしていますが、OAuthはAPI相互作用により適しています。RADIUSは主にネットワークアクセス認証用であり、APIアクセス用ではありません。"
+      ]
     },
     {
       "questionNumber": 5,
@@ -287,7 +288,8 @@
       "explanation": "OBJ. 1.3 - A tactical plan defines short- to mid-term security initiatives, typically within a 1-3-year period, focusing on specific improvements, such as implementing a new IAM system. A strategic plan is broader and spans 3-5 years. Operational plans address daily security activities. A security roadmap is an informal plan, often outlining milestones without formal governance.\n  For support or reporting issues, include Question ID: 67d89e69b68444eafbaa8d5c in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織のサイバーセキュリティプログラムの1〜3年間の具体的なイニシアチブと目標を概説するセキュリティ計画のタイプはどれですか？",
+      "question_ja": "組織のサイバーセキュリティプログラムにおける1〜3年間の具体的な施策と目標を概説するセキュリティ計画の種類はどれですか？",
+      "explanation_ja": "OBJ. 1.3 - 戦術計画は、通常1〜3年の期間で短期〜中期のセキュリティ施策を定義し、新しいIAMシステムの導入などの具体的な改善に焦点を当てます。戦略計画はより広範で3〜5年にわたります。運用計画は日常的なセキュリティ活動を扱います。セキュリティロードマップは非公式な計画であり、正式なガバナンスなしにマイルストーンを概説することが多いです。",
       "answers_ja": [
         {
           "id": "c",
@@ -309,8 +311,7 @@
           "text": "戦略計画。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.3 - 戦術計画は、通常1〜3年の期間内で、新しいIAMシステムの実装などの具体的な改善に焦点を当てた短期から中期のセキュリティイニシアチブを定義します。戦略計画はより広範で3〜5年にわたります。運用計画は日常のセキュリティ活動に対処します。セキュリティロードマップは非公式の計画であり、正式なガバナンスなしにマイルストーンを概説することが多いです。"
+      ]
     },
     {
       "questionNumber": 6,
@@ -349,21 +350,22 @@
       "explanation": "OBJ. 6.5 - Enforcing encryption policies and implementing continuous monitoring provide both an immediate solution to the current non-compliance and a mechanism for ensuring ongoing compliance in the future. Regular audits and employee training are beneficial but would not be sufficient to address the underlying technical issues or ensure long-term compliance without direct enforcement and monitoring.\n  For support or reporting issues, include Question ID: 67d9692c98241465d0be20b1 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティ監査中に、チームがデータ暗号化とアクセス制御に関連するいくつかの非準拠の慣行を発見しました。詳細なレポートを作成した後、是正措置を実施する必要があります。非準拠の問題に対処しながら将来のコンプライアンスを確保するために最も適切な是正措置はどれですか？",
+      "question_ja": "セキュリティ監査中に、チームがデータ暗号化とアクセス制御に関するいくつかの非準拠事項を発見しました。詳細なレポートを作成した後、是正措置を実施する必要があります。非準拠の問題に最も適切に対処しつつ、将来のコンプライアンスを確保する是正措置はどれですか？",
+      "explanation_ja": "OBJ. 6.5 - 暗号化ポリシーの適用と継続的な監視の実施は、現在の非準拠に対する即座の解決策と、将来のコンプライアンスを確保するメカニズムの両方を提供します。定期的な監査や従業員トレーニングは有益ですが、根本的な技術的問題に対処したり、直接的な施行と監視なしに長期的なコンプライアンスを確保するには不十分です。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "すべての部門で暗号化ポリシーを施行し、コンプライアンスの継続的な監視を実施する。",
+          "text": "すべての部門に暗号化ポリシーを適用し、コンプライアンスの継続的な監視を実施する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "暗号化の慣行が定期的にレビューされるように四半期ごとの監査をスケジュールする。",
+          "text": "暗号化の実践が定期的にレビューされるよう、四半期ごとの監査をスケジュールする。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "技術的な構成を変更せずにセキュリティのベストプラクティスについて従業員をトレーニングする。",
+          "text": "技術的な設定を変更せずに、セキュリティのベストプラクティスについて従業員をトレーニングする。",
           "isCorrect": false
         },
         {
@@ -371,8 +373,7 @@
           "text": "非準拠の問題を文書化し、さらなる対応のために上級管理職に報告する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.5 - 暗号化ポリシーの施行と継続的な監視の実施は、現在の非準拠に対する即座の解決策と、将来の継続的なコンプライアンスを確保するメカニズムの両方を提供します。定期的な監査と従業員トレーニングは有益ですが、直接的な施行と監視なしには基盤となる技術的問題に対処したり、長期的なコンプライアンスを確保したりするには不十分です。"
+      ]
     },
     {
       "questionNumber": 7,
@@ -411,7 +412,8 @@
       "explanation": "OBJ. 6.2 - Security assessments should only target externally accessible assets, ensuring that results reflect real-world threats. Private IP ranges (RFC 1918) are used for internal networks and are not routable from the internet. Internal tests provide valuable insight but do not simulate external threats. DDoS testing is a separate activity. Testing through a corporate VPN may introduce false results, as traffic would originate from inside the network.\n  For support or reporting issues, include Question ID: 67d968fa98241465d0be20a2 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ペネトレーションテストチームが、企業の公開Webサービスの外部セキュリティ評価を実施する任務を負っています。テスト結果が外部の脅威を正確に反映することを保証する最善の方法は何ですか？",
+      "question_ja": "ペネトレーションテストチームが、企業の公開Webサービスに対する外部セキュリティ評価を実施する任務を負っています。テスト結果が外部の脅威を正確に反映するための最善の方法は何ですか？",
+      "explanation_ja": "OBJ. 6.2 - セキュリティ評価は外部からアクセス可能な資産のみを対象とし、結果が現実の脅威を反映するようにすべきです。プライベートIPレンジ（RFC 1918）は内部ネットワーク用であり、インターネットからルーティングできません。内部テストは有益な洞察を提供しますが、外部の脅威をシミュレートしません。DDoSテストは別の活動です。企業VPNを通じたテストは、トラフィックがネットワーク内部から発信されるため、誤った結果を招く可能性があります。",
       "answers_ja": [
         {
           "id": "b",
@@ -433,8 +435,7 @@
           "text": "信頼された内部ネットワークセグメントからテストを実行する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.2 - セキュリティ評価は、外部からアクセス可能な資産のみを対象とし、結果が実際の脅威を反映するようにする必要があります。プライベートIPレンジ（RFC 1918）は内部ネットワークに使用され、インターネットからルーティングできません。内部テストは貴重な洞察を提供しますが、外部の脅威をシミュレートしません。DDoSテストは別の活動です。企業VPNを通じたテストは、トラフィックがネットワーク内部から発信されるため、誤った結果をもたらす可能性があります。"
+      ]
     },
     {
       "questionNumber": 8,
@@ -474,6 +475,7 @@
       "links": [],
       "relatedLecture": null,
       "question_ja": "金融機関が重要なプロセスと依存関係を特定するためにビジネスインパクト分析（BIA）を実施しています。事業継続計画におけるBIAの主な目的は何ですか？",
+      "explanation_ja": "OBJ. 1.7 - ビジネスインパクト分析（BIA）は、事業運営に対する障害の影響を評価するために使用されます。復旧の優先順位、許容可能なダウンタイム、リソースの依存関係を決定するのに役立ちます。脅威と脆弱性の特定はリスク評価の一部であり、BIAではありません。セキュリティインシデントのポリシーはインシデント対応に該当し、復旧手順はBIAの後、事業継続計画（BCP）フェーズで策定されます。",
       "answers_ja": [
         {
           "id": "b",
@@ -487,16 +489,15 @@
         },
         {
           "id": "d",
-          "text": "事業運営に対する中断の影響を判断する。",
+          "text": "事業運営に対する障害の影響を判断する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "セキュリティインシデントを管理するためのポリシーを策定する。",
+          "text": "セキュリティインシデント管理のポリシーを策定する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.7 - ビジネスインパクト分析（BIA）は、事業運営に対する中断の影響を評価するために使用されます。組織が復旧の優先順位、許容可能なダウンタイム、およびリソースの依存関係を判断するのに役立ちます。脅威と脆弱性の特定はリスク評価の一部であり、BIAではありません。セキュリティインシデントのポリシーはインシデント対応に該当し、復旧手順はBIAの後、事業継続計画（BCP）フェーズで策定されます。BIAは運用への影響の評価と事業継続計画の指針に焦点を当てています。"
+      ]
     },
     {
       "questionNumber": 9,
@@ -535,11 +536,12 @@
       "explanation": "OBJ. 4.1 - Enforcing HTTPS for REST API communications ensures that all data transmitted between the client and the server is encrypted, protecting against interception and eavesdropping. OAuth 2.0 provides robust authorization, and JWT is useful for authentication, but ensuring secure transmission through HTTPS is a foundational requirement. API versioning helps maintain up-to-date code, but it does not directly address communication security.\n  For support or reporting issues, include Question ID: 67d968034553ef2ebfd82bd2 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "Software-as-a-Service（SaaS）企業のソフトウェア開発者が、企業のRepresentational State Transfer（REST）Application Programming Interface（API）エンドポイントのセキュリティ強化を任されています。REST APIエンドポイントを効果的に保護するために、開発者が優先すべきセキュリティメカニズムはどれですか？",
+      "question_ja": "Software-as-a-Service（SaaS）企業のソフトウェア開発者が、企業のREST APIエンドポイントのセキュリティ強化を任されています。REST APIエンドポイントを効果的に保護するために、開発者が優先すべきセキュリティメカニズムはどれですか？",
+      "explanation_ja": "OBJ. 4.1 - REST API通信にHTTPSを強制することで、クライアントとサーバー間で送信されるすべてのデータが暗号化され、傍受や盗聴から保護されます。OAuth 2.0は堅牢な認可を提供し、JWTは認証に有用ですが、HTTPSによる安全な伝送の確保が基本的な要件です。APIバージョニングはコードの最新化に役立ちますが、通信セキュリティには直接対処しません。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "強力なAPI認証のためにJSON Web Tokens（JWT）を利用する。",
+          "text": "強力なAPI認証のためにJSON Web Tokens（JWT）を使用する。",
           "isCorrect": false
         },
         {
@@ -549,7 +551,7 @@
         },
         {
           "id": "c",
-          "text": "アクセス制御を強制するためにOAuth 2.0による認可を実装する。",
+          "text": "アクセス制御を実施するためにOAuth 2.0による認可を実装する。",
           "isCorrect": false
         },
         {
@@ -557,8 +559,7 @@
           "text": "APIが最新のセキュリティパッチを使用するようにAPIバージョニングを採用する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.1 - REST API通信にHTTPSを強制することで、クライアントとサーバー間で送信されるすべてのデータが暗号化され、傍受と盗聴から保護されます。OAuth 2.0は堅牢な認可を提供し、JWTは認証に有用ですが、HTTPSによる安全な送信の確保は基本的な要件です。APIバージョニングはコードを最新に保つのに役立ちますが、通信セキュリティに直接対処するものではありません。"
+      ]
     },
     {
       "questionNumber": 10,
@@ -597,16 +598,17 @@
       "explanation": "OBJ. 5.5 - JIT access provisioning grants temporary access only when needed and revokes it automatically after a set period, reducing the risk of forgotten active accounts. RBAC controls access based on roles but does not ensure automatic expiration. Granting permanent access increases security risks. Relying on managers introduces human error and potential delays in deprovisioning. JIT provisioning ensures access is timely and automatically revoked.\n  For support or reporting issues, include Question ID: 67d96868925da16140f2c7d0 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が、いくつかの重要なシステムへの一時的なアクセスを必要とする新しい契約者をオンボーディングしています。適切な時期にアクセスが自動的に取り消されることを最も確実にするものはどれですか？",
+      "question_ja": "あなたの組織では、いくつかの重要なシステムへの一時的なアクセスを必要とする新しい請負業者のオンボーディングを行っています。適切な時期にアクセスが自動的に取り消されることを最も確実にするのはどれですか？",
+      "explanation_ja": "OBJ. 5.5 - JITアクセスプロビジョニングは、必要な時にのみ一時的なアクセスを付与し、設定された期間後に自動的に取り消すことで、忘れられたアクティブアカウントのリスクを低減します。RBACはロールに基づいてアクセスを制御しますが、自動的な有効期限を保証しません。永続的なアクセスの付与はセキュリティリスクを増大させます。マネージャーへの依頼は人的エラーやデプロビジョニングの遅延を招く可能性があります。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "永続的なアクセスを割り当て、後で手動でアカウントを無効にする。",
+          "text": "永続的なアクセスを割り当て、後でアカウントを手動で無効化する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "アクセスが不要になったときにITに通知する契約者のマネージャーに依存する。",
+          "text": "アクセスが不要になった際にITに通知するよう請負業者のマネージャーに依頼する。",
           "isCorrect": false
         },
         {
@@ -619,8 +621,7 @@
           "text": "ジャストインタイム（JIT）アクセスプロビジョニングを使用する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 5.5 - JITアクセスプロビジョニングは、必要な時にのみ一時的なアクセスを付与し、設定された期間後に自動的に取り消すことで、忘れられたアクティブアカウントのリスクを軽減します。RBACはロールに基づいてアクセスを制御しますが、自動的な有効期限を保証しません。永続的なアクセスの付与はセキュリティリスクを増大させます。マネージャーに依存することは人為的ミスとプロビジョニング解除の遅延の可能性をもたらします。JITプロビジョニングはアクセスがタイムリーで自動的に取り消されることを保証します。"
+      ]
     },
     {
       "questionNumber": 11,
@@ -659,7 +660,8 @@
       "explanation": "OBJ. 2.4 - Data remanence refers to residual data that remains after attempts to erase or destroy it. A data destruction policy should prioritize addressing this issue to prevent the recovery of sensitive information from storage devices. Data retention and purging are important but relate to managing how long data is kept and when it should be deleted, rather than ensuring complete destruction.\n  For support or reporting issues, include Question ID: 67d962b33f8db9dd7fc1d1c9 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "Danielleのセキュリティマネージャーが、最近の監査でデータ所有者による機密データの不適切な取り扱いが明らかになったことを受けて、データ破壊ポリシーの作成を要求しました。このポリシーの主な焦点は何ですか？",
+      "question_ja": "Danielleのセキュリティマネージャーは、データ所有者による機密データの不適切な取り扱いが判明した最近の監査を受けて、データ破棄ポリシーの作成を要請しました。このポリシーの主な焦点は何ですか？",
+      "explanation_ja": "OBJ. 2.4 - データ残留とは、消去や破壊の試みの後に残る残留データのことです。データ破棄ポリシーは、ストレージデバイスから機密情報が復元されることを防ぐため、この問題への対処を優先すべきです。データ保持とパージは重要ですが、データをどれだけの期間保持し、いつ削除すべきかに関するものであり、完全な破壊の確保とは異なります。",
       "answers_ja": [
         {
           "id": "c",
@@ -668,7 +670,7 @@
         },
         {
           "id": "d",
-          "text": "データ分類解除。",
+          "text": "データの機密解除。",
           "isCorrect": false
         },
         {
@@ -681,8 +683,7 @@
           "text": "データ残留。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 2.4 - データ残留とは、消去または破壊の試みの後に残る残留データのことです。データ破壊ポリシーは、ストレージデバイスからの機密情報の復旧を防ぐために、この問題に優先的に対処すべきです。データ保持とパージは重要ですが、完全な破壊を保証することよりも、データの保持期間と削除時期の管理に関連しています。"
+      ]
     },
     {
       "questionNumber": 12,
@@ -721,30 +722,30 @@
       "explanation": "OBJ. 4.2 - The most significant concern with an end-of-life announcement is the increased likelihood of zero-day attacks because the vendor will no longer provide patches or security updates. This makes the network switch highly vulnerable to new exploits. Operational costs, compatibility issues, and extended support costs are important, but the security risk from unpatched vulnerabilities is far greater and poses a critical threat to the network's integrity.\n  For support or reporting issues, include Question ID: 67d96813358caaeb098e2292 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ネットワークベンダーが、ネットワークスイッチ製品ラインのネットワークオペレーティングシステム（OS）バージョン9.1.2のサポート終了を発表しました。セキュリティマネージャーは、組織がこのバージョンのソフトウェアを使用していることを知っており、この発表がもたらすリスクを分析するよう依頼しました。ベンダーの発表に関して最も重大な懸念を示すリスクはどれですか？",
+      "question_ja": "ネットワークベンダーが、ネットワークスイッチ製品ラインのネットワークOS バージョン9.1.2のサポート終了を発表しました。セキュリティマネージャーは組織がこのバージョンを使用していることを把握しており、この発表によるリスクの分析を依頼しました。ベンダーの発表に関して最も重大な懸念となるリスクはどれですか？",
+      "explanation_ja": "OBJ. 4.2 - サポート終了の発表で最も重大な懸念は、ベンダーがパッチやセキュリティアップデートを提供しなくなるため、ゼロデイ攻撃の可能性が増大することです。これにより、ネットワークスイッチは新たなエクスプロイトに対して非常に脆弱になります。運用コスト、互換性の問題、延長サポートのコストは重要ですが、パッチ未適用の脆弱性によるセキュリティリスクの方がはるかに深刻です。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "レガシーネットワークスイッチプラットフォームとの互換性と相互運用性の欠如。",
+          "text": "レガシーネットワークスイッチプラットフォームとの互換性および相互運用性の欠如。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "ゼロデイ攻撃の可能性の増加。",
+          "text": "ゼロデイ攻撃の可能性の増大。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "OSパッチ管理のための延長ベンダーサポート購入のコストと労力の増加。",
+          "text": "OSパッチ管理のための延長ベンダーサポート購入にかかるコストと労力の増大。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "ソフトウェアアップグレードの欠如と必要なセキュリティ制御緩和策による運用コストの増加。",
+          "text": "ソフトウェアアップグレードの欠如と必要なセキュリティ制御の緩和による運用コストの増大。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - サポート終了の発表で最も重大な懸念は、ベンダーがパッチやセキュリティアップデートを提供しなくなるため、ゼロデイ攻撃の可能性が増加することです。これにより、ネットワークスイッチは新しいエクスプロイトに対して非常に脆弱になります。運用コスト、互換性の問題、延長サポートコストは重要ですが、パッチが適用されない脆弱性からのセキュリティリスクははるかに大きく、ネットワークの完全性に対する重大な脅威をもたらします。"
+      ]
     },
     {
       "questionNumber": 13,
@@ -783,30 +784,30 @@
       "explanation": "OBJ. 8.1 - Security configuration management should be established during system development and acquisition to ensure that secure settings are implemented from the start. Waiting until operations and maintenance could allow misconfigurations to persist. Implementation and deployment focus on finalizing configurations, but they should be defined earlier. Decommissioning occurs at the end of the system's lifecycle and is too late for configuration management to take effect.\n  For support or reporting issues, include Question ID: 67d969d36958032c658b316f in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "新しい情報システムのセキュリティ構成管理は、システム開発ライフサイクル（SDLC）のどの時点で最初に確立すべきですか？",
+      "question_ja": "システム開発ライフサイクル（SDLC）のどの段階で、新しい情報システムのセキュリティ構成管理を最初に確立すべきですか？",
+      "explanation_ja": "OBJ. 8.1 - セキュリティ構成管理は、システムの開発および取得段階で確立し、安全な設定が最初から実装されるようにすべきです。運用・保守まで待つと、設定ミスが残存する可能性があります。実装・デプロイは設定の最終化に焦点を当てますが、より早い段階で定義すべきです。廃止はシステムライフサイクルの終了時に行われ、構成管理には遅すぎます。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "システム開発と取得の段階。",
+          "text": "システムの開発および取得時。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "システム実装と展開の段階。",
+          "text": "システムの実装およびデプロイ時。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "システム廃棄の段階。",
+          "text": "システムの廃止時。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "システム運用と保守の段階。",
+          "text": "システムの運用および保守時。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - セキュリティ構成管理は、安全な設定が最初から実装されるように、システム開発と取得の段階で確立すべきです。運用と保守まで待つと、誤設定が持続する可能性があります。実装と展開は構成の最終化に焦点を当てますが、それらはより早い段階で定義されるべきです。廃棄はシステムのライフサイクルの終わりに発生し、構成管理が効果を発揮するには遅すぎます。"
+      ]
     },
     {
       "questionNumber": 14,
@@ -846,6 +847,7 @@
       "links": [],
       "relatedLecture": null,
       "question_ja": "企業がインターネット経由で2つのサーバー間でファイルを安全に転送する必要があります。最適なプロトコルはどれですか？",
+      "explanation_ja": "OBJ. 4.3 - SFTPはSecure Shell（SSH）を使用してファイル転送を暗号化し、データの傍受や改ざんから保護することで、機密性、整合性、認証を確保します。FTPやTFTPはデータを平文で送信し、盗聴や中間者攻撃に対して脆弱です。HTTPはWebブラウジング用に設計されており、ファイル転送の暗号化を提供しないため、安全なデータ交換には不適切です。",
       "answers_ja": [
         {
           "id": "a",
@@ -867,8 +869,7 @@
           "text": "File Transfer Protocol（FTP）。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.3 - SFTPはSecure Shell（SSH）を使用してファイル転送を暗号化し、データの傍受と改ざんから保護することで、機密性、完全性、認証を確保します。平文でデータを送信し、盗聴や中間者攻撃に脆弱なFTPやTFTPとは異なり、SFTPはデータと認証資格情報の両方を保護します。HTTPはWebブラウジング用に設計されており、ファイル転送の暗号化を提供しないため、安全なデータ交換には不適切です。"
+      ]
     },
     {
       "questionNumber": 15,
@@ -907,7 +908,8 @@
       "explanation": "OBJ. 3.2 - The Brewer-Nash model (also called the Chinese Wall model) prevents conflicts of interest by dynamically restricting access to sensitive data based on prior access history. If an employee accesses data from one client, they are automatically blocked from accessing conflicting client data. Clark-Wilson focuses on data integrity, Bell-LaPadula enforces confidentiality levels, and Graham-Denning defines access control rules but does not prevent conflicts of interest.\n  For support or reporting issues, include Question ID: 67d96779b47dbeada108c075 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "金融サービス企業は、競合するクライアントと働く従業員が矛盾するデータセットにアクセスできないようにする必要があります。この要件に最も適したアクセス制御モデルはどれですか？",
+      "question_ja": "金融サービス企業は、競合するクライアントと業務を行う従業員が矛盾するデータセットにアクセスできないようにする必要があります。この要件に最も適したアクセス制御モデルはどれですか？",
+      "explanation_ja": "OBJ. 3.2 - Brewer-Nashモデル（Chinese Wallモデルとも呼ばれる）は、過去のアクセス履歴に基づいて機密データへのアクセスを動的に制限することで、利益相反を防止します。従業員があるクライアントのデータにアクセスすると、矛盾するクライアントのデータへのアクセスが自動的にブロックされます。Clark-Wilsonはデータの整合性に焦点を当て、Bell-LaPadulaは機密性レベルを強制し、Graham-Denningはアクセス制御ルールを定義しますが、利益相反の防止は行いません。",
       "answers_ja": [
         {
           "id": "d",
@@ -929,8 +931,7 @@
           "text": "Clark-Wilsonモデル。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.2 - Brewer-Nashモデル（Chinese Wallモデルとも呼ばれる）は、以前のアクセス履歴に基づいて機密データへのアクセスを動的に制限することで、利益相反を防止します。従業員があるクライアントのデータにアクセスすると、矛盾するクライアントデータへのアクセスが自動的にブロックされます。Clark-Wilsonはデータの完全性に焦点を当て、Bell-LaPadulaは機密性レベルを強制し、Graham-Denningはアクセス制御ルールを定義しますが、利益相反を防止しません。"
+      ]
     },
     {
       "questionNumber": 16,
@@ -970,15 +971,16 @@
       "links": [],
       "relatedLecture": null,
       "question_ja": "ネットワークマイクロセグメンテーションの主な目的は何ですか？",
+      "explanation_ja": "OBJ. 4.2 - マイクロセグメンテーションは、ネットワーク内のラテラルムーブメントを制限することで攻撃対象面を縮小するセキュリティ戦略です。ワークロードを分離し、脅威の拡散を防止することでセキュリティを強化します。パフォーマンスにプラスの影響を与える場合もありますが、主な目的はトラフィック最適化ではなくセキュリティです。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "ネットワーク内の横方向の移動を制限することで攻撃対象領域を縮小する。",
+          "text": "ネットワーク内のラテラルムーブメントを制限することで攻撃対象面を縮小する。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "トラフィック負荷を分散することでネットワークパフォーマンスを向上させる。",
+          "text": "トラフィック負荷のバランスを取ることでネットワークパフォーマンスを向上させる。",
           "isCorrect": false
         },
         {
@@ -991,8 +993,7 @@
           "text": "ネットワークの冗長性を高め、単一障害点を防止する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - マイクロセグメンテーションは、ネットワーク内の横方向の移動を制限することで攻撃対象領域を縮小するセキュリティ戦略です。このアプローチは、ワークロードを分離し脅威の拡散を防止することでセキュリティを強化します。パフォーマンスにプラスの影響を与える場合がありますが、主な目標はトラフィックの最適化ではなくセキュリティです。ネットワークの冗長性と簡素化された管理はマイクロセグメンテーションとは無関係です。"
+      ]
     },
     {
       "questionNumber": 17,
@@ -1031,7 +1032,8 @@
       "explanation": "OBJ. 6.2 - Dynamic testing is performed in a live environment where the software is actively executed, allowing testers to observe its behavior under various conditions. This method is ideal for identifying issues that only manifest during actual operation. Static testing reviews code without executing it, fuzz testing uses random data to test inputs, and penetration testing focuses on finding exploitable weaknesses but does not involve continuous monitoring in a live environment.\n  For support or reporting issues, include Question ID: 67d968fada28fa705a58217b in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "本番環境で、セキュリティアナリストが実際の条件下でアプリケーションがさまざまな入力と動作にどのように応答するかを評価する必要があります。この目的に最も適したテスト方法はどれですか？",
+      "question_ja": "本番環境において、セキュリティアナリストが実際の運用条件下でアプリケーションがさまざまな入力や動作にどう応答するかを評価する必要があります。この目的に最も適したテスト手法はどれですか？",
+      "explanation_ja": "OBJ. 6.2 - 動的テストは、ソフトウェアが実際に実行されるライブ環境で行われ、さまざまな条件下での動作をテスターが観察できます。実際の運用中にのみ発生する問題を特定するのに最適です。静的テストは実行せずにコードをレビューし、ファズテストはランダムデータを使用して入力をテストし、ペネトレーションテストは悪用可能な弱点の発見に焦点を当てますが、ライブ環境での継続的な監視は含みません。",
       "answers_ja": [
         {
           "id": "c",
@@ -1040,7 +1042,7 @@
         },
         {
           "id": "a",
-          "text": "実行せずにコードを分析する静的テスト。",
+          "text": "コードを実行せずに分析する静的テスト。",
           "isCorrect": false
         },
         {
@@ -1050,11 +1052,10 @@
         },
         {
           "id": "b",
-          "text": "ランダムな入力を通じて脆弱性を特定するファズテスト。",
+          "text": "ランダムな入力で脆弱性を特定するファズテスト。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.2 - 動的テストは、ソフトウェアがアクティブに実行されているライブ環境で実行され、テスターがさまざまな条件下での動作を観察できます。この方法は、実際の運用中にのみ発現する問題を特定するのに理想的です。静的テストは実行せずにコードをレビューし、ファズテストはランダムデータを使用して入力をテストし、ペネトレーションテストは悪用可能な弱点を見つけることに焦点を当てますが、ライブ環境での継続的な監視は含みません。"
+      ]
     },
     {
       "questionNumber": 18,
@@ -1093,11 +1094,12 @@
       "explanation": "OBJ. 3.4 - Self-Encrypting Drives (SEDs) provide hardware-level encryption and decryption without significant performance impact because encryption is handled by the drive itself. This ensures that data at rest remains protected, even if the drive is removed. BitLocker and FileVault rely on software-based encryption, which can impact performance, and TDE encrypts database files but does not provide full-disk encryption. SEDs offer seamless, always-on encryption with minimal user intervention.\n  For support or reporting issues, include Question ID: 67d967af98241465d0be2093 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティチームが、保存中の機密顧客データを保護するためにハードウェアベースの暗号化をストレージデバイスに展開しています。システムパフォーマンスに影響を与えずにハードウェアレベルの暗号化と復号を提供する技術はどれですか？",
+      "question_ja": "セキュリティチームが、保存中の機密顧客データを保護するためにストレージデバイス向けのハードウェアベースの暗号化を導入しています。システムパフォーマンスに影響を与えずにハードウェアレベルの暗号化と復号を提供する技術はどれですか？",
+      "explanation_ja": "OBJ. 3.4 - 自己暗号化ドライブ（SED）は、暗号化がドライブ自体で処理されるため、パフォーマンスへの大きな影響なしにハードウェアレベルの暗号化と復号を提供します。ドライブが取り外された場合でも、保存データは保護されたままです。BitLockerとFileVaultはソフトウェアベースの暗号化に依存しており、パフォーマンスに影響を与える可能性があります。TDEはデータベースファイルを暗号化しますが、フルディスク暗号化は提供しません。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "Self-Encrypting Drive（SED）。",
+          "text": "自己暗号化ドライブ（SED）。",
           "isCorrect": true
         },
         {
@@ -1112,11 +1114,10 @@
         },
         {
           "id": "c",
-          "text": "Transparent Data Encryption（TDE）。",
+          "text": "透過的データ暗号化（TDE）。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.4 - Self-Encrypting Drives（SEDs）は、暗号化がドライブ自体で処理されるため、重大なパフォーマンスへの影響なしにハードウェアレベルの暗号化と復号を提供します。これにより、ドライブが取り外されても保存データが保護されます。BitLockerとFileVaultはソフトウェアベースの暗号化に依存しており、パフォーマンスに影響を与える可能性があり、TDEはデータベースファイルを暗号化しますが、フルディスク暗号化は提供しません。SEDsはシームレスで常時オンの暗号化を最小限のユーザー介入で提供します。"
+      ]
     },
     {
       "questionNumber": 19,
@@ -1155,7 +1156,8 @@
       "explanation": "OBJ. 4.1 - A VPN with IPsec is the best choice for encrypting data in transit between remote offices. E2EE is designed for individual messages (e.g., email or chat) rather than site-to-site encryption. MAC filtering is a local network access control and does not provide encryption. MPLS optimizes network traffic but does not encrypt data, making it less secure than VPNs.\n  For support or reporting issues, include Question ID: 67d96803bfb8b304f5d764ca in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がリモートオフィス間で転送中のデータを暗号化するための安全でスケーラブルなソリューションを必要としています。最適な選択肢はどれですか？",
+      "question_ja": "あなたの組織は、リモートオフィス間で転送中のデータを暗号化するための安全でスケーラブルなソリューションを必要としています。最適な選択肢はどれですか？",
+      "explanation_ja": "OBJ. 4.1 - IPsecを使用したVPNは、リモートオフィス間で転送中のデータを暗号化するための最良の選択肢です。E2EEは、サイト間暗号化ではなく、個々のメッセージ（メールやチャットなど）向けに設計されています。MACフィルタリングはローカルネットワークのアクセス制御であり、暗号化は提供しません。MPLSはネットワークトラフィックを最適化しますが、データを暗号化しないため、VPNよりセキュリティが劣ります。",
       "answers_ja": [
         {
           "id": "d",
@@ -1169,7 +1171,7 @@
         },
         {
           "id": "a",
-          "text": "End-to-End Encryption（E2EE）。",
+          "text": "エンドツーエンド暗号化（E2EE）。",
           "isCorrect": false
         },
         {
@@ -1177,8 +1179,7 @@
           "text": "IPsecを使用したVirtual Private Network（VPN）。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 4.1 - IPsecを使用したVPNは、リモートオフィス間で転送中のデータを暗号化するための最適な選択肢です。E2EEはサイト間暗号化ではなく、個別のメッセージ（メールやチャットなど）用に設計されています。MACフィルタリングはローカルネットワークアクセス制御であり、暗号化を提供しません。MPLSはネットワークトラフィックを最適化しますが、データを暗号化しないため、VPNより安全性が低くなります。"
+      ]
     },
     {
       "questionNumber": 20,
@@ -1217,30 +1218,30 @@
       "explanation": "OBJ. 5.4 - Mandatory Access Control (MAC) is best suited for protecting highly sensitive data by enforcing strict access policies that cannot be changed by individual users. In MAC, access decisions are based on security labels and classifications, ensuring only authorized individuals can view sensitive information. RBAC assigns access based on roles but is more flexible. DAC allows users to grant permissions, which could lead to unauthorized sharing. ABAC is flexible but may not enforce strict confidentiality.\n  For support or reporting issues, include Question ID: 67d9685f987330b81ed2563e in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業が営業秘密を含む独自の文書のアクセス制御モデルを実装しています。従業員は、職務上明示的に必要な場合にのみ文書にアクセスできるべきです。この状況に最適なアクセス制御モデルはどれですか？",
+      "question_ja": "企業が営業秘密を含む独自文書のアクセス制御モデルを導入しています。従業員は、職務上明確に必要な場合にのみ文書にアクセスできるようにすべきです。この状況に最適なアクセス制御モデルはどれですか？",
+      "explanation_ja": "OBJ. 5.4 - 強制アクセス制御（MAC）は、個々のユーザーが変更できない厳格なアクセスポリシーを適用することで、高度に機密性の高いデータの保護に最も適しています。MACでは、アクセスの決定はセキュリティラベルと分類に基づき、承認された個人のみが機密情報を閲覧できます。RBACはロールに基づいてアクセスを割り当てますが、より柔軟です。DACはユーザーが権限を付与できるため、不正な共有につながる可能性があります。ABACは柔軟ですが、厳格な機密性を強制できない場合があります。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "Discretionary Access Control（DAC）。",
+          "text": "任意アクセス制御（DAC）。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "Attribute-Based Access Control（ABAC）。",
+          "text": "属性ベースアクセス制御（ABAC）。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "Mandatory Access Control（MAC）。",
+          "text": "強制アクセス制御（MAC）。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "Role-Based Access Control（RBAC）。",
+          "text": "ロールベースアクセス制御（RBAC）。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.4 - Mandatory Access Control（MAC）は、個々のユーザーが変更できない厳格なアクセスポリシーを施行することにより、高度に機密性の高いデータの保護に最適です。MACでは、アクセスの決定はセキュリティラベルと分類に基づいており、認可された個人のみが機密情報を閲覧できるようにします。RBACはロールに基づいてアクセスを割り当てますが、より柔軟です。DACはユーザーが権限を付与することを許可し、不正な共有につながる可能性があります。ABACは柔軟ですが、厳格な機密性を強制できない場合があります。"
+      ]
     },
     {
       "questionNumber": 21,
@@ -1279,30 +1280,30 @@
       "explanation": "OBJ. 8.1 - Testing a patch in a controlled environment before deployment is a fundamental due care practice that helps prevent unintended security issues and operational disruptions. Due care requires organizations to take reasonable precautions to avoid foreseeable harm, and rigorous testing ensures that a patch does not introduce vulnerabilities or compliance violations. While obtaining executive approval aligns changes with business goals and backups help mitigate failures, neither directly ensures regulatory compliance and risk reduction as effectively as pre-deployment testing.\n  For support or reporting issues, include Question ID: 67d969d250a9a91676efddad in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が本番環境に重要なセキュリティパッチを展開する準備をしています。パッチ展開前のパッチ管理プロセスにおいて、組織のデューケアと規制コンプライアンスへのコミットメントを最もよく示すものはどれですか？",
+      "question_ja": "組織が本番環境に重要なセキュリティパッチを展開する準備をしています。パッチ展開前に、パッチ管理プロセスにおけるデューケアと規制遵守への組織のコミットメントを最もよく示すものはどれですか？",
+      "explanation_ja": "OBJ. 8.1 - 展開前に管理された環境でパッチをテストすることは、意図しないセキュリティ問題や運用上の中断を防ぐための基本的なデューケアの実践です。デューケアでは、予見可能な害を避けるための合理的な予防措置を講じることが求められ、厳格なテストによりパッチが脆弱性やコンプライアンス違反を引き起こさないことを確認します。経営陣の承認やバックアップは有用ですが、展開前テストほど効果的にリスク低減と規制遵守を直接確保するものではありません。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "パッチがビジネス要件に合致していることを確認するための経営幹部の承認を得る。",
+          "text": "パッチがビジネス要件に合致していることを確認するために経営陣の承認を得る。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "人為的ミスを減らし一貫性を確保するためにパッチを自動的に展開する。",
+          "text": "人的エラーを削減し一貫性を確保するためにパッチを自動的に展開する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "障害時の復旧を可能にするためにフルシステムバックアップを実行する。",
+          "text": "障害発生時の復旧を可能にするためにフルシステムバックアップを実行する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "展開前に制御された環境でパッチをテストして影響を評価する。",
+          "text": "展開前にパッチの影響を評価するために管理された環境でテストする。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - 展開前に制御された環境でパッチをテストすることは、意図しないセキュリティ問題や運用の中断を防ぐ基本的なデューケアの実践です。デューケアは、予見可能な損害を回避するために合理的な予防措置を講じることを組織に要求し、厳格なテストにより、パッチが脆弱性やコンプライアンス違反をもたらさないことが保証されます。経営幹部の承認は変更をビジネス目標に合わせ、バックアップは障害の緩和に役立ちますが、どちらも展開前テストほど効果的に規制コンプライアンスとリスク軽減を直接保証するものではありません。"
+      ]
     },
     {
       "questionNumber": 22,
@@ -1341,7 +1342,8 @@
       "explanation": "<p>OBJ. 3.7 - A ciphertext-only attack occurs when an adversary possesses only encrypted data without corresponding plaintext, keys, or the ability to influence cryptographic operations. This represents the weakest position for an attacker and the baseline threat all encryption systems must resist. Strong modern algorithms like AES are designed to withstand this attack through sufficient key length and algorithmic complexity. Known-plaintext attacks require matching plaintext and ciphertext pairs. Chosen-plaintext attacks need the ability to encrypt selected data, while chosen-ciphertext attacks require decryption capabilities, none of which exist in this scenario.\n&nbsp; For support or reporting issues, include Question ID: <strong>67d967d8101758fe20fc04bd</strong> in your ticket. Thank you.</p>",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティコンサルタントとして、金融機関の決済処理システムの暗号実装をレビューしています。リスク評価中に、チームは、敵対者が送信中の暗号化されたトランザクションデータを傍受するが、平文データ、暗号鍵、または暗号化操作に影響を与える能力へのアクセスがない場合、どのタイプの攻撃が最も懸念されるかを尋ねます。この脅威シナリオを表す暗号解読攻撃はどれですか？",
+      "question_ja": "セキュリティコンサルタントとして、金融機関の決済処理システムの暗号実装をレビューしています。リスク評価中に、攻撃者が送信中の暗号化されたトランザクションデータを傍受しているが、平文データ、暗号鍵、または暗号化操作に影響を与える能力を持たない場合、最も懸念すべき攻撃の種類は何かとチームが質問しました。この脅威シナリオを表す暗号解析攻撃はどれですか？",
+      "explanation_ja": "OBJ. 3.7 - 暗号文のみの攻撃は、攻撃者が対応する平文、鍵、または暗号化操作に影響を与える能力なしに、暗号化されたデータのみを所有している場合に発生します。これは攻撃者にとって最も弱い立場であり、すべての暗号化システムが耐えるべきベースラインの脅威です。AESのような強力な現代のアルゴリズムは、十分な鍵長とアルゴリズムの複雑さによりこの攻撃に耐えるように設計されています。既知平文攻撃には一致する平文と暗号文のペアが必要です。選択平文攻撃には選択したデータの暗号化能力が必要であり、選択暗号文攻撃には復号能力が必要ですが、このシナリオではいずれも存在しません。",
       "answers_ja": [
         {
           "id": "b",
@@ -1363,8 +1365,7 @@
           "text": "既知平文攻撃。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.7 - 暗号文のみの攻撃は、敵対者が対応する平文、鍵、または暗号操作に影響を与える能力なしに暗号化されたデータのみを所持している場合に発生します。これは攻撃者にとって最も弱い立場を表し、すべての暗号化システムが耐えなければならない基本的な脅威です。AESのような強力な最新アルゴリズムは、十分な鍵長とアルゴリズムの複雑さによってこの攻撃に耐えるように設計されています。既知平文攻撃には一致する平文と暗号文のペアが必要です。選択平文攻撃には選択したデータを暗号化する能力が必要であり、選択暗号文攻撃には復号能力が必要ですが、このシナリオではいずれも存在しません。"
+      ]
     },
     {
       "questionNumber": 23,
@@ -1403,11 +1404,12 @@
       "explanation": "OBJ. 6.1 - A SIEM system provides real-time monitoring, log aggregation, and analysis, allowing security teams to continuously validate security controls and detect threats as they emerge. Quarterly penetration tests and annual audits are important but do not provide continuous validation. A one-time vulnerability scan is a limited approach that does not ensure ongoing security. Continuous monitoring through SIEM aligns best with modern security assessment strategies.\n  For support or reporting issues, include Question ID: 67d968ee3895ce8a15a43767 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がハイブリッドクラウド環境でセキュリティコントロールの有効性を評価するための評価戦略を策定しています。最高情報セキュリティ責任者（CISO）は、リアルタイムの監視とセキュリティ対策の継続的な検証を提供する方法を求めています。最適なアプローチはどれですか？",
+      "question_ja": "あなたの組織がハイブリッドクラウド環境におけるセキュリティ制御の有効性を評価するための評価戦略を策定しています。CISOは、リアルタイムの監視とセキュリティ対策の継続的な検証を提供する方法を求めています。最も適切なアプローチはどれですか？",
+      "explanation_ja": "OBJ. 6.1 - SIEMシステムは、リアルタイムの監視、ログの集約、分析を提供し、セキュリティチームがセキュリティ制御を継続的に検証し、脅威を発生時に検出できるようにします。四半期ごとのペネトレーションテストや年次監査は重要ですが、継続的な検証は提供しません。一回限りの脆弱性スキャンは限定的なアプローチであり、継続的なセキュリティを確保しません。SIEMによる継続的な監視は、現代のセキュリティ評価戦略に最も適しています。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "継続的な監視のためにSecurity Information and Event Management（SIEM）システムを実装する。",
+          "text": "継続的な監視のためにSecurity Information and Event Management（SIEM）システムを導入する。",
           "isCorrect": true
         },
         {
@@ -1422,11 +1424,10 @@
         },
         {
           "id": "c",
-          "text": "年次セキュリティコントロール評価を実施するために外部の第三者監査人を使用する。",
+          "text": "外部のサードパーティ監査人を使用して年次セキュリティ制御評価を実施する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.1 - SIEMシステムは、リアルタイムの監視、ログの集約と分析を提供し、セキュリティチームがセキュリティコントロールを継続的に検証し、脅威が出現した時点で検出できるようにします。四半期ごとのペネトレーションテストと年次監査は重要ですが、継続的な検証を提供しません。一回限りの脆弱性スキャンは、継続的なセキュリティを保証しない限定的なアプローチです。SIEMによる継続的な監視は、最新のセキュリティ評価戦略に最も適しています。"
+      ]
     },
     {
       "questionNumber": 24,
@@ -1465,7 +1466,8 @@
       "explanation": "OBJ. 5.5 - The first step in the identity and access provisioning lifecycle is verifying the user's identity during onboarding. Before assigning permissions, organizations must ensure that the individual is who they claim to be. This process typically involves identity proofing, background checks, and validation of employment records. Assigning permissions and conducting access reviews come later in the lifecycle. MFA enhances security but is not the first step in the process.\n  For support or reporting issues, include Question ID: 67d96868642608cd73c8f15a in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業がユーザーアクセスの適切な付与と取り消しを確保するためにIDライフサイクル管理プロセスを実装しています。IDとアクセスプロビジョニングライフサイクルの最初のステップは何ですか？",
+      "question_ja": "企業がユーザーアクセスの適切な付与と取り消しを確保するためにアイデンティティライフサイクル管理プロセスを導入しています。アイデンティティとアクセスのプロビジョニングライフサイクルにおける最初のステップは何ですか？",
+      "explanation_ja": "OBJ. 5.5 - アイデンティティとアクセスのプロビジョニングライフサイクルの最初のステップは、オンボーディング中にユーザーのIDを検証することです。権限を割り当てる前に、組織はその個人が自分が主張する人物であることを確認する必要があります。このプロセスには通常、身元証明、経歴調査、雇用記録の検証が含まれます。権限の割り当てやアクセスレビューの実施はライフサイクルの後の段階で行われます。MFAはセキュリティを強化しますが、プロセスの最初のステップではありません。",
       "answers_ja": [
         {
           "id": "a",
@@ -1474,21 +1476,20 @@
         },
         {
           "id": "c",
-          "text": "オンボーディング時のユーザーIDの確認。",
+          "text": "オンボーディング中のユーザーID検証。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "職務に基づいた適切な権限の割り当て。",
+          "text": "職務ロールに基づく適切な権限の割り当て。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "新しいアカウントに対する多要素認証（MFA）の強制。",
+          "text": "新規アカウントへの多要素認証（MFA）の適用。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.5 - IDとアクセスプロビジョニングライフサイクルの最初のステップは、オンボーディング時にユーザーのIDを確認することです。権限を割り当てる前に、組織はその個人が主張する人物であることを確認する必要があります。このプロセスには通常、ID証明、バックグラウンドチェック、雇用記録の検証が含まれます。権限の割り当てとアクセスレビューの実施はライフサイクルの後半に行われます。MFAはセキュリティを強化しますが、プロセスの最初のステップではありません。"
+      ]
     },
     {
       "questionNumber": 25,
@@ -1527,7 +1528,8 @@
       "explanation": "OBJ. 7.11 - The Recovery Time Objective (RTO) defines the maximum allowable downtime for a system or application before it severely impacts business operations. It is a key metric in disaster recovery planning. The amount of data loss that can be tolerated is defined by the Recovery Point Objective (RPO), not RTO. Cost considerations are important but are not part of the RTO definition. Redundant systems contribute to uptime but do not determine the recovery timeframe. A well-defined RTO ensures business continuity goals are met.\n  For support or reporting issues, include Question ID: 67d9699f50a9a91676efdd9e in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "多国籍企業が災害復旧計画を策定しており、ミッションクリティカルなアプリケーションのRecovery Time Objective（RTO）を決定する必要があります。RTOは何を定義しますか？",
+      "question_ja": "多国籍企業がディザスタリカバリ計画を策定しており、ミッションクリティカルなアプリケーションの目標復旧時間（RTO）を決定する必要があります。RTOは何を定義しますか？",
+      "explanation_ja": "OBJ. 7.11 - 目標復旧時間（RTO）は、事業運営に深刻な影響を与える前のシステムまたはアプリケーションの最大許容ダウンタイムを定義します。ディザスタリカバリ計画における重要な指標です。復旧中に許容できるデータ損失量は目標復旧時点（RPO）で定義され、RTOではありません。コストの考慮は重要ですが、RTOの定義には含まれません。冗長システムは稼働時間に貢献しますが、復旧の時間枠を決定するものではありません。",
       "answers_ja": [
         {
           "id": "a",
@@ -1546,11 +1548,10 @@
         },
         {
           "id": "d",
-          "text": "中断後にシステムを復旧するために許容される最大時間。",
+          "text": "障害発生後にシステムを復旧するための最大許容時間。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 7.11 - Recovery Time Objective（RTO）は、事業運営に深刻な影響を与える前に、システムまたはアプリケーションの許容可能な最大ダウンタイムを定義します。災害復旧計画における重要な指標です。許容できるデータ損失量はRecovery Point Objective（RPO）によって定義され、RTOではありません。コストの考慮は重要ですが、RTOの定義の一部ではありません。冗長システムは稼働時間に貢献しますが、復旧時間枠を決定するものではありません。明確に定義されたRTOは、事業継続の目標が達成されることを保証します。"
+      ]
     },
     {
       "questionNumber": 26,
@@ -1589,11 +1590,12 @@
       "explanation": "OBJ. 6.3 - Security assessments and penetration tests directly evaluate the effectiveness of security controls by simulating real-world attacks and vulnerabilities. While account reviews and incident analysis help identify risks, they do not systematically test control effectiveness. Compliance audits assess adherence to policies but do not guarantee security, as organizations can be compliant yet still vulnerable. Regular security testing ensures that controls function as intended, making it the most valuable input for a security control assessment.\n  For support or reporting issues, include Question ID: 67d96913eac84fca71b27eb4 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティコントロール評価の一環として、セキュリティコントロールの有効性に関する最も直接的な洞察を提供するデータソースはどれですか？",
+      "question_ja": "セキュリティ制御評価の一環として、セキュリティ制御の有効性に関する最も直接的な洞察を提供するデータソースはどれですか？",
+      "explanation_ja": "OBJ. 6.3 - セキュリティ評価とペネトレーションテストは、実際の攻撃や脆弱性をシミュレートすることで、セキュリティ制御の有効性を直接評価します。アカウントレビューやインシデント分析はリスクの特定に役立ちますが、制御の有効性を体系的にテストするものではありません。コンプライアンス監査はポリシーへの準拠を評価しますが、セキュリティを保証するものではありません。定期的なセキュリティテストにより、制御が意図通りに機能していることが確認されます。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "繰り返し発生する弱点を特定するための過去のセキュリティインシデントの分析。",
+          "text": "過去のセキュリティインシデントの分析により、繰り返し発生する弱点を特定する。",
           "isCorrect": false
         },
         {
@@ -1608,11 +1610,10 @@
         },
         {
           "id": "b",
-          "text": "最近の規制コンプライアンス監査の所見。",
+          "text": "最近の規制コンプライアンス監査からの所見。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.3 - セキュリティ評価とペネトレーションテストは、実際の攻撃と脆弱性をシミュレートすることで、セキュリティコントロールの有効性を直接評価します。アカウントレビューとインシデント分析はリスクの特定に役立ちますが、コントロールの有効性を体系的にテストしません。コンプライアンス監査はポリシーへの準拠を評価しますが、組織が準拠していても脆弱な場合があるため、セキュリティを保証しません。定期的なセキュリティテストにより、コントロールが意図通りに機能することが保証され、セキュリティコントロール評価にとって最も価値のある入力となります。"
+      ]
     },
     {
       "questionNumber": 27,
@@ -1651,21 +1652,22 @@
       "explanation": "OBJ. 1.11 - ISO 27036 emphasizes that the primary goal of SCRM is to reduce cybersecurity risks posed by external suppliers, vendors, and third-party dependencies. This includes assessing risks in software, hardware, and cloud providers. While annual penetration testing is useful, it is not the primary goal. Procurement efficiency and cost-optimization may be business considerations but do not address cybersecurity risk management, making them secondary concerns in an SCRM program.\n  For support or reporting issues, include Question ID: 67d89ef04f8889dd30256341 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "多国籍企業が、サプライヤーセキュリティのためのISO 27036ガイドラインに従って、サプライチェーンリスクマネジメント（SCRM）プログラムを強化したいと考えています。プログラムの主な焦点はどれですか？",
+      "question_ja": "多国籍企業が、サプライヤーセキュリティに関するISO 27036ガイドラインに基づいてサプライチェーンリスク管理（SCRM）プログラムを強化したいと考えています。プログラムの主な焦点は何であるべきですか？",
+      "explanation_ja": "OBJ. 1.11 - ISO 27036は、SCRMの主な目標は外部のサプライヤー、ベンダー、サードパーティの依存関係によるサイバーセキュリティリスクを低減することであると強調しています。これにはソフトウェア、ハードウェア、クラウドプロバイダーのリスク評価が含まれます。年次ペネトレーションテストは有用ですが、主な目標ではありません。調達効率やコスト最適化はビジネス上の考慮事項かもしれませんが、サイバーセキュリティのリスク管理には対処しません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "調達とサプライヤー選定の効率を改善する。",
+          "text": "調達およびサプライヤー選定の効率を改善する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "サードパーティのサプライヤーとベンダーからのリスクエクスポージャーを削減する。",
+          "text": "サードパーティのサプライヤーやベンダーからのリスクエクスポージャーを低減する。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "すべてのサプライヤーに年次ペネトレーションテストを義務付ける。",
+          "text": "すべてのサプライヤーが年次ペネトレーションテストを受けるようにする。",
           "isCorrect": false
         },
         {
@@ -1673,8 +1675,7 @@
           "text": "コスト最適化されたサプライヤー選定モデルを採用する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.11 - ISO 27036は、SCRMの主な目標が外部サプライヤー、ベンダー、およびサードパーティの依存関係がもたらすサイバーセキュリティリスクを削減することであると強調しています。これには、ソフトウェア、ハードウェア、およびクラウドプロバイダーにおけるリスクの評価が含まれます。年次ペネトレーションテストは有用ですが、主な目標ではありません。調達効率とコスト最適化はビジネス上の考慮事項かもしれませんが、サイバーセキュリティリスク管理には対処しないため、SCRMプログラムでは二次的な懸念事項です。"
+      ]
     },
     {
       "questionNumber": 28,
@@ -1713,11 +1714,12 @@
       "explanation": "OBJ. 3.3 - Encrypting payment data at rest and in transit using AES-256 is the most effective control to protect sensitive customer data and comply with PCI DSS requirements. While a WAF helps prevent web-based attacks, a strong password policy and MFA enhance authentication security but do not directly protect payment data. Encryption ensures confidentiality and integrity, making it the BEST option for securing payment information.\n  For support or reporting issues, include Question ID: 67d967a5bfb8b304f5d764bb in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "あなたはクレジットカード決済を処理する新しいeコマースシステムを設計するセキュリティアーキテクトです。セキュリティのベストプラクティスへのコンプライアンスを確保するために、顧客の決済データを保護するための適切なセキュリティコントロールを選択する必要があります。実装すべき最も効果的なコントロールはどれですか？",
+      "question_ja": "あなたはクレジットカード決済を処理する新しいeコマースシステムを設計するセキュリティアーキテクトです。セキュリティのベストプラクティスに準拠するため、顧客の決済データを保護する適切なセキュリティ制御を選択する必要があります。最も効果的な制御はどれですか？",
+      "explanation_ja": "OBJ. 3.3 - AES-256を使用して保存中および転送中の決済データを暗号化することは、機密性の高い顧客データを保護し、PCI DSS要件に準拠するための最も効果的な制御です。WAFはWebベースの攻撃の防止に役立ち、強力なパスワードポリシーとMFAは認証セキュリティを強化しますが、決済データを直接保護するものではありません。暗号化は機密性と整合性を確保し、決済情報の保護に最適なオプションです。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "AES-256を使用して保存時および転送時の決済データを暗号化する。",
+          "text": "AES-256を使用して保存中および転送中の決済データを暗号化する。",
           "isCorrect": true
         },
         {
@@ -1735,8 +1737,7 @@
           "text": "顧客ログインに多要素認証（MFA）を使用する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.3 - AES-256を使用して保存時および転送時の決済データを暗号化することは、機密性の高い顧客データを保護し、PCI DSS要件に準拠するための最も効果的なコントロールです。WAFはWebベースの攻撃の防止に役立ち、強力なパスワードポリシーとMFAは認証セキュリティを強化しますが、決済データを直接保護するものではありません。暗号化は機密性と完全性を確保し、決済情報の保護に最適なオプションです。"
+      ]
     },
     {
       "questionNumber": 29,
@@ -1775,7 +1776,8 @@
       "explanation": "OBJ. 8.1 - After identifying design and data protection needs, the next step is to determine the security and privacy control requirements. This ensures the system will comply with relevant security policies and regulations. Requirement analysis and documentation updates happen before or after this phase, but control determination is a key part of secure development.\n  For support or reporting issues, include Question ID: 67d969d251e0c48730d049e8 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "新しいソフトウェアプロジェクトの初期設計とデータ保護のニーズを特定した後、ソフトウェア開発ライフサイクル（SDLC）の次の論理的なステップは何ですか？",
+      "question_ja": "新しいソフトウェアプロジェクトの初期設計とデータ保護のニーズを特定した後、ソフトウェア開発ライフサイクル（SDLC）における次の論理的なステップは何ですか？",
+      "explanation_ja": "OBJ. 8.1 - 設計とデータ保護のニーズを特定した後、次のステップはセキュリティおよびプライバシーの制御要件を決定することです。これにより、システムが関連するセキュリティポリシーと規制に準拠することが保証されます。要件分析と文書の更新はこのフェーズの前後に行われますが、制御の決定はセキュア開発の重要な部分です。",
       "answers_ja": [
         {
           "id": "b",
@@ -1784,12 +1786,12 @@
         },
         {
           "id": "c",
-          "text": "開発と取得の要件を明確に理解する。",
+          "text": "開発および取得の要件を明確に理解する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "セキュリティとプライバシーのコントロール要件を決定する。",
+          "text": "セキュリティおよびプライバシーの制御要件を決定する。",
           "isCorrect": true
         },
         {
@@ -1797,8 +1799,7 @@
           "text": "要件と組織の目標を定義し分析する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - 設計とデータ保護のニーズを特定した後、次のステップはセキュリティとプライバシーのコントロール要件を決定することです。これにより、システムが関連するセキュリティポリシーと規制に準拠することが保証されます。要件分析と文書の更新は、コントロール要件の決定の前後に行われます。"
+      ]
     },
     {
       "questionNumber": 30,
@@ -1837,30 +1838,30 @@
       "explanation": "OBJ. 3.9 - Preaction fire suppression systems fill with water once a detection mechanism, like heat or smoke, is triggered, but they only release the water when the sprinkler head's trigger melts due to excessive heat. This provides an extra level of control compared to wet or dry pipe systems and helps minimize accidental water damage.\n  For support or reporting issues, include Question ID: 67d967ec3d65814ff2a11d47 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティ評価の一環として、セキュリティアナリストは、組織のネットワーク上で実行されているサービスに関連する潜在的な脆弱性を特定する必要があります。開いているポートとサービスを発見するための最も適切な技術はどれですか？",
+      "question_ja": "熱や煙が検出されると水で充填され、高温によって特定のトリガーメカニズムが作動した場合にのみ水を放出する消火システムはどれですか？",
+      "explanation_ja": "OBJ. 3.9 - 予作動式消火システムは、熱や煙などの検出メカニズムが作動すると水で充填されますが、スプリンクラーヘッドのトリガーが過度の熱で溶融した場合にのみ水を放出します。これにより、湿式や乾式パイプシステムと比較して追加の制御レベルが提供され、偶発的な水害を最小限に抑えるのに役立ちます。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "自動脆弱性スキャンを実行する。",
+          "text": "湿式パイプシステム。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "ファイアウォールルールをレビューしてアクセス制御を評価する。",
+          "text": "デリュージシステム。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "ネットワークポートスキャンを実施する。",
+          "text": "予作動式システム。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "ソフトウェアバージョン情報のパッチレポートを分析する。",
+          "text": "乾式パイプシステム。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.2 - ネットワークポートスキャンは、ネットワーク上の開いているポートと実行中のサービスを特定するために特別に設計されています。これは脆弱性評価の重要な最初のステップです。脆弱性スキャンは既知の脆弱性を検出しますが、すべてのサービスを特定するわけではありません。ファイアウォールルールのレビューはセキュリティポリシーに焦点を当てており、サービスの検出ではありません。パッチレポートはソフトウェアの更新を追跡しますが、アクティブなサービスを検出しません。"
+      ]
     },
     {
       "questionNumber": 31,
@@ -1899,30 +1900,30 @@
       "explanation": "OBJ. 2.4 - Data retention policies are critical in ensuring that data is not kept beyond its legally mandated or operational retention period, which could lead to compliance issues. While encryption, secure transit, and access controls are important for protecting data, the key concern here is ensuring expired data is deleted or archived properly according to the retention policy.\n  For support or reporting issues, include Question ID: 67d962b480a4202b434e831f in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織が、災害復旧戦略の一環として、プライマリデータセンターから地理的に離れた場所にあるセカンダリサイトへのリアルタイムデータレプリケーションを実装しています。このアプローチが主に対処するビジネス継続性の指標はどれですか？",
+      "question_ja": "AndreがNetwork Attached Storage（NAS）のセキュリティ評価を継続的な監視の一環として実施し、データ保持を評価しています。この評価でAndreが最も注意すべき点は何ですか？",
+      "explanation_ja": "OBJ. 2.4 - データ保持ポリシーは、法的に義務付けられた期間や運用上の保持期間を超えてデータが保持されないことを確保するために重要であり、コンプライアンスの問題を防ぎます。暗号化、安全な転送、アクセス制御はデータ保護にとって重要ですが、ここでの主な懸念は期限切れデータが保持ポリシーに従って適切に削除またはアーカイブされることです。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "Mean Time Between Failures（MTBF）。",
+          "text": "NAS上のデータが保持期限を超えて保存されていないことを確認する。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "Recovery Time Objective（RTO）。",
+          "text": "知る必要性を強制するための適切なアクセス制御が設定されていることを確認する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "Maximum Tolerable Downtime（MTD）。",
+          "text": "NASとの間で転送されるデータに対して適切なセキュリティ制御が設定されていることを確認する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "Recovery Point Objective（RPO）。",
+          "text": "NAS上の保存データが長い鍵長と最新のアルゴリズムを使用して暗号化されていることを確認する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.11 - リアルタイムデータレプリケーションは、災害発生時のデータ損失を最小限に抑えることで、Recovery Point Objective（RPO）に直接対処します。RPOはデータ損失の許容量を定義し、リアルタイムレプリケーションはそれをほぼゼロにします。RTOはシステムの復旧に許容される時間に焦点を当て、MTDは最大許容ダウンタイムを定義し、MTBFはハードウェアの信頼性を測定します。"
+      ]
     },
     {
       "questionNumber": 32,
@@ -1961,30 +1962,30 @@
       "explanation": "OBJ. 7.3 - Enforcing rollback procedures for failed configuration changes ensures that systems can quickly recover from misconfigurations or unexpected failures. Allowing emergency changes without approval can introduce security risks and should be carefully controlled. Restricting access to IT staff is important but does not directly ensure configuration security. Implementing changes based on user feedback may introduce inconsistencies and security vulnerabilities. A rollback process is critical for maintaining stability and security.\n  For support or reporting issues, include Question ID: 67d9695550a9a91676efdd76 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織のIDとアクセス管理（IAM）システムにおいて、正確なアクセス制御の決定を保証するために最も重要な要素はどれですか？",
+      "question_ja": "サイバーセキュリティチームが、システム構成のセキュリティを改善するために変更管理プロセスを導入しています。安全な構成管理プロセスの最も重要な要素はどれですか？",
+      "explanation_ja": "OBJ. 7.3 - 失敗した構成変更に対するロールバック手順の適用により、システムは設定ミスや予期しない障害から迅速に復旧できます。承認なしの緊急変更はセキュリティリスクを招く可能性があり、慎重に管理すべきです。ITスタッフへのアクセス制限は重要ですが、構成のセキュリティを直接確保するものではありません。ユーザーフィードバックに基づく変更は不整合やセキュリティの脆弱性を招く可能性があります。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "パスワードの複雑さの要件。",
+          "text": "失敗した構成変更に対するロールバック手順を適用する。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "信頼できるIDデータソース。",
+          "text": "構成管理ツールへのアクセスをITスタッフのみに制限する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "単一要素認証。",
+          "text": "ユーザーフィードバックに基づいてリアルタイムの構成変更を実装する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "マニュアルプロビジョニングプロセス。",
+          "text": "可用性を確保するために承認なしで緊急変更を許可する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.2 - 信頼できるIDデータソースは、正確なアクセス制御の決定を保証するIAMシステムの基盤です。信頼できるIDデータなしでは、組織は適切なアクセスポリシーを施行できません。パスワードの複雑さは認証を強化しますが、ID管理とは異なります。マニュアルプロビジョニングはエラーが発生しやすく、単一要素認証はセキュリティが低くなります。"
+      ]
     },
     {
       "questionNumber": 33,
@@ -2023,30 +2024,30 @@
       "explanation": "OBJ. 6.3 - A centralized logging and correlation platform, such as a SIEM, collects security data from multiple sources and correlates events to detect incidents more effectively. IT staff interviews and manual reporting provide insights but are inconsistent and subjective. Annual security audits help with compliance but are not real-time. Continuous, automated data collection ensures proactive threat detection and a more effective security response.\n  For support or reporting issues, include Question ID: 67d9691450a9a91676efdd5d in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある企業のセキュリティチームが、社内ネットワーク全体に新しいIDSソリューションを展開する任務を負っています。このシナリオで最も適切なIDS展開戦略はどれですか？",
+      "question_ja": "サイバーセキュリティチームが、インシデント検出と対応を改善するためにセキュリティプロセスデータを収集したいと考えています。最も適切なアプローチはどれですか？",
+      "explanation_ja": "OBJ. 6.3 - SIEMなどの集中型ログ記録および相関プラットフォームは、複数のソースからセキュリティデータを収集し、イベントを相関させてインシデントをより効果的に検出します。ITスタッフへのインタビューや手動報告は洞察を提供しますが、一貫性がなく主観的です。年次セキュリティ監査はコンプライアンスに役立ちますが、リアルタイムではありません。継続的で自動化されたデータ収集により、プロアクティブな脅威検出とより効果的なセキュリティ対応が確保されます。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "インラインで展開して、悪意のあるトラフィックをブロックし、ネットワーク攻撃を防止する。",
+          "text": "すべてのシステムの年次セキュリティ監査を実施する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "組織に入るトラフィックのみを監視するために境界のみに展開する。",
+          "text": "集中型のログ記録および相関プラットフォームを導入する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "より多くの脅威を検出するためにネットワークとホストベースのIDSを組み合わせて展開する。",
+          "text": "セキュリティ問題についてITスタッフへの定期的なインタビューを実施する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "外部に面したサーバーにのみ展開して、インターネットベースの脅威を検出する。",
+          "text": "エンドユーザーに疑わしい活動を手動で報告することを要求する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - ネットワークベースのIDS（NIDS）とホストベースのIDS（HIDS）を組み合わせることで、最も包括的な脅威検出が提供されます。NIDSはネットワークトラフィックを監視し、HIDSは個々のホストでの悪意のある活動を検出します。IDSはインラインでブロックするのではなく受動的に監視します（ブロックはIPSの機能です）。境界のみへの展開は内部の脅威を見逃し、外部サーバーのみへの展開は内部の横方向の移動を無視します。"
+      ]
     },
     {
       "questionNumber": 34,
@@ -2085,30 +2086,30 @@
       "explanation": "OBJ. 8.4 - A vulnerability assessment and penetration test help identify security weaknesses in the acquired software before it is deployed. Installing the software in production without proper testing increases risk. Usability testing is important but does not assess security. End-user approval does not ensure security. Security testing before deployment reduces the risk of introducing vulnerabilities into the corporate environment.\n  For support or reporting issues, include Question ID: 67d969efeac84fca71b27f13 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティコンサルタントとして、組織のデジタル資産と物理資産を含むリスク評価を実施しています。定量的リスク分析手法を使用する場合、年間損失見込み（ALE）はどのように計算されますか？",
+      "question_ja": "セキュリティチームが、新たに取得したサードパーティのソフトウェアアプリケーションを企業IT環境に統合するリスクを評価しています。デプロイ前に取るべき最善のアクションは何ですか？",
+      "explanation_ja": "OBJ. 8.4 - 脆弱性評価とペネトレーションテストは、取得したソフトウェアのセキュリティ上の弱点をデプロイ前に特定するのに役立ちます。適切なテストなしに本番環境にソフトウェアをインストールするとリスクが高まります。ユーザビリティテストは重要ですが、セキュリティを評価するものではありません。エンドユーザーの承認はセキュリティを確保しません。デプロイ前のセキュリティテストにより、企業環境に脆弱性が持ち込まれるリスクが軽減されます。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "ALE = 資産価値 × エクスポージャーファクター。",
+          "text": "エンドユーザーの承認を得た後にのみソフトウェアをデプロイする。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ALE = 単一損失見込み（SLE）× 年間発生率（ARO）。",
+          "text": "ユーザビリティのフィードバックのためにソフトウェアをテストグループに割り当てる。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "ALE = リスクの影響 × リスクの確率。",
+          "text": "最小限のアクセス制限で本番環境にソフトウェアをインストールする。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "ALE = 総資産価値 ÷ 脅威の数。",
+          "text": "ソフトウェアの脆弱性評価とペネトレーションテストを実施する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 1.7 - 年間損失見込み（ALE）は、SLE（単一損失見込み）にARO（年間発生率）を乗じて計算されます。SLEは単一のインシデントによる損失を表し、AROはそのインシデントが1年間に発生する予想回数を見積もります。ALEは定量的リスク分析の重要な指標であり、組織がセキュリティ投資の優先順位を決定し、リスク軽減のためのリソースを効果的に配分するのに役立ちます。"
+      ]
     },
     {
       "questionNumber": 35,
@@ -2147,30 +2148,30 @@
       "explanation": "OBJ. 1.3 - A data custodian is responsible for the implementation and maintenance of security controls for data according to the classifications set by the data owner. They are not responsible for defining the classification or overarching security strategy, which falls under the purview of data owners and security management.\n  For support or reporting issues, include Question ID: 67d89e6a63efd44e2a92ecc3 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業のデータベース管理者が、テーブル内のレコードを変更する権限をジュニア管理者に付与しました。しかし、セキュリティポリシーに基づき、ジュニア管理者はこのデータにアクセスすべきではありませんでした。この問題に対処するために使用すべきアクセス制御の概念はどれですか？",
+      "question_ja": "組織内のデータカストディアンの最も可能性の高い責任は次のうちどれですか？",
+      "explanation_ja": "OBJ. 1.3 - データカストディアンは、データ所有者が設定した分類に従ったデータのセキュリティ制御の実装と維持に責任を持ちます。分類の定義や包括的なセキュリティ戦略に対する責任はなく、それらはデータ所有者やセキュリティ管理職の権限に属します。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "最小権限の原則。",
+          "text": "特定のデータセットに対するセキュリティ制御の実装。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "職務分離。",
+          "text": "データ保護戦略に関する専門知識の提供。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "強制アクセス制御。",
+          "text": "データの分類レベルとセキュリティポリシーの定義。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "ロールベースアクセス制御。",
+          "text": "組織の全体的な情報セキュリティ戦略の実装と管理。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.1 - 最小権限の原則は、ユーザーが職務を遂行するために必要な最小限のアクセスのみを持つべきであることを規定しています。このシナリオでは、ジュニア管理者にデータベースレコードを変更する不必要な権限が付与されました。最小権限を適用することで、ユーザーのアクセスが職務に必要なものだけに制限されます。"
+      ]
     },
     {
       "questionNumber": 36,
@@ -2209,30 +2210,30 @@
       "explanation": "OBJ. 8.2 - OAuth 2.0 with scopes provides fine-grained access control, ensuring that API consumers can only perform authorized actions. Rate limiting and API keys help reduce abuse but do not provide strong authentication and authorization. Mutual TLS is effective but can be difficult to scale across many API consumers. Firewalls provide basic network security but do not control API-level access. Enforcing OAuth 2.0 with scopes is the best approach to securing API interactions in a modern cloud environment.\n  For support or reporting issues, include Question ID: 67d969dd406dabb92052562a in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "クラウドコンピューティング環境で、テナント間でリソースが適切に分離されることを保証する責任を主に負うのは誰ですか？",
+      "question_ja": "あなたの会社がサードパーティのAPIと統合する新しいクラウドベースのアプリケーションを開発しています。潜在的なセキュリティリスクを軽減するために、APIインタラクションを保護する最善のアプローチは何ですか？",
+      "explanation_ja": "OBJ. 8.2 - スコープ付きOAuth 2.0は、APIコンシューマーが認可されたアクションのみを実行できるようにするきめ細かなアクセス制御を提供します。レート制限とAPIキーは悪用の削減に役立ちますが、強力な認証と認可は提供しません。相互TLSは効果的ですが、多くのAPIコンシューマー間でのスケーリングが困難な場合があります。ファイアウォールは基本的なネットワークセキュリティを提供しますが、APIレベルのアクセスは制御しません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "クラウド利用者。",
+          "text": "APIコンシューマーに相互TLS認証の使用を要求する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "クラウドサービスプロバイダー。",
+          "text": "不正なAPIリクエストをブロックするためにネットワークファイアウォールに依存する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "サードパーティ監査人。",
+          "text": "スコープ付きOAuth 2.0を使用して認証と認可を実施する。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "エンドユーザー。",
+          "text": "不正アクセスを制限するためにレート制限とAPIキーを実装する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.9 - クラウドサービスプロバイダー（CSP）は、マルチテナント環境でテナント間のリソース分離を保証する責任を主に負います。これには、仮想化、ネットワークセグメンテーション、およびアクセス制御メカニズムの実装が含まれ、あるテナントが別のテナントのデータまたはリソースにアクセスすることを防止します。クラウド利用者はアプリケーションレベルのセキュリティに責任がありますが、基盤となるインフラの分離はCSPの責任です。"
+      ]
     },
     {
       "questionNumber": 37,
@@ -2271,30 +2272,30 @@
       "explanation": "OBJ. 1.9 - Under PCI DSS, the Primary Account Number (PAN) is considered sensitive authentication data and must be protected using encryption, masking, or tokenization. Cardholder addresses, emails, and phone numbers are personally identifiable information (PII) but not classified as sensitive authentication data under PCI DSS. Organizations that process credit card transactions must follow PCI DSS requirements to protect cardholder data and reduce the risk of payment fraud.\n  For support or reporting issues, include Question ID: 67d89ed68d7c39f47a0a5daf in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ソフトウェア開発チームが新しいアプリケーションにセキュアコーディングプラクティスを実装しています。SQLインジェクション攻撃を防ぐための最も効果的な方法はどれですか？",
+      "question_ja": "クレジットカード取引を処理する企業はPayment Card Industry Data Security Standard（PCI DSS）に準拠する必要があります。PCI DSSにおける機密認証データとみなされるものはどれですか？",
+      "explanation_ja": "OBJ. 1.9 - PCI DSSでは、プライマリアカウント番号（PAN）は機密認証データとみなされ、暗号化、マスキング、またはトークン化を使用して保護する必要があります。カード所有者の住所、メールアドレス、電話番号は個人識別情報（PII）ですが、PCI DSSでは機密認証データとして分類されていません。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "ユーザー入力に基づいてSQLクエリを動的に構築する。",
+          "text": "顧客のメールアドレス。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "入力検証とパラメータ化クエリを使用する。",
+          "text": "請求先電話番号。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "データ漏洩を防ぐためにすべてのデータベースフィールドを暗号化する。",
+          "text": "カード所有者の住所。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "データベーストランザクションの詳細なログを実装する。",
+          "text": "プライマリアカウント番号（PAN）。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 8.3 - 入力検証とパラメータ化クエリ（プリペアドステートメント）は、SQLインジェクション攻撃を防ぐための最も効果的な方法です。パラメータ化クエリは、SQLコードをデータから分離し、攻撃者がクエリ構造を操作することを防ぎます。動的SQLクエリの構築はインジェクションに脆弱です。暗号化はデータを保護しますが、SQLインジェクションを防ぎません。ログはインシデントの検出に役立ちますが、攻撃自体を防ぎません。"
+      ]
     },
     {
       "questionNumber": 38,
@@ -2333,30 +2334,30 @@
       "explanation": "OBJ. 6.1 - An authenticated vulnerability scan provides an in-depth view of potential risks by evaluating the security posture of systems with legitimate credentials. This method identifies the exposure of the web application without needing to conduct a full attack simulation. While BIA assesses business risks broadly, it does not directly test vulnerabilities. Red Team exercises focus on adversarial tactics rather than immediate vulnerability assessment. Code reviews are useful but may not reveal real-world exploitability.\n  For support or reporting issues, include Question ID: 67d968ee101758fe20fc04ef in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織が従業員のセキュリティ意識向上トレーニングプログラムを実施しています。プログラムの有効性を測定するための最も適切な指標はどれですか？",
+      "question_ja": "組織がWebアプリケーションの重大なセキュリティ脆弱性を特定しました。セキュリティチームはパッチ実装前にリスクを評価したいと考えています。この脆弱性の潜在的な影響を判断するための最善のセキュリティ評価方法は何ですか？",
+      "explanation_ja": "OBJ. 6.1 - 認証済み脆弱性スキャンは、正当な資格情報を使用してシステムのセキュリティ体制を評価することで、潜在的なリスクの詳細なビューを提供します。完全な攻撃シミュレーションを実施せずに、Webアプリケーションのエクスポージャーを特定します。BIAはビジネスリスクを広範に評価しますが、脆弱性を直接テストしません。レッドチーム演習は敵対的な戦術に焦点を当てます。コードレビューは有用ですが、実際の悪用可能性を明らかにできない場合があります。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "トレーニングに参加した従業員の数。",
+          "text": "影響を受けるアプリケーションモジュールのコードレビューを実施する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "セキュリティポリシー文書のダウンロード回数。",
+          "text": "ビジネスインパクト分析（BIA）を実施する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "トレーニング後のフィッシングシミュレーションのクリック率の変化。",
+          "text": "レッドチーム演習を実施する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ITヘルプデスクへのパスワードリセットリクエストの数。",
+          "text": "認証済み脆弱性スキャンを実行する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 1.4 - フィッシングシミュレーションのクリック率の変化は、従業員が実際にセキュリティ意識をどの程度向上させたかを直接測定します。参加者数やダウンロード数は参加を測定しますが、行動の変化を反映しません。パスワードリセットリクエストはセキュリティ意識と直接関連しません。行動の変化を測定することが、トレーニングの有効性を評価する最も適切な方法です。"
+      ]
     },
     {
       "questionNumber": 39,
@@ -2395,30 +2396,30 @@
       "explanation": "OBJ. 6.1 - Defining the scope, objectives, and success criteria is the first step in developing an effective assessment strategy. Without a clearly defined scope, testing may be incomplete or misaligned with business needs. While selecting a framework is helpful, it should follow the establishment of objectives. Penetration testing and log analysis are specific assessment techniques that should be conducted later in the process.\n  For support or reporting issues, include Question ID: 67d968ee1871b071132b111e in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある企業が新しいクラウドベースのアプリケーションを展開する前にリスク評価を実施しています。リスク評価プロセスにおいて、リスクの特定後に行うべき次のステップはどれですか？",
+      "question_ja": "セキュリティチームがセキュリティ制御テスト計画を設計しています。テスト戦略の有効性を確保するために、最初に実行すべきことは何ですか？",
+      "explanation_ja": "OBJ. 6.1 - 範囲、目標、成功基準を定義することは、効果的な評価戦略を策定する最初のステップです。明確に定義された範囲がないと、テストが不完全になったり、ビジネスニーズと整合しなくなる可能性があります。フレームワークの選択は有用ですが、目標の確立に続くべきです。ペネトレーションテストとログ分析は、プロセスの後の段階で実施すべき具体的な評価手法です。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "リスク対応策を実施する。",
+          "text": "セキュリティ制御の弱点を特定するためにペネトレーションテストを実施する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "リスクを分析して影響と可能性を判断する。",
+          "text": "NIST SP 800-37やISO/IEC 27001などのセキュリティフレームワークを選択する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "残留リスクを受容する。",
+          "text": "潜在的な異常活動についてセキュリティログを評価する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "リスク登録簿を上級管理職に報告する。",
+          "text": "評価の範囲、目標、成功基準を定義する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 1.7 - リスク評価プロセスでは、リスクの特定後、次のステップはリスクを分析して各リスクの影響と発生可能性を判断することです。これにより、組織はリスクの優先順位を決定し、適切な対応策を選択できます。リスク対応策の実施と残留リスクの受容はリスク分析の後に行われます。報告は重要ですが、分析なしには効果的な意思決定ができません。"
+      ]
     },
     {
       "questionNumber": 40,
@@ -2457,30 +2458,30 @@
       "explanation": "OBJ. 4.1 - The primary role of the Management and Orchestration (MANO) system in NFV environments is to manage and orchestrate the deployment and operation of virtual network functions. MANO doesn’t directly configure physical devices or secure connections, nor does it focus on end-user application monitoring.\n  For support or reporting issues, include Question ID: 67d9680351e0c48730d049b1 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がクラウドサービスプロバイダーとのサービスレベルアグリーメント（SLA）を策定しています。SLAに含めるべき最も重要なセキュリティ関連の条項はどれですか？",
+      "question_ja": "多くの企業がネットワークインフラの柔軟性とスケーラビリティを向上させるためにNetwork Functions Virtualization（NFV）を導入しています。その一環として、Management and Orchestration（MANO）システムがよく使用されます。NFV環境におけるMANOシステムの主な役割を最もよく説明しているのはどれですか？",
+      "explanation_ja": "OBJ. 4.1 - NFV環境におけるMANOシステムの主な役割は、仮想ネットワーク機能のデプロイと運用を管理およびオーケストレーションすることです。MANOは物理デバイスの直接的な設定や接続のセキュリティ確保を行わず、エンドユーザーアプリケーションの監視にも焦点を当てていません。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "クラウドプロバイダーのマーケティング戦略。",
+          "text": "エンドユーザーアプリケーションの監視。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "データの所在地、インシデント対応手順、およびコンプライアンス要件。",
+          "text": "ネットワークデバイスの設定。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "クラウドプロバイダーの社内トレーニングプログラム。",
+          "text": "物理ネットワーク接続のセキュリティ確保。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "クラウドプロバイダーの採用プロセスと従業員福利。",
+          "text": "仮想ネットワーク機能の管理。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 1.11 - SLAに含めるべき最も重要なセキュリティ関連の条項は、データの所在地、インシデント対応手順、およびコンプライアンス要件です。これらは、データがどこに保存されるか、セキュリティインシデントがどのように処理されるか、および規制要件がどのように満たされるかを明確にします。マーケティング戦略、トレーニングプログラム、採用プロセスはセキュリティ要件とは直接関連しません。"
+      ]
     },
     {
       "questionNumber": 41,
@@ -2519,30 +2520,30 @@
       "explanation": "OBJ. 1.9 - In the Authorize step of the NIST RMF, the authorizing official accepts residual risks associated with the system. This step involves deciding whether the system can operate based on the risks identified and the implemented security controls. The other steps involve evaluating, implementing, and monitoring controls but do not focus on risk acceptance.\n  For support or reporting issues, include Question ID: 67d89ed1e2d4c1b55dcbe70d in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティチームが新しいWebアプリケーションの脅威モデリングを実施しています。STRIDEモデルを使用する場合、「なりすまし」の脅威カテゴリに最も適切に対処するコントロールはどれですか？",
+      "question_ja": "あなたはNIST Risk Management Framework（RMF）を使用して企業情報システムのセキュリティリスクを管理しています。このフレームワークのどのステップで残留リスクが受容されますか？",
+      "explanation_ja": "OBJ. 1.9 - NIST RMFの認可ステップでは、認可権限者がシステムに関連する残留リスクを受容します。このステップでは、特定されたリスクと実装されたセキュリティ制御に基づいて、システムが運用可能かどうかを判断します。他のステップでは、制御の評価、実装、監視が行われますが、リスクの受容に焦点を当てているわけではありません。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "データ暗号化。",
+          "text": "認可。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "強力な認証メカニズム。",
+          "text": "監視。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "入力検証。",
+          "text": "評価。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "監査ログ。",
+          "text": "実装。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 8.2 - STRIDEモデルにおける「なりすまし（Spoofing）」は、ユーザーまたはシステムのIDを偽装する脅威を指します。この脅威に対処する最も適切なコントロールは、多要素認証やデジタル証明書などの強力な認証メカニズムです。データ暗号化は改ざんと情報漏洩に対処し、入力検証は改ざんに対処し、監査ログは否認防止に対処します。"
+      ]
     },
     {
       "questionNumber": 42,
@@ -2581,30 +2582,30 @@
       "explanation": "OBJ. 4.3 - MAC spoofing is a method where attackers can forge the MAC address of their device to match one allowed by the network’s filtering controls. MAC filtering is not robust enough to prevent determined attackers since the MAC address is relatively easy to spoof. ARP cache poisoning is related but does not directly bypass MAC filtering, and performance issues are typically negligible.\n  For support or reporting issues, include Question ID: 67d9681e89ab481ccfbe7003 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "新しいセキュリティポリシーの展開中に、組織はすべての従業員がポリシーを確認し、理解したことを確認する必要があります。この目標を達成するための最も効果的なアプローチはどれですか？",
+      "question_ja": "組織の全体的なネットワーク戦略の一環として、ネットワークスイッチに接続を許可するデバイスの特定リストを制限するためにMedia Access Control（MAC）アドレスがフィルタリングされています。この慣行に関連するセキュリティリスクを最も正確に説明しているのはどれですか？",
+      "explanation_ja": "OBJ. 4.3 - MACスプーフィングは、攻撃者が自分のデバイスのMACアドレスをネットワークのフィルタリング制御で許可されているものに偽造する方法です。MACアドレスは比較的簡単にスプーフィングできるため、MACフィルタリングは決意を持った攻撃者を防ぐには十分に堅牢ではありません。ARPキャッシュポイズニングは関連していますが、MACフィルタリングを直接バイパスするものではなく、パフォーマンスの問題は通常無視できるレベルです。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "ポリシーを企業のイントラネットに掲載し、従業員に読むよう通知する。",
+          "text": "不正なMACアドレスを使用して許可されたMACアドレスになりすますことができる。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "セキュリティ意識向上セッションを実施し、確認の署名を要求する。",
+          "text": "スイッチが通信中にMACアドレスを検証する必要があるため、MACフィルタリングはネットワークパフォーマンスを低下させる。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "すべての従業員にポリシーのコピーをメールで送信する。",
+          "text": "セキュリティ上の利点を追加せずにネットワークの複雑性を増大させる。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "年次パフォーマンスレビュー中にポリシーについて言及する。",
+          "text": "Address Resolution Protocol（ARP）キャッシュポイズニング攻撃によりこの制御をバイパスできる。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.4 - セキュリティ意識向上セッションを実施し、確認の署名を要求することは、従業員がポリシーを理解し、それに従う責任があることを認識していることを保証する最も効果的な方法です。イントラネットへの掲載やメールの送信は情報を配布しますが、理解を保証しません。年次レビューでの言及はタイムリーではなく包括的でもありません。"
+      ]
     },
     {
       "questionNumber": 43,
@@ -2643,30 +2644,30 @@
       "explanation": "OBJ. 6.4 - Reviewing session management practices is essential when a vulnerability involving forged session tokens is identified. This step focuses directly on the mechanism responsible for the flaw, allowing for the identification of improper token generation, handling, or expiration policies. While assessing business impact, attack vectors, and frequency of attacks are important, addressing the root cause of weak session management is the most effective way to prevent exploitation and ensure timely remediation.\n  For support or reporting issues, include Question ID: 67d96923ea8a29ab42ad9716 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織がゼロトラストアーキテクチャを実装しています。ゼロトラストの中核原則として最も適切なものはどれですか？",
+      "question_ja": "セキュリティ評価中に、重要なWebアプリケーションに対して実施されたペネトレーションテストの結果を評価する責任があります。テストにより、攻撃者が偽造セッショントークンを悪用して認証をバイパスし、管理者アクセスを取得できる深刻な欠陥が明らかになりました。是正を優先するために、ペネトレーションテスト結果を分析する際に最も重要なアクションは何ですか？",
+      "explanation_ja": "OBJ. 6.4 - 偽造セッショントークンに関する脆弱性が特定された場合、セッション管理の実践をレビューすることが不可欠です。このステップは、欠陥の原因となるメカニズムに直接焦点を当て、不適切なトークン生成、処理、または有効期限ポリシーを特定できます。ビジネスへの影響、攻撃ベクトル、攻撃頻度の評価も重要ですが、弱いセッション管理の根本原因に対処することが、悪用を防ぎタイムリーな是正を確保する最も効果的な方法です。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "内部ネットワークのすべてのユーザーを信頼する。",
+          "text": "類似の脆弱性を悪用する攻撃の蔓延度を評価するために脆弱性データベースを参照する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "ネットワークの場所に関係なく、すべてのアクセスリクエストを検証する。",
+          "text": "潜在的なビジネスへの影響を評価するために内部リスク基準に対して脆弱性を検証する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "ファイアウォールのみに依存してネットワークを保護する。",
+          "text": "トークンの生成と処理の弱点を明らかにするためにセッション管理プロトコルをレビューする。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "すべてのユーザーに管理者権限を付与して生産性を向上させる。",
+          "text": "悪用可能性を評価するために既知の攻撃ベクトルと脆弱性を照合する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.9 - ゼロトラストアーキテクチャの中核原則は「決して信頼せず、常に検証する」です。これは、ネットワークの場所に関係なく、すべてのアクセスリクエストを検証し、認証し、認可することを意味します。内部ユーザーの暗黙の信頼やファイアウォールのみへの依存は、ゼロトラストモデルに反します。すべてのユーザーに管理者権限を付与することは、セキュリティの基本原則に違反します。"
+      ]
     },
     {
       "questionNumber": 44,
@@ -2705,30 +2706,30 @@
       "explanation": "OBJ. 5.1 - Multifactor authentication (MFA) requires users to authenticate using two or more factors from different categories: something you know (password), something you have (security token), and something you are (fingerprint). Single-factor authentication uses only one method, while two-factor authentication (2FA) requires two factors. Rule-based authentication enforces policies based on conditions but is not an authentication method itself. MFA enhances security by reducing the risk of credential theft.\n  For support or reporting issues, include Question ID: 67d9683e6958032c658b3129 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業がデータ分類スキームを実装しています。データ分類の主な目的はどれですか？",
+      "question_ja": "あなたの組織では、従業員がパスワード、物理セキュリティトークン、指紋スキャンの組み合わせを使用して認証する必要があります。最も可能性の高い認証の種類はどれですか？",
+      "explanation_ja": "OBJ. 5.1 - 多要素認証（MFA）は、異なるカテゴリから2つ以上の要素を使用して認証することを要求します：知識要素（パスワード）、所有要素（セキュリティトークン）、生体要素（指紋）。単一要素認証は1つの方法のみを使用し、二要素認証（2FA）は2つの要素を必要とします。ルールベース認証は条件に基づくポリシーを強制しますが、認証方法自体ではありません。MFAは資格情報の盗難リスクを低減してセキュリティを強化します。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "すべてのデータに同じレベルの保護を適用する。",
+          "text": "二要素認証。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "データの感度に基づいて適切な保護レベルを決定する。",
+          "text": "多要素認証。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "データストレージコストを削減する。",
+          "text": "ルールベース認証。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "すべてのデータへのアクセスを制限する。",
+          "text": "単一要素認証。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 2.1 - データ分類の主な目的は、データの感度と重要性に基づいて適切な保護レベルを決定することです。これにより、組織は最も重要なデータに最も強力な保護を適用しながら、リソースを効率的に配分できます。すべてのデータに同じレベルの保護を適用することは非効率的です。データ分類はコスト削減ではなく、適切な保護の適用に焦点を当てています。"
+      ]
     },
     {
       "questionNumber": 45,
@@ -2767,30 +2768,30 @@
       "explanation": "OBJ. 3.5 - Atomicity is one of the ACID (Atomicity, Consistency, Isolation, and Durability) properties of database transactions, ensuring that either all operations within a transaction are completed successfully or none are applied. This prevents partial changes from corrupting the database. Durability guarantees completed transactions persist, consistency maintains valid data states, and isolation ensures transactions do not interfere with each other during execution.\n  For support or reporting issues, include Question ID: 67d967bd3d65814ff2a11d33 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "インシデント対応チームが、組織のネットワーク上でランサムウェア攻撃を検出しました。封じ込めフェーズで取るべき最初のアクションはどれですか？",
+      "question_ja": "トランザクション中に障害が発生した場合、部分的な変更が適用されず、トランザクションが一度も発生しなかったかのようにデータベースが一貫した状態に保たれることを保証するデータベースプロパティはどれですか？",
+      "explanation_ja": "OBJ. 3.5 - 原子性はACID（原子性、一貫性、分離性、永続性）プロパティの一つで、トランザクション内のすべての操作が正常に完了するか、まったく適用されないかを保証します。これにより、部分的な変更によるデータベースの破損を防ぎます。永続性は完了したトランザクションの永続化を保証し、一貫性は有効なデータ状態を維持し、分離性は実行中のトランザクション間の干渉を防ぎます。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "影響を受けたシステムのフォレンジックイメージを作成する。",
+          "text": "一貫性。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "身代金を支払ってデータを回復する。",
+          "text": "永続性。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "影響を受けたシステムをネットワークから隔離する。",
+          "text": "分離性。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "すべてのユーザーのパスワードをリセットする。",
+          "text": "原子性。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 7.6 - ランサムウェア攻撃の封じ込めフェーズで最初に行うべきアクションは、影響を受けたシステムをネットワークから隔離して、マルウェアのさらなる拡散を防ぐことです。フォレンジックイメージの作成は重要ですが、封じ込め後に行います。身代金の支払いは推奨されません。パスワードのリセットは後のステップであり、即座の封じ込めよりも優先されるべきではありません。"
+      ]
     },
     {
       "questionNumber": 46,
@@ -2829,30 +2830,30 @@
       "explanation": "OBJ. 5.2 - Regular security audits of the IdP help ensure compliance with security best practices and identify vulnerabilities before they are exploited. While multifactor authentication strengthens user authentication, it does not directly mitigate risks if the IdP itself is compromised. Geographic restrictions and password rotation improve security but do not address potential systemic vulnerabilities within the IdP provider.\n  For support or reporting issues, include Question ID: 67d968483895ce8a15a4374e in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織が物理的なセキュリティコントロールを評価しています。「多層防御」アプローチを物理的セキュリティに適用する場合、最も適切な実装はどれですか？",
+      "question_ja": "企業がSingle Sign-On（SSO）認証にサードパーティのIdentity Provider（IdP）を使用しています。IdPが侵害された場合のリスクを最小限にするために最も効果的なセキュリティ制御はどれですか？",
+      "explanation_ja": "OBJ. 5.2 - IdPの定期的なセキュリティ監査は、セキュリティのベストプラクティスへの準拠を確保し、脆弱性が悪用される前に特定するのに役立ちます。多要素認証はユーザー認証を強化しますが、IdP自体が侵害された場合のリスクを直接軽減するものではありません。地理的制限やパスワードローテーションはセキュリティを改善しますが、IdPプロバイダー内の潜在的な体系的脆弱性には対処しません。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "建物の入り口に1つの強力なロックを設置する。",
+          "text": "地理的位置に基づいてIdPへのアクセスを制限する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "境界フェンス、監視カメラ、アクセスカード、および生体認証を組み合わせて使用する。",
+          "text": "IdPのセキュリティポリシーの定期的なセキュリティ監査を要求する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "すべての窓とドアにアラームのみを設置する。",
+          "text": "すべてのSSOユーザーに多要素認証を実装する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "警備員を建物の入り口にのみ配置する。",
+          "text": "SSO資格情報のパスワードローテーションポリシーを適用する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.14 - 多層防御は、複数のセキュリティ層を使用して資産を保護する戦略です。物理的セキュリティでは、境界フェンス、監視カメラ、アクセスカード、生体認証などの複数のコントロールを組み合わせることで、1つの層が突破されても他の層が保護を提供します。単一のロック、アラームのみ、または警備員のみでは、多層防御の原則を満たしません。"
+      ]
     },
     {
       "questionNumber": 47,
@@ -2891,30 +2892,30 @@
       "explanation": "OBJ. 1.4 - GDPR grants data subjects rights such as rectification, restriction, and objection to processing, but it does not allow them to dictate specific security measures. Security measures are the responsibility of data controllers and processors, who must ensure compliance with GDPR’s requirements for data protection. While data subjects have the right to be informed about security practices, they do not control how security is implemented.\n  For support or reporting issues, include Question ID: 67d89e763285ff8c3c28205c in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ソフトウェア開発チームがDevSecOpsパイプラインを実装しています。セキュリティテストをCI/CDパイプラインに統合する主な利点はどれですか？",
+      "question_ja": "General Data Protection Regulation（GDPR）において、次のうちデータ主体の権利に含まれないものはどれですか？",
+      "explanation_ja": "OBJ. 1.4 - GDPRはデータ主体に修正、制限、処理への異議申し立てなどの権利を付与していますが、具体的なセキュリティ対策を指定する権利は認めていません。セキュリティ対策はデータ管理者およびデータ処理者の責任であり、GDPRのデータ保護要件への準拠を確保する必要があります。データ主体はセキュリティの実践について知らされる権利がありますが、セキュリティの実装方法を管理するものではありません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "開発プロセスを遅くしてより徹底的なレビューを可能にする。",
+          "text": "個人データの保護に使用される具体的なセキュリティ対策を決定する権利。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "開発ライフサイクルの早い段階でセキュリティの脆弱性を特定し修正する。",
+          "text": "個人データの処理を制限する権利。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "セキュリティチームの役割を排除する。",
+          "text": "個人データのさらなる処理に異議を唱える権利。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "本番リリース後にのみセキュリティテストを実行する。",
+          "text": "不正確な個人データの修正を求める権利。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - DevSecOpsパイプラインにセキュリティテストを統合する主な利点は、開発ライフサイクルの早い段階で脆弱性を特定し修正できることです（シフトレフトアプローチ）。これにより、本番環境での脆弱性の修正コストが削減されます。開発プロセスを遅くすることが目的ではなく、セキュリティチームの排除は適切ではありません。本番後のみのテストはリスクを増大させます。"
+      ]
     },
     {
       "questionNumber": 48,
@@ -2953,30 +2954,30 @@
       "explanation": "OBJ. 4.1 - To establish a VPN using IPsec, gateways must first be installed at both ends of the connection. These gateways handle encryption, decryption, and secure tunneling. While encryption settings, firewall configurations, and data transmission details are important, they come after the gateways are in place.\n  For support or reporting issues, include Question ID: 67d96807f7cadb94775b41c2 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業のセキュリティアーキテクトが、データベース内の機密データを保護するためのコントロールを選択しています。保存データの機密性を保護するために最も適切なコントロールはどれですか？",
+      "question_ja": "Raulは2つの異なる情報システム間にVirtual Private Network（VPN）を構築しており、接続を保護するためにInternet Protocol Security（IPsec）を使用したいと考えています。RaulがこのVPN接続を確立するために最初に行うべきことは何ですか？",
+      "explanation_ja": "OBJ. 4.1 - IPsecを使用してVPNを確立するには、まず接続の両端にゲートウェイをインストールする必要があります。これらのゲートウェイが暗号化、復号、セキュアトンネリングを処理します。暗号化設定、ファイアウォール構成、データ伝送の詳細は重要ですが、ゲートウェイが設置された後に行われます。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "ネットワークファイアウォール。",
+          "text": "IPsecの暗号化と鍵の強度を決定する必要がある。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "侵入検知システム（IDS）。",
+          "text": "VPN接続のためにファイアウォールを開く必要がある。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "データベース暗号化。",
+          "text": "接続の両端にゲートウェイをインストールする必要がある。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "アンチウイルスソフトウェア。",
+          "text": "接続経由で送信される情報の種類を理解する必要がある。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.4 - データベース暗号化は、保存データ（data at rest）の機密性を保護するための最も適切なコントロールです。暗号化により、不正アクセスが発生しても、データが読み取れない形式で保存されます。ファイアウォールとIDSはネットワークレベルの保護を提供しますが、データベース内のデータを直接保護しません。アンチウイルスソフトウェアはマルウェアから保護しますが、データの機密性を直接保護しません。"
+      ]
     },
     {
       "questionNumber": 49,
@@ -3015,30 +3016,30 @@
       "explanation": "OBJ. 8.2 - Input validation and parameterized queries prevent injection attacks, such as SQL and LDAP injection, by ensuring that user-supplied input cannot alter the intended logic of a query. A WAF can help detect attacks but should not be the primary defense. Encrypting user input does not prevent injection attacks. Limiting user privileges is a good practice but does not stop an injection attack if an application is vulnerable. Secure coding practices, including input validation, are the best defense.\n  For support or reporting issues, include Question ID: 67d969dd4ae79a98d793f903 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がインシデント対応計画を策定しています。効果的なインシデント対応計画に含めるべき最も重要な要素はどれですか？",
+      "question_ja": "Webアプリケーションにおけるインジェクション攻撃を防止する最善の方法はどれですか？",
+      "explanation_ja": "OBJ. 8.2 - 入力バリデーションとパラメータ化されたクエリは、ユーザー提供の入力がクエリの意図されたロジックを変更できないようにすることで、SQLインジェクションやLDAPインジェクションなどのインジェクション攻撃を防止します。WAFは攻撃の検出に役立ちますが、主要な防御手段であるべきではありません。ユーザー入力の暗号化はインジェクション攻撃を防止しません。ユーザー権限の制限は良い慣行ですが、アプリケーションが脆弱な場合はインジェクション攻撃を阻止しません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "年次セキュリティトレーニングのスケジュール。",
+          "text": "悪意のある入力をフィルタリングするためにWeb Application Firewall（WAF）を使用する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "役割と責任、コミュニケーション手順、およびエスカレーション基準。",
+          "text": "すべてのユーザー入力をデータベースに保存する前に暗号化する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "組織の年次予算計画。",
+          "text": "入力バリデーションを実装し、パラメータ化されたクエリを使用する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "すべてのIT資産の詳細なハードウェア仕様。",
+          "text": "データベースアクセスを制限するためにユーザー権限を制限する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.1 - 効果的なインシデント対応計画には、明確な役割と責任、コミュニケーション手順（内部および外部）、およびエスカレーション基準が含まれている必要があります。これらは、インシデント発生時に迅速かつ効果的に対応するための基盤です。トレーニングスケジュール、予算計画、ハードウェア仕様は重要ですが、インシデント対応計画の核心的な要素ではありません。"
+      ]
     },
     {
       "questionNumber": 50,
@@ -3077,30 +3078,30 @@
       "explanation": "OBJ. 7.14 - Personnel exposed to greater risks, such as those working in hazardous environments, require tailored safety training to address specific dangers. This approach ensures those most at risk are equipped to handle emergency situations. While accountability and duress response are important, training must be targeted based on risk exposure for maximum effectiveness.\n  For support or reporting issues, include Question ID: 67d969baeac84fca71b27eff in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティアナリストが組織のログデータをレビューしていて、外部IPアドレスからの複数回のログイン試行の失敗に続いて、1回のログイン成功を発見しました。これは最もどのタイプの攻撃を示唆していますか？",
+      "question_ja": "組織の安全プロトコルと緊急手順に関する要員のトレーニングにおいて、リスクを最も効果的に軽減するために優先すべき側面はどれですか？",
+      "explanation_ja": "OBJ. 7.14 - 危険な環境で働く要員など、より大きなリスクにさらされる要員は、特定の危険に対処するための個別の安全トレーニングを必要とします。このアプローチにより、最もリスクの高い人々が緊急事態に対処できるようになります。説明責任や脅迫対応は重要ですが、最大限の効果を得るためにはリスクエクスポージャーに基づいてトレーニングを対象化する必要があります。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "サービス拒否（DoS）攻撃。",
+          "text": "要員は緊急時に脅迫状況を効果的に対処するようトレーニングを受ける必要がある。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ブルートフォース攻撃。",
+          "text": "より高いリスクレベルにさらされる要員は、緊急時に適切に対応できるよう特別なトレーニングを受けるべきである。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "中間者攻撃。",
+          "text": "すべての要員が安全に対する一貫したアプローチを維持するために統一的なトレーニングを受けるべきである。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "SQLインジェクション攻撃。",
+          "text": "要員は説明責任を確保するために緊急時に組織への連絡方法を知っている必要がある。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.6 - 外部IPアドレスからの複数回のログイン試行の失敗に続くログイン成功は、ブルートフォース攻撃の典型的な指標です。攻撃者はさまざまな資格情報の組み合わせを試行し、最終的に正しい組み合わせを見つけます。DoS攻撃はサービスの可用性を妨げることを目的とし、中間者攻撃は通信の傍受を含み、SQLインジェクションはデータベースクエリの操作を含みます。"
+      ]
     },
     {
       "questionNumber": 51,
@@ -3139,30 +3140,30 @@
       "explanation": "OBJ. 3.10 - The integration phase focuses on ensuring that the new system works properly with other systems in the production environment. This includes configuring, testing, and validating that the new system meets functional and regulatory requirements. The development/implementation phase involves initial development, while the operations and maintenance phase occurs after deployment.\n  For support or reporting issues, include Question ID: 67d967f5fe4ac040128ca84d in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が暗号鍵管理プログラムを実装しています。暗号鍵のライフサイクル管理で最も重要な考慮事項はどれですか？",
+      "question_ja": "Walterのヘルスケア企業は、新しい規制要件に準拠するために電子健康記録（EHR）システムをアップグレードしています。システムは開発/取得フェーズにあり、開発チームが他の依存システムと統合しながら機能およびセキュリティ要件を満たすように構成およびテストしています。開発チームの焦点を最もよく説明しているのはどれですか？",
+      "explanation_ja": "OBJ. 3.10 - 統合フェーズは、新しいシステムが本番環境の他のシステムと正しく動作することを確保することに焦点を当てています。これには、新しいシステムが機能および規制要件を満たすことの構成、テスト、検証が含まれます。開発/実装フェーズは初期開発を含み、運用と保守フェーズはデプロイ後に発生します。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "すべての鍵を同じ場所に保管する。",
+          "text": "移行と実装。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "鍵の生成、配布、保管、ローテーション、および破壊を管理する。",
+          "text": "開発/実装。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "暗号鍵を変更しない。",
+          "text": "運用と保守。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "すべてのユーザーに同じ暗号鍵を使用させる。",
+          "text": "統合。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 3.6 - 暗号鍵のライフサイクル管理では、鍵の生成、配布、保管、ローテーション、および破壊のすべての段階を適切に管理することが最も重要です。すべての鍵を同じ場所に保管することはリスクを増大させ、鍵の変更を行わないことはセキュリティを低下させます。すべてのユーザーに同じ鍵を使用させることは、鍵の侵害時の影響を拡大します。"
+      ]
     },
     {
       "questionNumber": 52,
@@ -3201,30 +3202,30 @@
       "explanation": "OBJ. 8.2 - Using a secrets management solution ensures that credentials are securely stored and accessed only by authorized components. Encrypting values in a database or configuration file helps but does not control access dynamically. Hard-coding secrets, even with obfuscation, is insecure. A secrets management system provides centralized, secure storage with auditing and rotation capabilities, making it the most secure choice.\n  For support or reporting issues, include Question ID: 67d969ddea8a29ab42ad978a in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織がサードパーティのクラウドサービスプロバイダーのセキュリティ体制を評価する必要があります。この評価に最も適切なフレームワークはどれですか？",
+      "question_ja": "開発者がクラウドベースのアプリケーションでAPIキーやその他の機密資格情報を安全に保存する必要があります。最も安全なアプローチは何ですか？",
+      "explanation_ja": "OBJ. 8.2 - シークレット管理ソリューションを使用すると、資格情報が安全に保存され、認可されたコンポーネントのみがアクセスできます。データベースや構成ファイルでの値の暗号化は有用ですが、アクセスを動的に制御しません。難読化を含めてもシークレットのハードコードは安全ではありません。シークレット管理システムは、監査およびローテーション機能を備えた集中型の安全なストレージを提供します。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "ISO 27001認証のレビュー。",
+          "text": "難読化技術を使用してアプリケーションにハードコードする。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "SOC 2 Type IIレポートのレビュー。",
+          "text": "アクセス制御付きのシークレット管理ソリューションを使用する。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "プロバイダーのWebサイトのセキュリティページのレビュー。",
+          "text": "AESで暗号化して構成ファイルに保存する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "プロバイダーの年次報告書のレビュー。",
+          "text": "暗号化を有効にしたデータベースに保存する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.3 - SOC 2 Type IIレポートは、一定期間にわたるサービス組織のセキュリティコントロールの有効性を独立した監査人が評価した結果を提供します。ISO 27001認証も有用ですが、SOC 2 Type IIは特にクラウドサービスプロバイダーの評価に適しており、セキュリティ、可用性、処理の完全性、機密性、プライバシーの5つの信頼サービス基準に焦点を当てています。"
+      ]
     },
     {
       "questionNumber": 53,
@@ -3263,30 +3264,30 @@
       "explanation": "OBJ. 5.4 - In MAC environments, both the subject (the user or entity attempting access) and the object (the resource) must be assigned security labels. These labels ensure that access control policies are strictly enforced based on predefined rules regarding classification levels and clearances. This helps protect highly sensitive information from unauthorized access. The other options are either incomplete or irrelevant to the MAC model.\n  For support or reporting issues, include Question ID: 67d9685f642608cd73c8f155 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティエンジニアが、組織のネットワークにネットワークアクセス制御（NAC）ソリューションを実装しています。NACの主な目的はどれですか？",
+      "question_ja": "強制アクセス制御（MAC）環境において、セキュリティポリシーを強制するためにオブジェクトとサブジェクトの両方に何を割り当てる必要がありますか？",
+      "explanation_ja": "OBJ. 5.4 - MAC環境では、サブジェクト（アクセスを試みるユーザーまたはエンティティ）とオブジェクト（リソース）の両方にセキュリティラベルを割り当てる必要があります。これらのラベルにより、分類レベルとクリアランスに関する事前定義されたルールに基づいてアクセス制御ポリシーが厳格に施行されます。他の選択肢は不完全またはMACモデルに無関係です。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "ネットワーク帯域幅を最適化する。",
+          "text": "サブジェクトのロール。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ネットワークに接続するデバイスがセキュリティポリシーに準拠していることを確認する。",
+          "text": "オブジェクトのセキュリティラベル。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "ネットワーク上のすべてのトラフィックを暗号化する。",
+          "text": "サブジェクトのセキュリティラベル。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "ネットワークルーティングを改善する。",
+          "text": "オブジェクトとサブジェクトのセキュリティラベル。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - ネットワークアクセス制御（NAC）の主な目的は、ネットワークに接続するデバイスが組織のセキュリティポリシーに準拠していることを確認することです。NACは、パッチレベル、アンチウイルスのステータス、構成設定などを検証し、非準拠のデバイスがネットワークにアクセスすることを防止または制限します。帯域幅の最適化、トラフィックの暗号化、ルーティングの改善はNACの主な目的ではありません。"
+      ]
     },
     {
       "questionNumber": 54,
@@ -3325,30 +3326,30 @@
       "explanation": "OBJ. 7.9 - Implementing a structured change management approval process with audit trails ensures that all modifications are properly documented and authorized. Restricting changes to a single administrator creates a single point of failure and is not a best practice. Security training is important but does not replace technical controls for preventing unauthorized changes. Allowing only senior executives to approve system changes may slow down operations and is not a scalable solution. Change approval and audit logging enhance security and accountability.\n  For support or reporting issues, include Question ID: 67d9698c50a9a91676efdd94 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織のセキュリティチームがデジタルフォレンジック調査を実施しています。証拠の完全性を保証するために最も重要な手順はどれですか？",
+      "question_ja": "定期監査中に、セキュリティ構成への不正な変更が発見されました。将来同様の問題を防止する最善の方法は何ですか？",
+      "explanation_ja": "OBJ. 7.9 - 監査証跡付きの構造化された変更管理承認プロセスを実装することで、すべての変更が適切に文書化され認可されることが保証されます。単一の管理者への制限は単一障害点を生み出し、ベストプラクティスではありません。セキュリティトレーニングは重要ですが、不正な変更を防止する技術的な制御に代わるものではありません。上級幹部のみに承認を許可すると運用が遅くなり、スケーラブルなソリューションではありません。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "証拠を迅速に分析するために元のデバイスで直接作業する。",
+          "text": "監査証跡付きの変更管理承認プロセスを実装する。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "証拠の保管チェーン（Chain of Custody）を維持する。",
+          "text": "構成管理に関するITスタッフ向けのセキュリティトレーニングを実施する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "関連するログファイルのみを保存する。",
+          "text": "上級幹部のみがシステム変更を認可できるようにする。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "調査結果を公開フォーラムで共有する。",
+          "text": "すべての構成変更を単一のIT管理者に制限する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.7 - デジタルフォレンジック調査で証拠の完全性を保証するために最も重要な手順は、証拠の保管チェーン（Chain of Custody）を維持することです。これにより、証拠の収集、保管、転送、分析の各段階でのすべての取り扱いが文書化され、法的手続きで証拠の信頼性が維持されます。元のデバイスで直接作業すると証拠が変更される可能性があり、ログファイルのみの保存は不十分です。"
+      ]
     },
     {
       "questionNumber": 55,
@@ -3387,30 +3388,30 @@
       "explanation": "OBJ. 2.4 - The primary concerns in data lifecycle management are security practices like encryption key management, data destruction policies, and monitoring data location. While backup frequency is important, it's not a primary concern of data lifecycle management but falls under broader operational practices.\n  For support or reporting issues, include Question ID: 67d962b33d45c7eaaca9dca6 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある企業がBYOD（Bring Your Own Device）ポリシーを実装しています。個人所有のデバイスからの企業データへのアクセスを保護するための最も効果的なコントロールはどれですか？",
+      "question_ja": "データライフサイクル管理には、データの作成から破棄まで、さまざまな段階でさまざまなセキュリティおよび運用上の懸念事項への対処が含まれます。これらの懸念事項のほとんどはデータの機密性、整合性、可用性に焦点を当てていますが、ライフサイクル管理に直接関連しない考慮事項もあります。次のうち、データのライフサイクル全体を通じた管理に特に関連する主要な懸念事項として最も考えにくいものはどれですか？",
+      "explanation_ja": "OBJ. 2.4 - データライフサイクル管理の主な懸念事項は、暗号鍵管理、データ破棄ポリシー、データの場所の監視などのセキュリティプラクティスです。バックアップ頻度は重要ですが、データライフサイクル管理の主な懸念事項ではなく、より広範な運用プラクティスに該当します。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "すべてのBYODデバイスでソーシャルメディアアプリを禁止する。",
+          "text": "運用上不要になったデータの厳格なデータ破棄ポリシーを確立する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "モバイルデバイス管理（MDM）ソリューションとコンテナ化を実装する。",
+          "text": "機密データを保護するために暗号鍵が適切にローテーションおよび管理されていることを確保する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "すべての個人デバイスに企業所有のケースを装着させる。",
+          "text": "ネットワークおよびシステム全体でのデータの場所と転送を継続的に監視する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "従業員に自分のデバイスのウイルスチェックを自己管理させる。",
+          "text": "ユーザーアクセスパターンとデータ使用傾向に基づいて頻繁なデータバックアップを実装する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 5.4 - モバイルデバイス管理（MDM）ソリューションとコンテナ化は、BYOD環境で企業データを保護するための最も効果的なコントロールです。MDMはデバイスのセキュリティポリシーを施行し、コンテナ化は個人データと企業データを分離します。これにより、デバイスの紛失や侵害時に企業データをリモートで削除できます。ソーシャルメディアの禁止や自己管理では十分な保護を提供できません。"
+      ]
     },
     {
       "questionNumber": 56,
@@ -3449,30 +3450,30 @@
       "explanation": "OBJ. 1.4 - Data owners are ultimately responsible for the protection and handling of their data, including compliance with privacy regulations. In the case of a breach, system and data owners are typically held accountable, as they have the final authority over the data. Administrators and custodians implement security measures but do not bear the same level of responsibility.\n  For support or reporting issues, include Question ID: 67d89e7602529111c2bd8608 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が事業継続計画（BCP）を策定しています。BCPの策定プロセスにおいて最初に行うべきステップはどれですか？",
+      "question_ja": "大規模なサービスプロバイダーでのデータ侵害後、サービスプロバイダーが必要なデータプライバシー規制に準拠していなかったことが判明しました。この違反の最も可能性の高い結果は何ですか？",
+      "explanation_ja": "OBJ. 1.4 - データ所有者は、プライバシー規制への準拠を含むデータの保護と取り扱いに対する最終的な責任を負います。侵害が発生した場合、システムおよびデータ所有者はデータに対する最終的な権限を持つため、通常責任を問われます。管理者やカストディアンはセキュリティ対策を実施しますが、同じレベルの責任は負いません。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "代替サイトの選定。",
+          "text": "データスチュワードは、セキュリティの実装に専門知識が使用されたため、データ侵害の責任を問われる可能性がある。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "事業影響分析（BIA）の実施。",
+          "text": "データカストディアンは、データの責任者であるため、データ侵害の責任を問われる可能性がある。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "復旧手順の策定。",
+          "text": "システムおよび/またはデータ所有者は、資産とデータの責任者であるため、データ侵害の責任を問われる可能性がある。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "テストと演習の計画。",
+          "text": "システム管理者は、セキュリティの実装責任者であるため、データ侵害に対する刑事および民事上の罰則に直面する可能性がある。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.11 - 事業継続計画（BCP）の策定プロセスにおいて最初に行うべきステップは、事業影響分析（BIA）の実施です。BIAは、重要なビジネスプロセス、依存関係、および中断の影響を特定し、復旧の優先順位を決定するための基盤を提供します。代替サイトの選定、復旧手順の策定、テストの計画はすべてBIAの結果に基づいて行われます。"
+      ]
     },
     {
       "questionNumber": 57,
@@ -3511,30 +3512,30 @@
       "explanation": "OBJ. 1.3 - The data owner is responsible for defining classification levels and determining how data should be handled, protected, and shared. While the data custodian ensures proper storage and backups, they do not define classification. The security manager oversees security policies, and the system administrator enforces access controls but does not classify data. Understanding the data owner's role is crucial in managing information security and compliance effectively.\n  For support or reporting issues, include Question ID: 67d89e690b4bb6c20a58d686 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ソフトウェア開発者がWebアプリケーションのセッション管理を実装しています。セッションハイジャックを防ぐための最も効果的な対策はどれですか？",
+      "question_ja": "組織のデータの分類レベルを定義し、セキュリティポリシーに従ってデータが取り扱われることを確保する主な責任者は誰ですか？",
+      "explanation_ja": "OBJ. 1.3 - データ所有者は、分類レベルの定義およびデータの取り扱い、保護、共有方法の決定に責任を持ちます。データカストディアンは適切な保管とバックアップを確保しますが、分類は定義しません。セキュリティマネージャーはセキュリティポリシーを監督し、システム管理者はアクセス制御を施行しますが、データの分類は行いません。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "セッションIDを短くして推測しやすくする。",
+          "text": "データカストディアン。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "セッショントークンを安全に生成し、HTTPSを使用し、セッションタイムアウトを実装する。",
+          "text": "セキュリティマネージャー。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "セッションIDをURLパラメータに含める。",
+          "text": "システム管理者。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "セッションの有効期限を無制限に設定する。",
+          "text": "データ所有者。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 8.3 - セッションハイジャックを防ぐためには、セッショントークンを暗号学的に安全に生成し、HTTPSを使用して送信中のトークンを保護し、適切なセッションタイムアウトを実装することが最も効果的です。セッションIDを短くしたりURLに含めたりすることはセキュリティリスクを増大させ、有効期限を無制限にすることはセッションの悪用のリスクを高めます。"
+      ]
     },
     {
       "questionNumber": 58,
@@ -3573,16 +3574,17 @@
       "explanation": "OBJ. 5.1 - The principle of least privilege (PoLP) minimizes the risk of privilege escalation by ensuring that users and applications operate with only the necessary permissions. If an attacker compromises an account, restricted privileges limit the damage. Complex passwords and MFA help with authentication but do not prevent privilege escalation. Security awareness training educates users but does not enforce access control. SSO streamlines authentication but can create security risks if not properly managed.\n  For support or reporting issues, include Question ID: 67d9683ef7cadb94775b41d1 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "エンタープライズ環境内で権限昇格攻撃を最も効果的に防止する対策はどれですか？",
+      "question_ja": "エンタープライズ環境における権限昇格攻撃を最もよく防止する対策はどれですか？",
+      "explanation_ja": "OBJ. 5.1 - 最小権限の原則（PoLP）は、ユーザーとアプリケーションが必要な権限のみで動作するようにすることで、権限昇格のリスクを最小限に抑えます。攻撃者がアカウントを侵害しても、制限された権限が被害を限定します。複雑なパスワードとMFAは認証に役立ちますが、権限昇格を防止しません。セキュリティ意識向上トレーニングはユーザーを教育しますが、アクセス制御を施行しません。SSOは認証を合理化しますが、適切に管理されないとセキュリティリスクを生じさせる可能性があります。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "すべてのアプリケーションにシングルサインオン（SSO）を実装する。",
+          "text": "すべてのアプリケーションにSingle Sign-On（SSO）を実装する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "多要素認証と複雑なパスワードを使用する。",
+          "text": "多要素認証を含む複雑なパスワードを使用する。",
           "isCorrect": false
         },
         {
@@ -3595,8 +3597,7 @@
           "text": "最小権限の原則を実装する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 5.1 - 最小権限の原則（PoLP）は、ユーザーとアプリケーションプロセスに業務遂行に必要な最小限のアクセスのみを確保することで、権限昇格のリスクを最小化します。SSOはアクセスを簡素化しますが権限昇格を防ぎません。複雑なパスワードとMFAは認証を強化しますが、取得後の権限を制限しません。セキュリティトレーニングは認識を向上させますが、技術的なコントロールを提供しません。"
+      ]
     },
     {
       "questionNumber": 59,
@@ -3635,30 +3636,30 @@
       "explanation": "OBJ. 5.3 - Security breaches due to IAM misconfigurations present a direct risk to the organization, making outsourcing a viable option to leverage specialized expertise and improve security. While provisioning delays and lack of internal expertise contribute to inefficiencies, they are not as critical as security risks. Cloud integration is a technical challenge, but it does not necessarily justify outsourcing on its own. In CISSP decision-making, outsourcing should be driven by risk reduction, compliance, and security improvements, rather than just administrative burden.\n  For support or reporting issues, include Question ID: 67d96855305e44742d4dda70 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティアーキテクトが、組織のWebアプリケーション向けにWeb Application Firewall（WAF）の導入を推奨しています。WAFが最も効果的に防御するのはどのタイプの攻撃ですか？",
+      "question_ja": "最高情報責任者（CIO）が、組織のアイデンティティおよびアクセス管理（IAM）機能をサードパーティプロバイダーにアウトソースするかどうかを評価しています。セキュリティとビジネスの観点からこの決定を最も正当化する要因はどれですか？",
+      "explanation_ja": "OBJ. 5.3 - IAMの設定ミスによるセキュリティ侵害は組織に直接的なリスクをもたらし、専門的な専門知識を活用してセキュリティを向上させるためのアウトソーシングを正当化するオプションとなります。プロビジョニングの遅延や内部専門知識の不足は非効率の一因となりますが、セキュリティリスクほど重大ではありません。CISSPの意思決定において、アウトソーシングは管理負担だけでなく、リスク低減、コンプライアンス、セキュリティの改善によって推進されるべきです。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "物理的な侵入。",
+          "text": "組織がアカウントのプロビジョニングとデプロビジョニングの頻繁な遅延に悩んでいる。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "SQLインジェクションやクロスサイトスクリプティング（XSS）などのWebアプリケーション攻撃。",
+          "text": "IAMシステムが設定ミスにより複数のセキュリティ侵害を経験した。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "ソーシャルエンジニアリング攻撃。",
+          "text": "組織がIAMセキュリティ制御を効果的に維持する内部の専門知識を持っていない。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "内部者による知的財産の窃盗。",
+          "text": "IAMシステムがクラウドベースのアプリケーションとの広範な統合を必要としている。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - Web Application Firewall（WAF）は、SQLインジェクション、クロスサイトスクリプティング（XSS）、クロスサイトリクエストフォージェリ（CSRF）などのWebアプリケーション攻撃を検出しブロックするために特別に設計されています。WAFはHTTP/HTTPSトラフィックを検査し、悪意のあるリクエストをフィルタリングします。物理的な侵入、ソーシャルエンジニアリング、内部者の脅威はWAFでは対処できません。"
+      ]
     },
     {
       "questionNumber": 60,
@@ -3697,30 +3698,30 @@
       "explanation": "OBJ. 4.3 - WPA3 provides strong encryption and authentication mechanisms to protect wireless communications, making it the best choice for preventing unauthorized interception. WEP is outdated and highly vulnerable. Disabling DHCP does not prevent unauthorized interception. MAC address filtering provides minimal security as MAC addresses can be easily spoofed.\n  For support or reporting issues, include Question ID: 67d9681e3965a6be5ae4ff51 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織が特権アクセス管理（PAM）ソリューションを実装しています。PAMの主な目的はどれですか？",
+      "question_ja": "セキュリティのない無線ネットワーク上で送信されるデータの不正傍受を防止するのに最も効果的なネットワークセキュリティ制御はどれですか？",
+      "explanation_ja": "OBJ. 4.3 - WPA3は、無線通信を保護するための強力な暗号化と認証メカニズムを提供し、不正傍受を防止するための最良の選択肢です。WEPは古く非常に脆弱です。DHCPの無効化は不正傍受を防止しません。MACアドレスフィルタリングはMACアドレスが簡単にスプーフィングできるため、最小限のセキュリティしか提供しません。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "すべてのユーザーに管理者アクセスを提供する。",
+          "text": "Wi-Fi Protected Access 3（WPA3）。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "特権アカウントへのアクセスを制御、監視、および監査する。",
+          "text": "Dynamic Host Configuration Protocol（DHCP）の無効化。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "パスワードの複雑さの要件を排除する。",
+          "text": "MACアドレスフィルタリング。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "ユーザーが特権アカウントを無期限に使用できるようにする。",
+          "text": "Wired Equivalent Privacy（WEP）。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.1 - 特権アクセス管理（PAM）の主な目的は、特権アカウントへのアクセスを制御、監視、および監査することです。これには、特権資格情報のボールティング、セッション記録、ジャストインタイムアクセス、および最小権限の原則の適用が含まれます。すべてのユーザーに管理者アクセスを提供することや、パスワードの複雑さを排除することはセキュリティリスクを増大させます。"
+      ]
     },
     {
       "questionNumber": 61,
@@ -3759,30 +3760,30 @@
       "explanation": "OBJ. 2.5 - The primary risk of using an End of Support (EOS) server is that it no longer receives security updates, making it susceptible to vulnerabilities and cyberattacks. While performance issues may arise, they are not the primary concern. Licensing penalties are possible but are secondary to security risks. Data inaccessibility is not an immediate consequence of EOS, but security breaches could lead to data loss.\n  For support or reporting issues, include Question ID: 67d962bcc74b390e002c3a31 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "データベース管理者がデータベースのバックアップ戦略を設計しています。RPOを4時間に設定した場合、最も適切なバックアップ戦略はどれですか？",
+      "question_ja": "IT部門がサポート終了（EOS）に達したデータベースサーバーを管理しています。このサーバーの使用を継続することに関連する主なリスクは何ですか？",
+      "explanation_ja": "OBJ. 2.5 - サポート終了（EOS）サーバーを使用する主なリスクは、セキュリティアップデートが提供されなくなり、脆弱性やサイバー攻撃の影響を受けやすくなることです。パフォーマンスの問題が発生する可能性はありますが、主な懸念ではありません。ライセンスの罰則は可能性がありますが、セキュリティリスクに比べれば二次的です。データのアクセス不能はEOSの直接的な結果ではありませんが、セキュリティ侵害がデータ損失につながる可能性があります。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "週次フルバックアップのみ。",
+          "text": "組織がライセンスの罰則に直面する可能性がある。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "毎日のフルバックアップと4時間ごとの差分バックアップ。",
+          "text": "サーバーがセキュリティアップデートを受け取れなくなり、脆弱になる。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "月次フルバックアップ。",
+          "text": "サーバーが時間の経過とともに動作が遅くなる。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "年次バックアップ。",
+          "text": "サーバーに保存されたデータがアクセス不能になる。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.11 - RPOが4時間の場合、組織は最大4時間分のデータ損失を許容できます。毎日のフルバックアップと4時間ごとの差分バックアップを実施することで、どの時点で障害が発生しても、最大4時間分のデータのみが失われることが保証されます。週次、月次、年次のバックアップでは4時間のRPO要件を満たすことができません。"
+      ]
     },
     {
       "questionNumber": 62,
@@ -3821,30 +3822,30 @@
       "explanation": "OBJ. 7.1 - Chain of custody refers to the process of documenting the handling and transfer of physical or digital evidence, ensuring that its integrity is maintained for future legal scrutiny. Document protection and computer controls may safeguard evidence, but they do not provide the traceability required for legal admissibility. Encryption protects confidentiality but does not track evidence handling.\n  For support or reporting issues, include Question ID: 67d96942eac84fca71b27ec3 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がネットワークセキュリティの監視を強化しています。ネットワークトラフィックの異常を検出し、未知の脅威を特定するために最も適切な技術はどれですか？",
+      "question_ja": "フォレンジック調査のために物理的な証拠を収集する際、法的手続きの一部として証拠が受け入れられることを最もよく確保するのはどれですか？",
+      "explanation_ja": "OBJ. 7.1 - チェーンオブカストディとは、物理的またはデジタル証拠の取り扱いと移転を文書化し、将来の法的精査のためにその整合性を維持するプロセスです。文書保護やコンピューター制御は証拠を保護する場合がありますが、法的な許容性に必要な追跡可能性は提供しません。暗号化は機密性を保護しますが、証拠の取り扱いを追跡するものではありません。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "シグネチャベースの侵入検知システム。",
+          "text": "データの機密性を保護するための暗号化。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "行動分析と機械学習ベースの異常検出。",
+          "text": "改ざんから証拠を保護するためのコンピューター制御。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "静的なアクセス制御リスト。",
+          "text": "安全な記録を確保するための文書保護。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "標準のファイアウォールルール。",
+          "text": "証拠の取り扱いの検証可能な履歴を維持する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - 行動分析と機械学習ベースの異常検出は、正常なネットワーク動作のベースラインを確立し、それからの逸脱を検出することで、未知の脅威を特定するのに最も適しています。シグネチャベースのIDSは既知の脅威のみを検出します。静的なACLとファイアウォールルールはアクセス制御を提供しますが、異常検出機能はありません。"
+      ]
     },
     {
       "questionNumber": 63,
@@ -3883,30 +3884,30 @@
       "explanation": "OBJ. 7.1 - During the processing step, data is filtered to remove irrelevant or redundant information, ensuring that only the most pertinent evidence remains. This ensures that any material presented in court is relevant, accurate, and complies with legal standards for admissibility. The other steps involve gathering and analyzing data, not narrowing it down for presentation.\n  For support or reporting issues, include Question ID: 67d96942fe4ac040128ca86b in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティチームがインシデント対応の事後レビュー（ポストモーテム）を実施しています。事後レビューの主な目的はどれですか？",
+      "question_ja": "フォレンジック調査の証拠をレビューしており、法廷で最も関連性の高い情報のみが提示されるようにする必要があります。電子ディスカバリー（eDiscovery）プロセスのどのフェーズでこれが通常行われますか？",
+      "explanation_ja": "OBJ. 7.1 - 処理ステップでは、無関係または冗長な情報を除去するためにデータがフィルタリングされ、最も関連性の高い証拠のみが残ります。これにより、法廷に提示される資料が関連性があり、正確であり、許容性の法的基準に準拠することが保証されます。他のステップにはデータの収集と分析が含まれますが、提示のためのデータの絞り込みは含まれません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "責任者を特定し処罰する。",
+          "text": "識別。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "インシデントから教訓を得て、将来のインシデント対応プロセスを改善する。",
+          "text": "収集。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "インシデントに関与したすべてのシステムを廃棄する。",
+          "text": "処理。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "インシデントの発生を外部に公表する。",
+          "text": "分析。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.8 - インシデント対応の事後レビュー（ポストモーテム/教訓セッション）の主な目的は、インシデントから教訓を得て、将来のインシデント対応プロセスを改善することです。これは非難的ではなく建設的なプロセスであるべきです。責任者の処罰、システムの廃棄、外部への公表は事後レビューの主な目的ではありません。"
+      ]
     },
     {
       "questionNumber": 64,
@@ -3945,30 +3946,30 @@
       "explanation": "OBJ. 2.1 - Patient medical records contain protected health information (PHI) and must be classified at the highest sensitivity level to comply with HIPAA regulations. Unauthorized access to PHI can lead to severe legal and financial consequences. While financial logs and IT configurations are important, they do not require the same level of protection as medical records. Employee badge numbers typically have a lower classification as they do not directly impact patient privacy.\n  For support or reporting issues, include Question ID: 67d9627cdd8f7925d5f4b27d in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織がクラウド環境でのデータ損失防止（DLP）戦略を実装しています。DLPソリューションの主な機能はどれですか？",
+      "question_ja": "病院がHIPAA規制に準拠するためにデータ資産を分類しています。次のデータタイプのうち、最高の機密性レベルに分類すべきものはどれですか？",
+      "explanation_ja": "OBJ. 2.1 - 患者の医療記録には保護対象医療情報（PHI）が含まれており、HIPAA規制に準拠するために最高の機密性レベルに分類する必要があります。PHIへの不正アクセスは深刻な法的および財務的影響をもたらす可能性があります。財務ログやIT構成は重要ですが、医療記録と同じレベルの保護は必要ありません。従業員のバッジ番号は通常、患者のプライバシーに直接影響しないため、より低い分類となります。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "ネットワークパフォーマンスを最適化する。",
+          "text": "ITシステム構成ファイル。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "機密データの不正な送信、使用、または保存を検出し防止する。",
+          "text": "従業員のIDバッジ番号。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "すべてのネットワークトラフィックをブロックする。",
+          "text": "患者の医療記録。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "ユーザーアカウントを管理する。",
+          "text": "財務取引ログ。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 2.5 - データ損失防止（DLP）ソリューションの主な機能は、機密データの不正な送信、使用、または保存を検出し防止することです。DLPはデータの動き（in motion）、使用中（in use）、および保存中（at rest）のデータを監視し、ポリシーに基づいてデータの流出を防ぎます。ネットワークパフォーマンスの最適化やユーザーアカウント管理はDLPの機能ではありません。"
+      ]
     },
     {
       "questionNumber": 65,
@@ -4007,30 +4008,30 @@
       "explanation": "OBJ. 7.13 - Establishing relationships with multiple suppliers in different regions reduces the risk of supply chain failure due to localized disasters or geopolitical disruptions. Increasing inventory levels can help in the short term but is not a long-term solution. Relocating headquarters does not directly address supply chain risks. An internal logistics team can improve response efforts but does not prevent disruptions from occurring. Diversifying suppliers enhances overall business continuity and operational resilience.\n  For support or reporting issues, include Question ID: 67d969b0da28fa705a5821c6 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティアナリストがSIEMシステムのアラートをレビューしています。大量の誤検知アラートを削減するための最も効果的なアプローチはどれですか？",
+      "question_ja": "グローバル小売企業が回復力を向上させるために事業継続計画（BCP）を更新しています。サプライチェーンの中断に対して最も効果的な保護を提供する戦略はどれですか？",
+      "explanation_ja": "OBJ. 7.13 - 異なる地域の複数のサプライヤーとの関係を構築することで、局地的な災害や地政学的混乱によるサプライチェーンの障害リスクが軽減されます。在庫レベルの増加は短期的には役立ちますが、長期的な解決策ではありません。本社の移転はサプライチェーンリスクに直接対処しません。内部ロジスティクスチームは対応を改善できますが、中断の発生を防ぐものではありません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "すべてのアラートを無効にする。",
+          "text": "異なる地域の複数のサプライヤーとの関係を構築する。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "相関ルールを調整し、アラートの閾値を最適化する。",
+          "text": "中断を手動で処理するための内部ロジスティクスチームを開発する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "SIEMシステムを完全にオフラインにする。",
+          "text": "災害のない地域に本社を移転する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "すべてのアラートをそのまま手動でレビューする。",
+          "text": "すべての配送センターで在庫レベルを増加させる。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.4 - 大量の誤検知アラートを削減するための最も効果的なアプローチは、相関ルールを調整し、アラートの閾値を最適化することです。これにより、真の脅威に焦点を当てながら、ノイズを削減できます。すべてのアラートを無効にすることは脅威の見逃しにつながり、SIEMをオフラインにすることは監視を排除します。すべてのアラートを手動でレビューすることは非効率的です。"
+      ]
     },
     {
       "questionNumber": 66,
@@ -4069,30 +4070,30 @@
       "explanation": "OBJ. 1.9 - Risk acceptance is a business-driven decision that weighs the financial cost of mitigation against the potential impact of the risk. A risk should be accepted only if mitigation efforts are more expensive than the potential loss. The possibility of an incident (Option D) is a consideration, but cost-benefit analysis ensures the risk is justifiable from a business perspective. Security controls and data owner discretion do not drive risk acceptance decisions without evaluating financial impact.\n  For support or reporting issues, include Question ID: 67d89ed20b4bb6c20a58d690 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "多国籍企業がEUの一般データ保護規則（GDPR）に準拠する必要があります。GDPRの下でデータ主体が持つ主要な権利はどれですか？",
+      "question_ja": "セキュリティマネージャーが組織のインフラ内で新たに発見された脆弱性を評価しています。セキュリティチームは潜在的なリスクを特定しましたが、緩和策を実施すべきかどうか不確かです。リスクを受容するかどうかを決定する際に最も重要な要因は何ですか？",
+      "explanation_ja": "OBJ. 1.9 - リスク受容はビジネス主導の決定であり、緩和の財務コストとリスクの潜在的な影響を比較検討します。緩和の取り組みが潜在的な損失よりも高額な場合にのみ、リスクを受容すべきです。インシデントの可能性は考慮事項ですが、コスト便益分析によりリスクがビジネスの観点から正当化されることが保証されます。財務的な影響を評価せずに、セキュリティ制御やデータ所有者の裁量がリスク受容の決定を推進するものではありません。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "企業のすべてのデータベースへの無制限のアクセス権。",
+          "text": "リスク緩和のコスト便益分析。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "自分の個人データへのアクセス、修正、および消去を要求する権利。",
+          "text": "セキュリティ制御の利用可能性。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "他の顧客のデータを閲覧する権利。",
+          "text": "セキュリティインシデントの可能性。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "企業に対して無制限の賠償を要求する権利。",
+          "text": "データ所有者の裁量。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.8 - GDPRの下で、データ主体は自分の個人データへのアクセス権、修正権（不正確なデータの訂正）、および消去権（忘れられる権利）を含む主要な権利を持っています。これらの権利は無制限ではなく、特定の条件の下で行使されます。他の顧客のデータへのアクセスや無制限の賠償はGDPRで認められた権利ではありません。"
+      ]
     },
     {
       "questionNumber": 67,
@@ -4131,30 +4132,30 @@
       "explanation": "OBJ. 7.1 - In this scenario, the evidence is based on a report from someone who did not directly witness the event but heard about it from another party, making it hearsay evidence. Hearsay is information passed along from one individual to another without firsthand knowledge and is typically not admissible in court unless it falls under certain exceptions. Direct evidence would be from someone who witnessed the event, and circumstantial evidence involves inference, not direct observation. Corroborative evidence would support other evidence but would still need to be firsthand.\n  For support or reporting issues, include Question ID: 67d9694222f03b67bc784a47 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ネットワークセキュリティエンジニアがVPNソリューションを選定しています。リモートアクセスVPNとサイト間VPNの主な違いは何ですか？",
+      "question_ja": "セキュリティオフィサーとして勤務しており、システム管理者からメールを受け取りました。あるユーザーがインターネット上の不正なWebサイトにアクセスし、ウイルスがダウンロードされてシステム全体に拡散し始めたとの報告です。システム管理者は具体的な証拠を提供できませんが、ソフトウェア開発者がこのインシデントを目撃し、システム管理者に報告しました。法廷において、この報告はどのような種類の証拠とみなされる可能性が最も高いですか？",
+      "explanation_ja": "OBJ. 7.1 - このシナリオでは、証拠はイベントを直接目撃していない人物が別の当事者から聞いた報告に基づいており、伝聞証拠となります。伝聞とは、直接の知識なしに個人間で伝えられた情報であり、特定の例外に該当しない限り、通常法廷では証拠として認められません。直接証拠はイベントを目撃した人からのものであり、状況証拠は推論を含み、直接の観察ではありません。補強証拠は他の証拠を裏付けますが、直接のものである必要があります。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "リモートアクセスVPNはより安全で、サイト間VPNは安全ではない。",
+          "text": "補強証拠。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "リモートアクセスVPNは個々のユーザーをネットワークに接続し、サイト間VPNはネットワーク同士を接続する。",
+          "text": "伝聞証拠。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "サイト間VPNは暗号化を使用せず、リモートアクセスVPNのみが暗号化を使用する。",
+          "text": "直接証拠。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "両方のVPNタイプは同じ目的で使用され、違いはない。",
+          "text": "状況証拠。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.1 - リモートアクセスVPNは個々のユーザー（リモートワーカーなど）を企業ネットワークに安全に接続するために使用されます。一方、サイト間VPNは2つのネットワーク（例：本社と支社）を安全に接続するために使用されます。両方とも暗号化を使用し、セキュリティレベルに本質的な違いはありませんが、使用ケースと接続アーキテクチャが異なります。"
+      ]
     },
     {
       "questionNumber": 68,
@@ -4193,30 +4194,30 @@
       "explanation": "OBJ. 4.2 - A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block traffic based on predefined security rules. Firewalls are typically placed at network perimeters to create a barrier between trusted internal networks and untrusted external networks, such as the Internet. While an IDS detects potential threats, it does not actively block traffic. A proxy server mediates client requests, and a load balancer distributes network traffic but does not enforce security rules.\n  For support or reporting issues, include Question ID: 67d96813ea8a29ab42ad96fd in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がセキュリティ情報およびイベント管理（SIEM）ソリューションを導入しています。SIEMの主な利点はどれですか？",
+      "question_ja": "ネットワーク境界で事前定義されたセキュリティルールに基づいてトラフィックを検査およびフィルタリングする役割を最も担うネットワークセキュリティコンポーネントはどれですか？",
+      "explanation_ja": "OBJ. 4.2 - ファイアウォールは、受信および送信ネットワークトラフィックを監視し、事前定義されたセキュリティルールに基づいてトラフィックを許可またはブロックするネットワークセキュリティデバイスです。ファイアウォールは通常、信頼された内部ネットワークとインターネットなどの信頼されていない外部ネットワーク間のバリアを作成するためにネットワーク境界に配置されます。IDSは潜在的な脅威を検出しますが、トラフィックを積極的にブロックしません。プロキシサーバーはクライアントリクエストを仲介し、ロードバランサーはネットワークトラフィックを分散しますが、セキュリティルールを施行しません。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "ネットワーク帯域幅を増加させる。",
+          "text": "ロードバランサー。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "複数のソースからのセキュリティイベントを集約、相関、分析して脅威を検出する。",
+          "text": "ファイアウォール。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "すべてのマルウェアを自動的に削除する。",
+          "text": "プロキシサーバー。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ファイアウォールルールを自動的に作成する。",
+          "text": "侵入検知システム（IDS）。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.4 - SIEMの主な利点は、ファイアウォール、IDS/IPS、サーバー、アプリケーションなど、複数のソースからのセキュリティイベントとログを集約し、相関付け、分析することで、セキュリティの脅威を検出することです。SIEMはリアルタイムの監視とアラートを提供し、セキュリティインシデントの迅速な検出と対応を可能にします。帯域幅の増加やマルウェアの自動削除はSIEMの機能ではありません。"
+      ]
     },
     {
       "questionNumber": 69,
@@ -4255,30 +4256,30 @@
       "explanation": "OBJ. 4.2 - This is a Denial of Service (DoS) attack, where electromagnetic interference (EMI) is used to disrupt the availability of the wireless network. A DDoS involves multiple sources, which is not indicated in this scenario. The goal is disruption, not unauthorized access or key discovery.\n  For support or reporting issues, include Question ID: 67d9681389ab481ccfbe6ffe in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティコンサルタントが組織のアクセス制御マトリックスをレビューしています。職務分離（SoD）の主な目的はどれですか？",
+      "question_ja": "不満を持つ学生が電磁干渉（EMI）を使用して大学の無線ネットワークを攻撃し、数百人の学生がアクセスできなくなりました。この種の攻撃を最もよく説明しているのはどれですか？",
+      "explanation_ja": "OBJ. 4.2 - これはサービス拒否（DoS）攻撃であり、電磁干渉（EMI）を使用して無線ネットワークの可用性を妨害しています。DDoSは複数のソースを含みますが、このシナリオでは示されていません。目的は不正アクセスや鍵の発見ではなく、妨害です。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "従業員の生産性を低下させる。",
+          "text": "無線ネットワークに対する分散型サービス拒否攻撃。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "単一の個人が重要なプロセスの全ステップを制御できないようにして不正を防止する。",
+          "text": "無線ネットワークに対するサービス拒否攻撃。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "すべてのタスクに複数の承認者を必要とする。",
+          "text": "無線ネットワークの事前共有（対称）鍵の発見。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "アクセス制御リストのサイズを削減する。",
+          "text": "無線ネットワークへの不正アクセスの取得。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.1 - 職務分離（SoD）の主な目的は、単一の個人が重要なビジネスプロセスのすべてのステップを制御できないようにすることで、不正行為、エラー、および不正アクセスを防止することです。例えば、財務取引の開始と承認を同じ人が行うべきではありません。生産性の低下は目的ではなく、すべてのタスクに複数の承認者を要求することは非効率的です。"
+      ]
     },
     {
       "questionNumber": 70,
@@ -4317,30 +4318,30 @@
       "explanation": "OBJ. 1.9 - PCI DSS requires that cardholder data be encrypted at rest and in transit. Storing payment information unencrypted violates compliance requirements and increases the risk of a data breach. While access control and network restrictions are important, they do not address the core issue—the lack of encryption. Vulnerability scans help identify issues but do not directly mitigate this critical compliance gap.\n  For support or reporting issues, include Question ID: 67d89ed51a673cb529800bdb in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が安全なソフトウェア開発プラクティスを実装しています。コードレビューの主なセキュリティ上の利点はどれですか？",
+      "question_ja": "クレジットカード取引を処理する小売企業がセキュリティ監査でPCI DSSに非準拠であることが判明しました。監査人は、トラブルシューティング目的でカード所有者データがトランザクションログに暗号化されずに保存されていることを指摘しました。コンプライアンスを達成するために企業が取るべき最も重要な是正ステップは何ですか？",
+      "explanation_ja": "OBJ. 1.9 - PCI DSSでは、カード所有者データを保存時および転送時に暗号化することが要求されます。決済情報を暗号化せずに保存することはコンプライアンス要件に違反し、データ侵害のリスクが高まります。アクセス制御やネットワーク制限は重要ですが、核心的な問題である暗号化の欠如には対処しません。脆弱性スキャンは問題の特定に役立ちますが、この重大なコンプライアンスギャップを直接緩和するものではありません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "開発プロセスを遅くして品質を向上させる。",
+          "text": "従業員に対するより厳格なアクセス制御を施行する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "本番環境にリリースされる前にセキュリティの脆弱性とコーディングエラーを特定する。",
+          "text": "より頻繁な脆弱性スキャンを実施する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "開発者の作業量を倍増させる。",
+          "text": "トランザクションログへのネットワークアクセスを制限する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "すべてのバグを自動的に修正する。",
+          "text": "保存されたカード所有者データに強力な暗号化を実装する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 8.4 - コードレビューの主なセキュリティ上の利点は、本番環境にコードがリリースされる前に、セキュリティの脆弱性、ロジックエラー、コーディングのベストプラクティスへの非準拠を特定できることです。これは「シフトレフト」アプローチの一部であり、開発プロセスの早い段階で問題を発見し修正することで、修正コストを削減し、セキュリティを向上させます。"
+      ]
     },
     {
       "questionNumber": 71,
@@ -4379,30 +4380,30 @@
       "explanation": "OBJ. 3.3 - A data loss prevention (DLP) solution is the best control because it can monitor, detect, and block unauthorized data transfers in real time while allowing approved business processes to continue. Blocking access to cloud services could hinder productivity, and encryption does not prevent unauthorized uploads. Security awareness training is important but is not a technical control that directly prevents data leaks. DLP provides proactive enforcement, making it the MOST effective control.\n  For support or reporting issues, include Question ID: 67d967a5b47dbeada108c07a in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業のCISOが、組織のセキュリティプログラムの成熟度を評価したいと考えています。セキュリティプログラムの成熟度を評価するために最も適切なフレームワークはどれですか？",
+      "question_ja": "内部セキュリティ監査中に、従業員が不正なクラウドストレージサービスに社外秘の会社文書を保存していることが判明しました。ビジネスの効率性を維持しながらこのリスクを軽減するための最善のセキュリティ制御はどれですか？",
+      "explanation_ja": "OBJ. 3.3 - データ損失防止（DLP）ソリューションは、承認されたビジネスプロセスを継続させながら、不正なデータ転送をリアルタイムで監視、検出、ブロックできるため、最適な制御です。クラウドサービスへのアクセスをブロックすると生産性が低下する可能性があり、暗号化は不正なアップロードを防止しません。セキュリティ意識向上トレーニングは重要ですが、データ漏洩を直接防止する技術的な制御ではありません。DLPはプロアクティブな施行を提供します。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "OSIモデル。",
+          "text": "ファイアウォールルールを通じて外部クラウドサービスへの従業員のアクセスを制限する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "Capability Maturity Model Integration（CMMI）。",
+          "text": "不正なクラウドアップロードをブロックするためにデータ損失防止（DLP）ソリューションを実装する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "TCP/IPモデル。",
+          "text": "企業ネットワークから外部へ送信されるすべてのデータの暗号化を強制する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "ウォーターフォール開発モデル。",
+          "text": "許容可能なデータ保存慣行について従業員のセキュリティ意識向上トレーニングを実施する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.3 - Capability Maturity Model Integration（CMMI）は、組織のプロセスの成熟度を評価するために広く使用されているフレームワークです。初期（レベル1）から最適化（レベル5）までの5段階でプロセスの成熟度を評価し、改善の指針を提供します。OSIモデルとTCP/IPモデルはネットワーク通信モデルであり、ウォーターフォールモデルは開発方法論であり、セキュリティプログラムの成熟度評価には適していません。"
+      ]
     },
     {
       "questionNumber": 72,
@@ -4441,30 +4442,30 @@
       "explanation": "OBJ. 5.2 - Multifactor authentication (MFA) significantly reduces the risk of credential compromise by requiring additional verification beyond passwords. While strong passwords, session timeouts, and logging help improve security, MFA directly prevents unauthorized access by adding a secondary authentication factor, making it much harder for attackers to exploit stolen credentials.\n  For support or reporting issues, include Question ID: 67d96848c59c26a80470d585 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティチームが組織の無線ネットワークのセキュリティを強化しています。企業の無線ネットワークを保護するために最も推奨されるプロトコルはどれですか？",
+      "question_ja": "組織が複数のアプリケーションにSingle Sign-On（SSO）を展開しています。侵害された資格情報が不正アクセスに使用されるリスクを低減するために、実装すべき最善のセキュリティ制御はどれですか？",
+      "explanation_ja": "OBJ. 5.2 - 多要素認証（MFA）は、パスワード以外の追加の検証を要求することで、資格情報の侵害リスクを大幅に低減します。強力なパスワード、セッションタイムアウト、ログ記録はセキュリティの改善に役立ちますが、MFAは二次認証要素を追加することで不正アクセスを直接防止し、攻撃者が盗んだ資格情報を悪用することをはるかに困難にします。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "WEP。",
+          "text": "パスワードの複雑さ要件を施行する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "WPA3-Enterprise。",
+          "text": "すべてのアプリケーションにセッションタイムアウトを実装する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "WPA。",
+          "text": "多要素認証（MFA）を要求する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "オープン認証。",
+          "text": "認証イベントのログ記録と監視を有効にする。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.1 - WPA3-Enterpriseは、企業の無線ネットワークを保護するために最も推奨されるプロトコルです。192ビットのセキュリティスイートを提供し、個別のデータ暗号化、強力な認証、および前方秘匿性をサポートします。WEPは既知の脆弱性があり安全ではなく、WPAは旧式です。オープン認証は暗号化を提供しません。"
+      ]
     },
     {
       "questionNumber": 73,
@@ -4503,30 +4504,30 @@
       "explanation": "OBJ. 2.2 - Simply documenting the legal reasons for indefinite data retention without implementing a disposal policy doesn’t address the risk of retaining data that may no longer be necessary or compliant with regulations. Effective solutions involve defining retention policies and securely deleting unnecessary data.\n  For support or reporting issues, include Question ID: 67d9628f80a4202b434e831a in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織がクラウドサービスのセキュリティ責任について検討しています。IaaS（Infrastructure as a Service）モデルにおいて、顧客が主に責任を負うセキュリティコントロールはどれですか？",
+      "question_ja": "医療組織のセキュリティマネージャーであるSimonは、組織に患者データの廃棄戦略がないことを発見しました。組織は現在、法的保護のためにデータを無期限に保持しており、これはHealth Insurance Portability and Accountability Act（HIPAA）に違反している可能性があります。この問題に対処するための最も効果のない解決策はどれですか？",
+      "explanation_ja": "OBJ. 2.2 - 廃棄ポリシーを実施せずに無期限のデータ保持の法的理由を単に文書化するだけでは、不要なデータを保持するリスクや規制への非準拠に対処できません。効果的な解決策には、保持ポリシーの定義と不要なデータの安全な削除が含まれます。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "物理的なデータセンターのセキュリティ。",
+          "text": "過去の記録保持を確保するために顧客データを無期限に保持する法的理由を文書化する。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "オペレーティングシステム、アプリケーション、およびデータのセキュリティ。",
+          "text": "保存データのインベントリを実施し、陳腐化した情報や冗長な情報を特定する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ハイパーバイザーのセキュリティ。",
+          "text": "古くなった顧客記録を安全に削除するためのデータ廃棄プロセスを確立する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "ネットワークインフラストラクチャのハードウェアメンテナンス。",
+          "text": "規制要件とビジネスニーズに基づくデータ保持ポリシーを実装する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 3.9 - IaaSモデルでは、クラウドサービスプロバイダーが物理インフラ、ハイパーバイザー、ネットワークハードウェアを管理します。顧客は、オペレーティングシステム、アプリケーション、データ、およびこれらの上に構築されるすべてのセキュリティコントロールに責任を負います。これは共有責任モデルの一部であり、顧客はプロバイダーが提供するインフラの上のすべての層に責任があります。"
+      ]
     },
     {
       "questionNumber": 74,
@@ -4565,30 +4566,30 @@
       "explanation": "OBJ. 1.12 - Gamification, such as leaderboards and incentives, motivates employees to actively engage with security training. Recognizing top performers encourages participation and fosters a culture of security awareness. Strict supervision and restrictive access create a negative learning environment, while informal discussions alone lack structure and consistency. Properly implemented gamification enhances engagement and learning retention.\n  For support or reporting issues, include Question ID: 67d89efaf9afeb2228aaf0b6 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティアナリストがペネトレーションテストの結果をレビューしています。テストで発見された脆弱性の優先順位付けに最も適切な基準はどれですか？",
+      "question_ja": "組織がセキュリティ意識向上プログラムを改善するためにゲーミフィケーション技術を活用したいと考えています。ゲーミフィケーションの最も効果的な適用方法はどれですか？",
+      "explanation_ja": "OBJ. 1.12 - リーダーボードやインセンティブなどのゲーミフィケーションは、従業員がセキュリティトレーニングに積極的に参加する動機づけとなります。トップパフォーマーを認識することで参加が促進され、セキュリティ意識の文化が育まれます。厳格な監督やアクセス制限はネガティブな学習環境を作り出し、非公式なディスカッションだけでは構造性と一貫性に欠けます。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "脆弱性が発見された順序。",
+          "text": "従業員がセキュリティ試験に合格しない限りセキュリティリソースへのアクセスを制限する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "悪用の容易さと潜在的なビジネスへの影響。",
+          "text": "従業員に厳格な監督下でセキュリティトレーニングの完了を要求する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "脆弱性レポートのページ数。",
+          "text": "リーダーボードを作成し、優れたセキュリティ慣行を示す従業員にインセンティブを提供する。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "テスターの個人的な好み。",
+          "text": "正式なセキュリティトレーニングをサイバーセキュリティに関するカジュアルなディスカッションに置き換える。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.4 - ペネトレーションテストで発見された脆弱性の優先順位付けには、悪用の容易さ（攻撃者が脆弱性を悪用するのがどれほど簡単か）と潜在的なビジネスへの影響（悪用された場合の損害の程度）を組み合わせて評価することが最も適切です。発見の順序やレポートのページ数はリスクの深刻度とは関連しません。"
+      ]
     },
     {
       "questionNumber": 75,
@@ -4627,30 +4628,30 @@
       "explanation": "OBJ. 3.5 - Open source software is typically evaluated and scrutinized by a wide community of experts, including those in the public sector. This transparency allows for peer reviews and security assessments. Closed source software, on the other hand, is proprietary and does not offer the same level of public scrutiny.\n  For support or reporting issues, include Question ID: 67d967bd1424709e74398e48 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がセキュリティオペレーションセンター（SOC）を設立しています。SOCの主な機能はどれですか？",
+      "question_ja": "ソフトウェアアプリケーションを取得する際、チーフアーキテクトは公共部門の専門家によって評価されたソフトウェアを好みます。アーキテクトが最も要求している可能性のあるソフトウェアの種類はどれですか？",
+      "explanation_ja": "OBJ. 3.5 - オープンソースソフトウェアは、通常、公共部門を含む幅広い専門家コミュニティによって評価および精査されます。この透明性により、ピアレビューやセキュリティ評価が可能になります。一方、クローズドソースソフトウェアはプロプライエタリであり、同じレベルの公的な精査は提供されません。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "ソフトウェア開発とテスト。",
+          "text": "オープンソース。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "セキュリティイベントの継続的な監視、検出、分析、および対応。",
+          "text": "オープンシステム。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "人事管理と採用。",
+          "text": "クローズドシステム。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "マーケティングキャンペーンの管理。",
+          "text": "クローズドソース。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.4 - セキュリティオペレーションセンター（SOC）の主な機能は、セキュリティイベントの継続的な監視、脅威の検出、分析、およびインシデントへの対応です。SOCはSIEM、脅威インテリジェンス、自動化ツールを活用して、組織のセキュリティ体制を24時間365日監視します。ソフトウェア開発、人事管理、マーケティングはSOCの機能ではありません。"
+      ]
     },
     {
       "questionNumber": 76,
@@ -4689,30 +4690,30 @@
       "explanation": "OBJ. 6.5 - The primary goal of a security assessment is to confirm that identified risks are within acceptable limits for the organization. While addressing vulnerabilities and simulating attacks are important activities, they are not the main objective. Ensuring the system works as designed is also crucial but secondary to risk management.\n  For support or reporting issues, include Question ID: 67d9692c57ec55fc36ab6947 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある企業がデータのバックアップ戦略を策定しています。増分バックアップと差分バックアップの主な違いは何ですか？",
+      "question_ja": "包括的なセキュリティ評価を計画する際、組織のセキュリティ体制が効果的であることを確保するための主な目標は何であるべきですか？",
+      "explanation_ja": "OBJ. 6.5 - セキュリティ評価の主な目標は、特定されたリスクが組織にとって許容可能な範囲内にあることを確認することです。脆弱性への対処や攻撃のシミュレーションは重要な活動ですが、主な目的ではありません。システムが設計通りに動作することの確認も重要ですが、リスク管理に比べれば二次的です。",
       "answers_ja": [
         {
           "id": "a",
-          "text": "増分バックアップは差分バックアップよりも多くのストレージスペースを使用する。",
+          "text": "悪意のある行為者による悪用を防ぐために、すべての既知の脆弱性が緩和されていることを確認する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "増分バックアップは最後のバックアップ以降の変更のみを保存し、差分バックアップは最後のフルバックアップ以降のすべての変更を保存する。",
+          "text": "組織のステークホルダーに従って、環境全体のセキュリティリスクが許容可能なレベルに維持されていることを確認する。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "差分バックアップはフルバックアップと同じサイズである。",
+          "text": "システムの全体的な設計と機能が元のセキュリティおよび運用仕様を満たしていることを確認する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "増分バックアップと差分バックアップは同じ概念である。",
+          "text": "既存のセキュリティ制御の有効性を検証するために現実的な攻撃シナリオをシミュレートする。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.11 - 増分バックアップは、最後のバックアップ（フルまたは増分）以降に変更されたデータのみを保存するため、バックアップ時間とストレージスペースが少なくなります。差分バックアップは、最後のフルバックアップ以降に変更されたすべてのデータを保存するため、時間の経過とともにサイズが大きくなりますが、復旧は増分よりも簡単です。"
+      ]
     },
     {
       "questionNumber": 77,
@@ -4751,30 +4752,30 @@
       "explanation": "OBJ. 2.6 - Security baselines serve as a starting point, offering proven controls that can be tailored to meet specific system or data protection needs. While they ensure a consistent foundation, they may require customization to address the unique requirements of a new system. Using a baseline also helps expedite the selection process while ensuring that important security measures are not overlooked.\n  For support or reporting issues, include Question ID: 67d962c5c74b390e002c3a36 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティ管理者がファイアウォールルールセットを構成しています。ファイアウォールルールを構成する際のベストプラクティスはどれですか？",
+      "question_ja": "Mikeは組織が構築する新しい情報システムに適切なセキュリティ制御を選択しており、参照として以前のセキュリティベースラインを使用したいと考えています。このアプローチが組織にとって重要な理由は何ですか？",
+      "explanation_ja": "OBJ. 2.6 - セキュリティベースラインは、特定のシステムやデータ保護ニーズに合わせてカスタマイズできる実績のある制御を提供する出発点として機能します。一貫した基盤を確保しつつ、新しいシステムの固有の要件に対処するためにカスタマイズが必要な場合があります。ベースラインの使用は、重要なセキュリティ対策が見落とされないようにしながら、選択プロセスを迅速化するのにも役立ちます。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "すべてのトラフィックを許可するデフォルトルールを設定する。",
+          "text": "セキュリティ制御が常に一貫しており、適切なレベルのセキュリティを確保する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "暗黙の拒否（deny all）ルールをデフォルトとして設定し、必要なトラフィックのみを明示的に許可する。",
+          "text": "ベースラインのセキュリティ制御はシステムが常に安全であることを保証する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "着信トラフィックのみをフィルタリングし、発信トラフィックは無制限にする。",
+          "text": "ベースラインは通常、ポリシーと標準を満たすように構築されており、制御選択プロセスを迅速化する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ルールの順序を気にせずにランダムに配置する。",
+          "text": "良い参照点を提供し、特定のデータ保護ニーズに合わせてカスタマイズできる。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - ファイアウォールルールを構成する際のベストプラクティスは、暗黙の拒否（deny all）ルールをデフォルトとして設定し、ビジネス要件に基づいて必要なトラフィックのみを明示的に許可することです。これは最小権限の原則に準拠し、不必要なトラフィックをブロックします。すべてのトラフィックを許可することはセキュリティリスクであり、ルールの順序は重要です。"
+      ]
     },
     {
       "questionNumber": 78,
@@ -4813,30 +4814,30 @@
       "explanation": "OBJ. 1.12 - Effective security awareness programs must be tailored to employees' job roles to ensure relevance and engagement. Employees are more likely to retain and apply security best practices when training is directly applicable to their daily tasks. While keeping content up to date is important, relevance to job functions takes priority. Making training voluntary reduces participation, and a one-time event does not provide ongoing reinforcement. Continuous, role-based training is the most effective approach.\n  For support or reporting issues, include Question ID: 67d89efad451b4149bd66d78 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織がリスク対応戦略を選択しています。リスクを保険会社に転嫁することは、どのリスク対応戦略の例ですか？",
+      "question_ja": "多国籍組織向けのセキュリティ意識向上プログラムが開発されています。トレーニング内容を設計する際に最も重要な要因は何ですか？",
+      "explanation_ja": "OBJ. 1.12 - 効果的なセキュリティ意識向上プログラムは、関連性とエンゲージメントを確保するために従業員の職務ロールに合わせてカスタマイズする必要があります。トレーニングが日常業務に直接適用できる場合、従業員はセキュリティのベストプラクティスを保持し実践する可能性が高くなります。コンテンツを最新の状態に保つことは重要ですが、職務機能との関連性が優先されます。トレーニングを任意にすると参加が減少し、一回限りのイベントでは継続的な強化が提供されません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "リスクの回避。",
+          "text": "従業員の職務ロールに関連するようにトレーニング教材をカスタマイズする。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "リスクの転嫁。",
+          "text": "一回限りの必須イベントとしてトレーニングを提供する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "リスクの緩和。",
+          "text": "最新のサイバーセキュリティトレンドに沿ったコンテンツを確保する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "リスクの受容。",
+          "text": "参加を促進するためにトレーニングを任意にする。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.7 - リスクを保険会社に転嫁することは、リスク転嫁戦略の典型的な例です。リスク転嫁は、リスクの財務的影響を第三者に移転しますが、リスク自体を排除するわけではありません。リスク回避はリスクを引き起こす活動を中止すること、リスク緩和はコントロールを実装してリスクを軽減すること、リスク受容はリスクをそのまま受け入れることです。"
+      ]
     },
     {
       "questionNumber": 79,
@@ -4875,30 +4876,30 @@
       "explanation": "OBJ. 7.15 - Training employees on lockdown, evacuation, and shelter-in-place procedures ensures they know how to respond quickly and effectively in an active shooter scenario. Personal alarm systems may help notify authorities but do not provide immediate protection. Armed security guards can be beneficial but are not always feasible. Installing bulletproof glass protects specific individuals but does not safeguard the entire workplace. Employee preparedness and structured response protocols are key to reducing casualties in emergency situations.\n  For support or reporting issues, include Question ID: 67d969c357ec55fc36ab6983 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ソフトウェア開発チームがアジャイル開発方法論を採用しています。アジャイル開発にセキュリティを統合するための最も適切なアプローチはどれですか？",
+      "question_ja": "企業が職場での銃撃事件に対応するための緊急対応計画を策定しています。この計画の最も重要な要素は何ですか？",
+      "explanation_ja": "OBJ. 7.15 - ロックダウン、避難、シェルターインプレイスの手順についての従業員トレーニングにより、銃撃事件のシナリオで迅速かつ効果的に対応できるようになります。個人用アラームシステムは当局への通知に役立つ場合がありますが、即座の保護は提供しません。武装警備員は有益な場合がありますが、常に実現可能とは限りません。防弾ガラスは特定の個人を保護しますが、職場全体を保護するものではありません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "セキュリティテストを開発の最終段階でのみ実施する。",
+          "text": "建物のすべての入口に武装警備員を配置する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "各スプリントにセキュリティストーリーとセキュリティテストを組み込む。",
+          "text": "ロックダウン、避難、およびシェルターインプレイスの手順について従業員をトレーニングする。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "セキュリティ要件を完全に無視して速度を優先する。",
+          "text": "役員室に防弾ガラスを設置する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "セキュリティチームを開発プロセスから完全に分離する。",
+          "text": "緊急時のために従業員に個人用アラームシステムを装備する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - アジャイル開発にセキュリティを統合するための最も適切なアプローチは、各スプリントにセキュリティストーリー（セキュリティ要件をユーザーストーリーとして定義）とセキュリティテストを組み込むことです。これにより、セキュリティが開発プロセス全体を通じて考慮されます。最終段階でのみテストすること、セキュリティを無視すること、またはチームを分離することは効果的ではありません。"
+      ]
     },
     {
       "questionNumber": 80,
@@ -4937,30 +4938,30 @@
       "explanation": "OBJ. 8.1 - Change management processes ensure that all code modifications are systematically reviewed, approved, and tracked. This avoids conflicts when multiple developers update the code simultaneously. Request control manages the submission of change requests, release control manages the actual release of software, and structured development methodologies provide guidelines but do not specifically address the synchronization of simultaneous changes.\n  For support or reporting issues, include Question ID: 67d969d2e37da7c9c4a2892d in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織のネットワークセキュリティアーキテクトが、ネットワーク上の暗号化されたトラフィックの検査について検討しています。暗号化されたトラフィックを検査するための最も一般的なアプローチはどれですか？",
+      "question_ja": "監査により開発されたソフトウェアコードに重大な欠陥が発見され、複数の開発者が同時に更新を行っているため、デプロイの競合が発生しています。この問題を解決するために実装すべきプロセスはどれですか？",
+      "explanation_ja": "OBJ. 8.1 - 変更管理プロセスは、すべてのコード変更が体系的にレビュー、承認、追跡されることを保証します。これにより、複数の開発者が同時にコードを更新する際の競合を回避します。リクエスト制御は変更リクエストの提出を管理し、リリース制御はソフトウェアの実際のリリースを管理し、構造化された開発方法論はガイドラインを提供しますが、同時変更の同期化には特に対処しません。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "暗号化を完全に無効にする。",
+          "text": "リクエスト制御プロセス。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "SSL/TLSインターセプション（復号化と再暗号化）を実装する。",
+          "text": "リリース制御プロセス。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "暗号化されたトラフィックを完全に無視する。",
+          "text": "変更管理プロセス。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "より弱い暗号アルゴリズムの使用を強制する。",
+          "text": "構造化された開発方法論に従う。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - 暗号化されたトラフィックを検査するための最も一般的なアプローチは、SSL/TLSインターセプション（中間者としてトラフィックを復号化し、検査し、再暗号化する）を実装することです。これにより、暗号化されたチャネル内の悪意のあるコンテンツを検出できます。暗号化を無効にすることやより弱いアルゴリズムの強制はセキュリティを損ない、暗号化されたトラフィックの無視は脅威を見逃す可能性があります。"
+      ]
     },
     {
       "questionNumber": 81,
@@ -4999,30 +5000,30 @@
       "explanation": "OBJ. 3.9 - Implementing security controls to monitor and grant access to restricted areas provides an effective strategy for enhancing physical security. While increasing personnel, installing cameras, and using MFA can help, monitoring and controlling access to critical areas provides comprehensive protection and ensures only authorized individuals have access.\n  For support or reporting issues, include Question ID: 67d967eca1ee718babfd8ef9 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティマネージャーが組織のセキュリティメトリクスプログラムを策定しています。効果的なセキュリティメトリクスの特徴として最も適切なものはどれですか？",
+      "question_ja": "データ処理要件の増加に伴い、組織はプライマリデータセンターの物理セキュリティを強化したいと考えています。施設のインフラストラクチャを保護するための最善の戦略はどれですか？",
+      "explanation_ja": "OBJ. 3.9 - 制限区域へのアクセスを監視および許可するためのセキュリティ制御の実装は、物理セキュリティを強化するための効果的な戦略を提供します。人員の増加、カメラの設置、MFAの使用は役立ちますが、重要なエリアへのアクセスの監視と制御が包括的な保護を提供し、認可された個人のみがアクセスできるようにします。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "可能な限り多くのデータを収集する。",
+          "text": "制限区域へのアクセスを監視および許可するためのセキュリティ制御を実装する。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "測定可能で、意思決定を支援し、組織の目標に整合している。",
+          "text": "重要なエリアに追加の監視カメラを設置する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "技術チームのみが理解できる。",
+          "text": "オンサイトのセキュリティ担当者の数を増やす。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "年に一度だけ測定する。",
+          "text": "データセンターアクセスに多要素認証を実装する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.3 - 効果的なセキュリティメトリクスは、測定可能（定量化可能）であり、経営陣の意思決定を支援し、組織のビジネス目標とセキュリティ目標に整合している必要があります。単に多くのデータを収集することは有用ではなく、技術チームだけでなくビジネスリーダーにも理解できるべきです。年に一度の測定では継続的な改善をサポートできません。"
+      ]
     },
     {
       "questionNumber": 82,
@@ -5061,30 +5062,30 @@
       "explanation": "OBJ. 8.1 - At Maturity Level 3 (Defined), an organization has well-established and proactive processes that are standardized and followed organization-wide. Processes are documented, and the organization takes a proactive approach to managing them. Levels 1 and 2 are more reactive, while Level 4 introduces quantitative management techniques.\n  For support or reporting issues, include Question ID: 67d969d3da28fa705a5821d5 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ある組織が多要素認証（MFA）を実装しています。認証の3つの要素として正しい組み合わせはどれですか？",
+      "question_ja": "Capability Maturity Model Integration（CMMI）のどの成熟度レベルが、組織がリアクティブではなくプロアクティブであり、明確に定義されたプロセスと標準を持っていることを保証しますか？",
+      "explanation_ja": "OBJ. 8.1 - 成熟度レベル3（定義済み）では、組織は確立されプロアクティブなプロセスを持ち、組織全体で標準化され遵守されています。プロセスは文書化され、組織はプロアクティブなアプローチで管理しています。レベル1と2はよりリアクティブであり、レベル4では定量的な管理技法が導入されます。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "ユーザー名、パスワード、セキュリティの質問。",
+          "text": "成熟度レベル1：実行済み。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "知識（知っていること）、所有（持っているもの）、生体（自分自身であること）。",
+          "text": "成熟度レベル3：定義済み。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "パスワード、PIN、パスフレーズ。",
+          "text": "成熟度レベル2：管理済み。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "スマートカード、トークン、携帯電話。",
+          "text": "成熟度レベル4：定量的に管理済み。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.2 - 認証の3つの要素は、知識要素（パスワード、PINなど知っていること）、所有要素（スマートカード、トークンなど持っているもの）、および生体要素（指紋、虹彩スキャンなど自分自身であること）です。ユーザー名、パスワード、セキュリティの質問はすべて知識要素であり、多要素とはなりません。複数のスマートカードも単一の要素カテゴリです。"
+      ]
     },
     {
       "questionNumber": 83,
@@ -5123,30 +5124,30 @@
       "explanation": "OBJ. 2.4 - While knowing when to destroy data is important for minimizing potential risks, it is typically considered less important compared to evaluating data value, emerging threats, and ensuring regulatory compliance. These other factors are ongoing throughout the data lifecycle and can have more immediate impacts on data security. Proper destruction is essential, but as a reactive measure, it is less critical to daily data management.\n  For support or reporting issues, include Question ID: 67d962b8703cbcd27dd7c1fa in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が変更管理プロセスを実装しています。変更管理の主な目的はどれですか？",
+      "question_ja": "データライフサイクル管理にはさまざまな要因の慎重な計画と検討が必要です。データのライフサイクル全体を通じた管理の側面として一般的に最も重要度が低いと考えられるものはどれですか（データセキュリティにおいて依然として役割を果たしているにもかかわらず）？",
+      "explanation_ja": "OBJ. 2.4 - データを不要になった際に破棄することは潜在的なリスクを最小限に抑えるために重要ですが、データ価値の評価、新たな脅威への対応、規制遵守の確保と比較すると、通常重要度が低いと考えられます。これらの他の要因はデータライフサイクル全体を通じて継続的であり、データセキュリティにより直接的な影響を与えます。適切な破棄は不可欠ですが、リアクティブな措置として、日常的なデータ管理にとってはそれほど重要ではありません。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "すべての変更を可能な限り迅速に実施する。",
+          "text": "新たな脅威を理解し、必要に応じて追加の保護を適用する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "変更のリスクを評価し、変更による悪影響を最小限に抑えながら組織的に管理する。",
+          "text": "データがライフサイクルを通じて進む際にデータの価値を継続的に評価する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "すべての変更要求を自動的に承認する。",
+          "text": "データ管理規制および標準への準拠を維持する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "変更を一切許可しない。",
+          "text": "不要になったデータの侵害を防ぐためにデータを破棄する必要性を認識する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - 変更管理の主な目的は、変更に関連するリスクを評価し、変更による悪影響を最小限に抑えながら、組織的かつ制御された方法で変更を実施することです。これには、変更の要求、評価、承認、実施、およびレビューのプロセスが含まれます。迅速な実施のみを優先することや、自動承認はリスクを増大させ、変更を一切許可しないことは組織の進歩を妨げます。"
+      ]
     },
     {
       "questionNumber": 84,
@@ -5185,30 +5186,30 @@
       "explanation": "OBJ. 7.2 - A Network Intrusion Prevention System (NIPS) not only detects potential threats but can also block or mitigate them before they impact the system. NIPS actively monitors traffic and applies real-time rules to prevent attacks, making it the best choice for stopping threats before they occur. Intrusion Detection Systems (IDS), whether network or host-based, only alert administrators without taking direct action, whereas Intrusion Prevention Systems (IPS) take preventative measures.\n  For support or reporting issues, include Question ID: 67d9694cfe4ac040128ca870 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ネットワークエンジニアがDNSセキュリティの強化を検討しています。DNSに対する一般的な攻撃を防ぐために最も効果的な技術はどれですか？",
+      "question_ja": "ネットワーク上で最近多くのアクティビティが発生し、過剰なセキュリティアラートに対応していることに気づきました。システムが潜在的な攻撃が発生する前に阻止するために、潜在的なシステム脅威に自動的に対応し始めるようにしたいと考えています。このニーズに最も適したメカニズムの種類はどれですか？",
+      "explanation_ja": "OBJ. 7.2 - ネットワーク侵入防止システム（NIPS）は、潜在的な脅威を検出するだけでなく、システムに影響を与える前にそれらをブロックまたは緩和することもできます。NIPSはトラフィックを積極的に監視し、リアルタイムルールを適用して攻撃を防止するため、脅威が発生する前に阻止するための最良の選択肢です。侵入検知システム（IDS）はネットワークまたはホストベースのいずれも管理者にアラートを出すのみで直接的なアクションは取らず、侵入防止システム（IPS）は予防措置を講じます。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "DNSキャッシュのサイズを増やす。",
+          "text": "ネットワーク侵入検知システム。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "DNSSEC（DNS Security Extensions）を実装する。",
+          "text": "ホストベースの侵入検知システム。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "DNSサーバーの応答時間を短縮する。",
+          "text": "ネットワーク侵入防止システム。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "DNSクエリの数を制限する。",
+          "text": "ホストベースの侵入防止システム。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.1 - DNSSEC（DNS Security Extensions）は、DNSの応答にデジタル署名を追加することで、DNSキャッシュポイズニングやDNSスプーフィングなどの攻撃を防ぐために最も効果的な技術です。DNSSECにより、DNS応答が改ざんされていないことと、正当なソースからのものであることを検証できます。キャッシュサイズの増加や応答時間の短縮は、セキュリティ攻撃を直接防止しません。"
+      ]
     },
     {
       "questionNumber": 85,
@@ -5247,30 +5248,30 @@
       "explanation": "OBJ. 5.6 - OIDC is an identity layer built on OAuth 2.0 that enables federated authentication, allowing users to authenticate once and gain access to multiple services using a third-party identity provider. It does not require hardware-based authentication, identity proofing is still necessary, and it supports multifactor authentication. OIDC is widely used in cloud-based applications for single sign-on (SSO) and federated identity management.\n  For support or reporting issues, include Question ID: 67d96873a6a6f92c933846f9 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティアーキテクトがハニーポットの展開を提案しています。ハニーポットの主な目的はどれですか？",
+      "question_ja": "組織が認証にOpenID Connect（OIDC）を使用しています。OIDCが従来の認証方法に対して提供する主な利点は何ですか？",
+      "explanation_ja": "OBJ. 5.6 - OIDCはOAuth 2.0上に構築されたIDレイヤーであり、ユーザーが一度認証するとサードパーティのIDプロバイダーを使用して複数のサービスにアクセスできるフェデレーション認証を可能にします。ハードウェアベースの認証は不要であり、身元証明は引き続き必要であり、多要素認証もサポートしています。OIDCはクラウドベースのアプリケーションでSSOとフェデレーションID管理に広く使用されています。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "本番システムのパフォーマンスを向上させる。",
+          "text": "単一要素認証のみをサポートする。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "攻撃者を誘引して、その戦術、技術、手順（TTPs）を観察し学習する。",
+          "text": "すべてのログインにハードウェアベースの認証を必要とする。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "ネットワーク帯域幅を節約する。",
+          "text": "複数のサービス間でフェデレーション認証を可能にする。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "正当なユーザーに追加のサービスを提供する。",
+          "text": "身元証明の必要性を置き換える。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.5 - ハニーポットの主な目的は、攻撃者を誘引し、その戦術、技術、手順（TTPs）を観察して脅威インテリジェンスを収集することです。ハニーポットは本番システムに見せかけた欺瞞システムであり、攻撃者が本物のシステムの代わりにハニーポットを攻撃するように仕向けます。パフォーマンスの向上、帯域幅の節約、正当なユーザーへのサービスはハニーポットの目的ではありません。"
+      ]
     },
     {
       "questionNumber": 86,
@@ -5309,30 +5310,30 @@
       "explanation": "OBJ. 4.2 - VLANs allow logical segmentation of network traffic without requiring additional physical infrastructure, improving security by isolating different types of traffic. Air-gapped networks provide strong isolation but require additional physical infrastructure. Firewalls can enforce security policies but do not provide logical segmentation. Separate routers for each segment can be expensive and complex to manage.\n  For support or reporting issues, include Question ID: 67d968133965a6be5ae4ff4c in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティマネージャーが、物理サーバーと論理サーバーを分離しながらネットワークセグメンテーションを実装する必要があります。追加の物理的インフラストラクチャなしにこれを実現する最も適切な技術はどれですか？",
+      "question_ja": "セキュリティ管理者が追加の物理インフラストラクチャを追加せずにネットワークトラフィックを論理的にセグメント化したいと考えています。これに最適なソリューションはどれですか？",
+      "explanation_ja": "OBJ. 4.2 - VLANは、追加の物理インフラストラクチャを必要とせずにネットワークトラフィックの論理的なセグメント化を可能にし、異なるタイプのトラフィックを分離することでセキュリティを向上させます。エアギャップネットワークは強力な分離を提供しますが、追加の物理インフラストラクチャが必要です。ファイアウォールはセキュリティポリシーを施行できますが、論理的なセグメント化は提供しません。各セグメントに個別のルーターを使用するとコストが高く管理が複雑になります。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "エアギャップネットワークを実装する。",
+          "text": "物理的なエアギャップネットワークを展開する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ファイアウォールルールを実装する。",
+          "text": "追加のファイアウォールルールを構成する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "Virtual LANs（VLANs）を実装する。",
+          "text": "Virtual LAN（VLAN）を実装する。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "各ネットワークセグメントに別々のルーターを設置する。",
+          "text": "各ネットワークセグメントに個別のルーターをインストールする。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.2 - VLANsは、追加の物理的インフラストラクチャなしにネットワークトラフィックの論理的なセグメンテーションを可能にし、異なるタイプのトラフィックを分離することでセキュリティを向上させます。エアギャップネットワークは強力な分離を提供しますが、追加の物理的インフラストラクチャが必要です。ファイアウォールはセキュリティポリシーを施行できますが、論理的なセグメンテーションを提供しません。各セグメントに別々のルーターは高価で複雑です。"
+      ]
     },
     {
       "questionNumber": 87,
@@ -5371,7 +5372,8 @@
       "explanation": "OBJ. 2.6 - Tailoring refers to modifying or customizing the security baseline controls to meet the specific needs of an organization or system. When additional security controls are needed beyond the standard baseline, tailoring allows for the addition or alteration of controls to address the specific security requirements of the system. Scoping adjusts the baseline based on relevance, but tailoring actively modifies the controls. Change control and baselining focus on system maintenance and comparison rather than customization.\n  For support or reporting issues, include Question ID: 67d962c50a550a96d029ee2c in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "新しく展開された情報システムのセキュリティレビューを実施した後、実装すべき追加のコントロールを特定しましたが、これらは標準のセキュリティコントロールの一部ではありません。これらの追加のセキュリティ対策を実装するための最適な方法はどれですか？",
+      "question_ja": "新たにデプロイした情報システムのセキュリティレビューを実施した後、標準的なセキュリティ制御に含まれていない追加の制御を実装すべきであることを特定しました。これらの追加のセキュリティ対策を実装する最善の方法は何ですか？",
+      "explanation_ja": "OBJ. 2.6 - テーラリングとは、組織やシステムの特定のニーズに合わせてセキュリティベースライン制御を変更またはカスタマイズすることを指します。標準ベースラインを超えた追加のセキュリティ制御が必要な場合、テーラリングにより、システムの特定のセキュリティ要件に対処するための制御の追加や変更が可能になります。スコーピングは関連性に基づいてベースラインを調整しますが、テーラリングは制御を積極的に変更します。",
       "answers_ja": [
         {
           "id": "d",
@@ -5380,21 +5382,20 @@
         },
         {
           "id": "b",
-          "text": "システムが一貫性を保つように構成管理プラクティスを適用する。",
+          "text": "システムが一貫した状態を保つように構成管理プラクティスを適用する。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "システム固有の要件により良く適合するようにベースラインコントロールの適用範囲を調整する。",
+          "text": "システム固有の要件をより適切に満たすためにベースライン制御の適用範囲を調整する。",
           "isCorrect": false
         },
         {
           "id": "c",
-          "text": "システムの固有の要件に対応するためにベースラインコントロールを修正しカスタマイズする。",
+          "text": "システムの固有の要件に対処するためにベースライン制御を変更およびカスタマイズする。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 2.6 - テーラリングとは、組織またはシステムの特定のニーズを満たすためにセキュリティベースラインコントロールを修正またはカスタマイズすることを指します。標準ベースラインを超える追加のセキュリティコントロールが必要な場合、テーラリングによりシステムの特定のセキュリティ要件に対応するためのコントロールの追加や変更が可能になります。スコーピングは関連性に基づいてベースラインを調整しますが、テーラリングはコントロールを積極的に修正します。"
+      ]
     },
     {
       "questionNumber": 88,
@@ -5433,7 +5434,8 @@
       "explanation": "OBJ. 4.1 - NAT (Network Address Translation) allows multiple private IP addresses to be mapped to a single public IP address, enabling devices to share external connectivity while conserving IP space. PAT (Port Address Translation) is a specific type of NAT, but NAT is the broader and more commonly referenced concept in CISSP exams. Acquiring more public IPs is costly and not scalable. Assigning more private IPs alone does not enable internet connectivity without NAT.\n  For support or reporting issues, include Question ID: 67d96802fe4ac040128ca852 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業が複数のデバイスにインターネットアクセスを有効にしたいが、パブリックIPアドレスの数が限られています。パブリックIPスペースを節約しながら、すべてのデバイスがインターネットに接続できるようにする最適なソリューションはどれですか？",
+      "question_ja": "企業が複数のデバイスにインターネットアクセスを可能にしたいと考えていますが、パブリックIPアドレスの数が限られています。パブリックIPスペースを節約しながらすべてのデバイスがインターネットに接続できるようにする最善のソリューションはどれですか？",
+      "explanation_ja": "OBJ. 4.1 - NAT（Network Address Translation）は、複数のプライベートIPアドレスを単一のパブリックIPアドレスにマッピングし、IPスペースを節約しながらデバイスが外部接続を共有できるようにします。PAT（Port Address Translation）はNATの特定のタイプですが、NATの方がCISSP試験ではより広範で一般的に参照される概念です。追加のパブリックIPの取得はコストが高くスケーラブルではありません。プライベートIPのみの追加割り当てはNATなしではインターネット接続を可能にしません。",
       "answers_ja": [
         {
           "id": "c",
@@ -5455,8 +5457,7 @@
           "text": "追加のパブリックIPアドレスを取得する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 4.1 - NAT（Network Address Translation）は、複数のプライベートIPアドレスを単一のパブリックIPアドレスにマッピングすることで、デバイスがIPスペースを節約しながら外部接続を共有できるようにします。PAT（Port Address Translation）はNATの特定のタイプですが、NATはCISSP試験でより広く一般的に参照される概念です。より多くのパブリックIPの取得は高価でスケーラブルではありません。プライベートIPの割り当てだけではNATなしにインターネット接続を有効にしません。"
+      ]
     },
     {
       "questionNumber": 89,
@@ -5495,7 +5496,8 @@
       "explanation": "OBJ. 6.4 - Risk analysis should consider the impact and likelihood of an exploit. This ensures proper prioritization of remediation efforts. While upgrade costs, server age, and policy violations are important, they do not directly determine the urgency of mitigation. Understanding the potential damage and probability of an attack allows security teams to address the most pressing risks first.\n  For support or reporting issues, include Question ID: 67d9692351e0c48730d049bb in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業のセキュリティ監査レポートが、複数のサーバーが古いソフトウェアを実行していることを示しています。この所見のリスク分析に含めるべき要素はどれですか？",
+      "question_ja": "企業のセキュリティ監査レポートにより、複数のサーバーが古いソフトウェアを実行していることが判明しました。この所見のリスク分析に含めるべき要因はどれですか？",
+      "explanation_ja": "OBJ. 6.4 - リスク分析は、エクスプロイトの影響と可能性を考慮すべきです。これにより、是正作業の適切な優先順位付けが確保されます。アップグレードコスト、サーバーの経過年数、ポリシー違反は重要ですが、緩和の緊急性を直接決定するものではありません。攻撃による潜在的な被害とその確率を理解することで、セキュリティチームは最も緊急なリスクに最初に対処できます。",
       "answers_ja": [
         {
           "id": "d",
@@ -5504,7 +5506,7 @@
         },
         {
           "id": "c",
-          "text": "影響を受けたすべてのサーバーのアップグレードの推定コスト。",
+          "text": "影響を受けるすべてのサーバーのアップグレードにかかる見積もりコスト。",
           "isCorrect": false
         },
         {
@@ -5514,11 +5516,10 @@
         },
         {
           "id": "b",
-          "text": "サーバーの年齢と予想される廃棄日。",
+          "text": "サーバーの経過年数と予定されている廃止日。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 6.4 - リスク分析では、エクスプロイトの影響と可能性を考慮する必要があります。これにより、是正措置の適切な優先順位付けが保証されます。アップグレードコスト、サーバーの年齢、ポリシー違反は重要ですが、緩和の緊急性を直接決定するものではありません。潜在的な損害と攻撃の確率を理解することで、セキュリティチームは最も差し迫ったリスクに最初に対処できます。"
+      ]
     },
     {
       "questionNumber": 90,
@@ -5557,7 +5558,8 @@
       "explanation": "OBJ. 7.2 - Reviewing known techniques used to exploit each threat helps Kyndra understand how the identified threats could manifest. Penetration tests and vulnerability assessments serve different purposes and might not focus on threat realization. Another risk assessment would not offer the detailed exploitation information she seeks.\n  For support or reporting issues, include Question ID: 67d9694cb65d1238350b8ca2 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "リスク評価を完了した後、Kyndraは情報システムに対する潜在的な脅威を特定しました。脅威がどのように実現されるかを理解するためにさらに分析したいと考えています。Kyndraにとって最も効果的な方法はどれですか？",
+      "question_ja": "リスク評価を完了した後、Kyndraは情報システムに対する潜在的な脅威を特定しました。それらの脅威がどのように実現される可能性があるかをさらに理解するために分析したいと考えています。Kyndraにとって最も効果的なのはどれですか？",
+      "explanation_ja": "OBJ. 7.2 - 各脅威を悪用するために使用される既知の手法をレビューすることで、Kyndraは特定された脅威がどのように実現される可能性があるかを理解できます。ペネトレーションテストや脆弱性評価は異なる目的で行われ、脅威の実現に焦点を当てていない場合があります。追加のリスク評価では、彼女が求める詳細なエクスプロイト情報は提供されません。",
       "answers_ja": [
         {
           "id": "a",
@@ -5566,21 +5568,20 @@
         },
         {
           "id": "c",
-          "text": "潜在的な各脅威を悪用するために使用される既知の技術のレビューを実施する。",
+          "text": "各潜在的脅威を悪用するために使用される既知の手法のレビューを実施する。",
           "isCorrect": true
         },
         {
           "id": "b",
-          "text": "ペネトレーションテストを実施し、潜在的な脅威を判断するために結果を分析する。",
+          "text": "ペネトレーションテストを実施し、結果を分析して潜在的な脅威を判断する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "追加のリスク評価を実施し、新しく発見された脅威のみに焦点を当てる。",
+          "text": "追加のリスク評価を実施し、新たに発見された脅威のみに焦点を当てる。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.2 - 各脅威を悪用するために使用される既知の技術をレビューすることは、Kyndraが特定された脅威がどのように発現するかを理解するのに役立ちます。ペネトレーションテストと脆弱性評価は異なる目的を果たし、脅威の実現に焦点を当てない場合があります。追加のリスク評価は、彼女が求めている詳細な悪用情報を提供しません。"
+      ]
     },
     {
       "questionNumber": 91,
@@ -5620,15 +5621,16 @@
       "links": [],
       "relatedLecture": null,
       "question_ja": "エンタープライズ環境で構成ベースラインを実装する最も適切な理由はどれですか？",
+      "explanation_ja": "OBJ. 7.3 - 構成ベースラインは承認されたシステム状態を定義し、不正な変更がセキュリティを弱める構成ドリフトを組織が検出し修正できるようにします。SCAP、Tripwire、SCCMなどのツールがシステムの逸脱を監視します。ベースラインはセキュリティ更新に役立ちますが、パッチ管理に代わるものではありません。侵入検知・防止システムはネットワーク監視のために依然として必要であり、ベースラインはゼロデイ攻撃を防止できませんが、既知の脆弱性へのエクスポージャーを制限するのに役立ちます。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "すべてのソフトウェアアプリケーションが最新の状態を維持することを保証する。",
+          "text": "構成ドリフトを検出し修正できるようにする。",
           "isCorrect": true
         },
         {
           "id": "a",
-          "text": "構成のドリフトを検出し修正できるようにする。",
+          "text": "すべてのソフトウェアアプリケーションが最新の状態に保たれることを確保する。",
           "isCorrect": false
         },
         {
@@ -5638,11 +5640,10 @@
         },
         {
           "id": "c",
-          "text": "すべてのゼロデイ攻撃がエンタープライズシステムに影響を与えることを防ぐ。",
+          "text": "すべてのゼロデイ攻撃がエンタープライズシステムに影響を与えることを防止する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.3 - 構成ベースラインは承認されたシステム状態を定義し、不正な変更がセキュリティを弱める構成ドリフトを検出し修正できるようにします。SCAP、Tripwire、SCCMなどのツールがシステムの逸脱を監視します。ベースラインはセキュリティアップデートに役立ちますが、パッチ管理に取って代わるものではありません。侵入検知・防止システムはネットワーク監視に依然として必要であり、ベースラインはゼロデイ攻撃を防ぐことはできませんが、既知の脆弱性へのエクスポージャーを制限するのに役立ちます。"
+      ]
     },
     {
       "questionNumber": 92,
@@ -5681,30 +5682,30 @@
       "explanation": "OBJ. 1.1 - Ethical disclosure ensures vulnerabilities are addressed without causing harm. Selling the vulnerability is unethical and illegal. Publishing the exploit code without giving the provider time to respond exposes users to unnecessary risk. Waiting for a conference prioritizes personal gain over security. The correct ethical action is responsible disclosure to the vendor, allowing them to mitigate the risk before public disclosure. This approach aligns with professional security standards and ethical guidelines.\n  For support or reporting issues, include Question ID: 67d89e53025cbd07853decf4 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "セキュリティ研究者が、広く使用されているクラウドサービスに深刻なゼロデイ脆弱性を発見しました。研究者は脆弱性を倫理的に報告する方法がわかりません。職業倫理基準に最も適合するアクションはどれですか？",
+      "question_ja": "セキュリティ研究者が広く使用されているクラウドサービスで深刻なゼロデイ脆弱性を発見しました。研究者は倫理的に脆弱性を報告する方法が分かりません。専門的な倫理基準に最も合致するアクションはどれですか？",
+      "explanation_ja": "OBJ. 1.1 - 倫理的な開示は、害を与えずに脆弱性に対処することを保証します。脆弱性の売却は非倫理的かつ違法です。プロバイダーに対応時間を与えずにエクスプロイトコードを公開すると、ユーザーが不必要なリスクにさらされます。カンファレンスを待つことは、セキュリティよりも個人の利益を優先しています。正しい倫理的行動は、公開前にリスクを緩和できるよう、ベンダーへの責任ある開示です。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "研究者が所見を発表できるセキュリティカンファレンスまで開示を控える。",
+          "text": "研究者が発見を発表できるセキュリティカンファレンスまで開示を控える。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "ダークウェブで最高入札者に脆弱性を販売する。",
+          "text": "ダークウェブで最高入札者に脆弱性を売却する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "責任あるチャネルを通じてクラウドサービスプロバイダーに非公開で脆弱性を開示する。",
+          "text": "責任ある開示チャネルを通じてクラウドサービスプロバイダーに非公開で脆弱性を開示する。",
           "isCorrect": true
         },
         {
           "id": "d",
-          "text": "プロバイダーに行動を強制するためにエクスプロイトコードを即座に公開する。",
+          "text": "プロバイダーに対策を強制するためにエクスプロイトコードを直ちに公開する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.1 - 倫理的な開示は、害を与えることなく脆弱性に対処することを保証します。脆弱性の販売は非倫理的で違法です。プロバイダーに対応する時間を与えずにエクスプロイトコードを公開することは、ユーザーを不必要なリスクにさらします。カンファレンスを待つことはセキュリティよりも個人的な利益を優先します。正しい倫理的行動はベンダーへの責任ある開示であり、公開開示前にリスクを緩和する時間を与えます。"
+      ]
     },
     {
       "questionNumber": 93,
@@ -5743,7 +5744,8 @@
       "explanation": "OBJ. 1.5 - Regulatory investigations are conducted by government agencies to enforce compliance with laws related to specific industries, such as environmental protection. In this scenario, a government agency is leading the inquiry, which aligns with regulatory enforcement rather than criminal prosecution or a private legal dispute. Civil investigations typically involve disputes between entities, while administrative investigations address internal policy violations. The involvement of a regulatory body and enforcement of environmental laws clearly classify this as a regulatory investigation.\n  For support or reporting issues, include Question ID: 67d89e9b5c620278e445f67b in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "政府機関が、大企業が環境保護法に違反していると疑っています。予備的な証拠を確認した後、機関は社内文書と記録の召喚状を発行しました。どのタイプの調査が行われていますか？",
+      "question_ja": "政府機関が大企業の環境保護法違反を疑っています。予備的な証拠を検討した後、機関は社内文書と記録の召喚状を発行しました。どのような種類の調査が行われていますか？",
+      "explanation_ja": "OBJ. 1.5 - 規制調査は、環境保護などの特定の産業に関連する法律の遵守を強制するために政府機関によって実施されます。このシナリオでは、政府機関が調査を主導しており、これは刑事訴追や民間の法的紛争ではなく、規制の施行に合致しています。民事調査は通常、組織間の紛争を含み、行政調査は内部のポリシー違反に対処します。規制機関の関与と環境法の施行により、これは明確に規制調査として分類されます。",
       "answers_ja": [
         {
           "id": "d",
@@ -5765,8 +5767,7 @@
           "text": "行政調査。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.5 - 規制調査は、環境保護などの特定の産業に関連する法律へのコンプライアンスを確保するために政府機関によって実施されます。このシナリオでは、政府機関が調査を主導しており、刑事訴追や民間の法的紛争ではなく規制の施行に整合しています。民事調査は通常、エンティティ間の紛争を含み、行政調査は内部のポリシー違反に対処します。規制機関の関与と環境法の施行が、これを規制調査として明確に分類します。"
+      ]
     },
     {
       "questionNumber": 94,
@@ -5805,7 +5806,8 @@
       "explanation": "OBJ. 2.2 - Data handling requirements must align with regulatory compliance mandates, such as PCI-DSS for financial data. Implementing data retention policies ensures that information is stored, processed, and disposed of according to legal and compliance obligations. Encrypting all financial data is important but should be based on classification. Employee experience does not determine handling requirements, and centralizing sensitive data without proper controls increases risk.\n  For support or reporting issues, include Question ID: 67d9628fb6c99ed386ce58e2 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が機密性の高い顧客の財務データを処理しています。業界規制へのコンプライアンスを確保するために、データ取り扱い要件を確立する際に最も重要な考慮事項はどれですか？",
+      "question_ja": "組織が機密性の高い顧客財務データを処理しています。業界規制への準拠を確保するために、データ取り扱い要件を確立する際に最も重要な考慮事項はどれですか？",
+      "explanation_ja": "OBJ. 2.2 - データ取り扱い要件は、財務データに対するPCI-DSSなどの規制コンプライアンスの要求に合致する必要があります。データ保持ポリシーの実装により、法的およびコンプライアンス上の義務に従って情報が保存、処理、廃棄されることが保証されます。すべての財務データの暗号化は重要ですが、分類に基づくべきです。従業員の経験が取り扱い要件を決定するものではなく、適切な制御なしに機密データを集中化するとリスクが増大します。",
       "answers_ja": [
         {
           "id": "a",
@@ -5819,16 +5821,15 @@
         },
         {
           "id": "d",
-          "text": "アクセスの容易さのためにすべての財務データを一元化されたデータベースに保存する。",
+          "text": "アクセスの容易さのためにすべての財務データを集中データベースに保存する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "従業員の経験レベルに基づいて財務データの取り扱いを許可する。",
+          "text": "従業員が経験レベルに基づいて財務データを取り扱うことを許可する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 2.2 - データ取り扱い要件は、財務データのPCI-DSSなどの規制コンプライアンスの義務に合致する必要があります。データ保持ポリシーを実装することで、情報が法的およびコンプライアンス上の義務に従って保存、処理、廃棄されることが保証されます。すべての財務データの暗号化は重要ですが、分類に基づくべきです。従業員の経験は取り扱い要件を決定するものではなく、適切なコントロールなしに機密データを一元化することはリスクを増大させます。"
+      ]
     },
     {
       "questionNumber": 95,
@@ -5867,7 +5868,8 @@
       "explanation": "OBJ. 6.3 - Periodic privilege audits ensure least privilege principles are maintained, preventing unnecessary access that could lead to security breaches. Employee roles change over time, and failure to adjust access rights can lead to privilege creep. Removing admin access entirely is impractical, while multi-factor authentication and password resets improve security but do not address access appropriateness. Privilege audits help enforce access control policies dynamically.\n  For support or reporting issues, include Question ID: 67d96913fe4ac040128ca85c in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "企業のセキュリティチームがユーザーアクセス権限をレビューしています。雇用期間を通じてユーザーが適切なレベルのアクセスを持つことを保証する最善の方法はどれですか？",
+      "question_ja": "企業のセキュリティチームがユーザーアクセス権限をレビューしています。雇用期間を通じてユーザーが適切なレベルのアクセスを持っていることを確保する最善の方法はどれですか？",
+      "explanation_ja": "OBJ. 6.3 - 定期的な権限監査により、最小権限の原則が維持され、セキュリティ侵害につながる可能性のある不必要なアクセスが防止されます。従業員のロールは時間の経過とともに変化し、アクセス権を調整しないと権限のクリープが発生する可能性があります。管理者アクセスの完全な削除は非実用的であり、多要素認証やパスワードリセットはセキュリティを改善しますが、アクセスの適切性には対処しません。",
       "answers_ja": [
         {
           "id": "a",
@@ -5876,12 +5878,12 @@
         },
         {
           "id": "d",
-          "text": "すべての従業員の管理者アクセスを削除する。",
+          "text": "セルフサービスのパスワードリセットを有効にする。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "セルフサービスパスワードリセットを有効にする。",
+          "text": "従業員のすべての管理者アクセスを削除する。",
           "isCorrect": false
         },
         {
@@ -5889,8 +5891,7 @@
           "text": "定期的な権限監査を実施する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 6.3 - 定期的な権限監査は、最小権限の原則が維持されることを保証し、セキュリティ侵害につながる可能性のある不必要なアクセスを防止します。従業員の役割は時間とともに変化し、アクセス権の調整を怠ると権限クリープにつながる可能性があります。管理者アクセスの完全な削除は非現実的であり、多要素認証とパスワードリセットはセキュリティを向上させますが、アクセスの適切性に対処しません。"
+      ]
     },
     {
       "questionNumber": 96,
@@ -5929,30 +5930,30 @@
       "explanation": "OBJ. 7.14 - Installing a perimeter fence is considered an external security control, while biometric authentication, surveillance systems, and role-based access are internal controls focused on managing access within the data center.\n  For support or reporting issues, include Question ID: 67d969ba6958032c658b3165 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "あなたは組織のデータセンターの物理的セキュリティを確保する責任があります。アクセスを管理するための内部セキュリティコントロールとして考慮される可能性が最も低いものはどれですか？",
+      "question_ja": "あなたは組織のデータセンターの物理セキュリティの確保に責任を持っています。次のうち、アクセス管理のための内部セキュリティ制御として最も考えにくいものはどれですか？",
+      "explanation_ja": "OBJ. 7.14 - 外周フェンスの設置は外部セキュリティ制御と見なされますが、生体認証、監視システム、ロールベースアクセスはデータセンター内のアクセス管理に焦点を当てた内部制御です。",
       "answers_ja": [
         {
           "id": "b",
-          "text": "アクセスのために生体認証を要求する。",
+          "text": "アクセスに生体認証を要求する。",
           "isCorrect": false
         },
         {
           "id": "d",
-          "text": "データセンターの異なるエリアにロールベースのアクセスを割り当てる。",
+          "text": "データセンターの異なるエリアへのロールベースアクセスを割り当てる。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "不正アクセスを制限するために境界フェンスを設置する。",
+          "text": "不正アクセスを制限するために外周フェンスを設置する。",
           "isCorrect": true
         },
         {
           "id": "c",
-          "text": "出入り口を監視するために監視システムを実装する。",
+          "text": "入退場を監視するための監視システムを実装する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 7.14 - 境界フェンスの設置は外部セキュリティコントロールと見なされ、生体認証、監視システム、ロールベースのアクセスはデータセンター内のアクセス管理に焦点を当てた内部コントロールです。"
+      ]
     },
     {
       "questionNumber": 97,
@@ -5991,7 +5992,8 @@
       "explanation": "OBJ. 1.3 - Due diligence refers to taking reasonable steps to ensure proper tracking and management of assets. By documenting the unique identification number of network devices, you're ensuring that updates and lifecycle management are handled properly, a key component of due diligence. While due care focuses on acting responsibly, due diligence involves proactively managing assets and associated risks.\n  For support or reporting issues, include Question ID: 67d89e69025cbd07853decfe in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "ベンダーから新しいネットワークデバイスの注文が届きました。あなたとシステム管理者が各アイテムを受け取り確認する際に、一部のデバイスに新しい固有識別（ID）番号があることに気づきました。このIDをアップデート、パッチ管理、ライフサイクル監視のために追跡すべきと判断し、将来のインベントリリストにこの情報が文書化されるように取得プロセスを更新しました。これが最もよく表すセキュリティ原則はどれですか？",
+      "question_ja": "ベンダーから新しいネットワークデバイスの注文が届きました。あなたとシステム管理者が各アイテムを受け取り検証する際、一部のデバイスに新しい固有識別（ID）番号があることに気づきました。このIDはアップデート、パッチ管理、ライフサイクル監視のために追跡すべきと判断し、この情報が将来のインベントリリストに文書化されるよう取得プロセスを更新しました。これが最もよく表しているセキュリティ原則はどれですか？",
+      "explanation_ja": "OBJ. 1.3 - デューディリジェンスとは、資産の適切な追跡と管理を確保するために合理的な手順を講じることを指します。ネットワークデバイスの固有識別番号を文書化することで、アップデートとライフサイクル管理が適切に行われることを確保しており、これはデューディリジェンスの重要な要素です。デューケアは責任ある行動に焦点を当てますが、デューディリジェンスは資産と関連リスクのプロアクティブな管理を含みます。",
       "answers_ja": [
         {
           "id": "b",
@@ -6005,7 +6007,7 @@
         },
         {
           "id": "a",
-          "text": "デューデリジェンス。",
+          "text": "デューディリジェンス。",
           "isCorrect": true
         },
         {
@@ -6013,8 +6015,7 @@
           "text": "継続的監視。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 1.3 - デューデリジェンスとは、資産の適切な追跡と管理を確保するために合理的な措置を講じることを指します。ネットワークデバイスの固有識別番号を文書化することで、アップデートとライフサイクル管理が適切に処理されることを保証しています。これはデューデリジェンスの重要な要素です。デューケアは責任を持って行動することに焦点を当てていますが、デューデリジェンスは資産と関連するリスクを積極的に管理することを含みます。"
+      ]
     },
     {
       "questionNumber": 98,
@@ -6053,21 +6054,22 @@
       "explanation": "OBJ. 3.10 - The operations and maintenance phase requires continuous monitoring and regular patching to detect and mitigate vulnerabilities. A complete system redesign is costly and impractical. Disabling unused features can improve security but does not address vulnerabilities. Encryption protects data at rest but does not prevent exploitation of system vulnerabilities. Continuous monitoring ensures threats are identified and addressed in real-time.\n  For support or reporting issues, include Question ID: 67d967f51424709e74398e61 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "組織が情報システムライフサイクルの運用と保守フェーズにあります。セキュリティチームはシステムの脆弱性の増加を観察しています。このフェーズでセキュリティリスクを管理するための最適な戦略はどれですか？",
+      "question_ja": "組織が情報システムライフサイクルの運用・保守フェーズにあります。セキュリティチームはシステムの脆弱性の増加を観察しています。このフェーズでセキュリティリスクを管理する最善の戦略は何ですか？",
+      "explanation_ja": "OBJ. 3.10 - 運用・保守フェーズでは、脆弱性を検出し緩和するために継続的な監視と定期的なパッチ適用が必要です。完全なシステム再設計はコストが高く非実用的です。未使用の機能の無効化はセキュリティを改善できますが、脆弱性に対処しません。暗号化は保存データを保護しますが、システムの脆弱性の悪用を防止しません。継続的な監視により、脅威がリアルタイムで特定され対処されます。",
       "answers_ja": [
         {
           "id": "d",
-          "text": "保存されたすべてのデータをAES-256暗号化で暗号化する。",
+          "text": "パフォーマンスを向上させるために未使用のシステム機能を無効にする。",
           "isCorrect": false
         },
         {
           "id": "a",
-          "text": "脆弱性を排除するために完全なシステム再設計を実施する。",
+          "text": "保存されたすべてのデータをAES-256暗号化で暗号化する。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "パフォーマンスを向上させるために未使用のシステム機能を無効にする。",
+          "text": "脆弱性を排除するために完全なシステム再設計を実行する。",
           "isCorrect": false
         },
         {
@@ -6075,8 +6077,7 @@
           "text": "継続的な監視を実施し、定期的にパッチを適用する。",
           "isCorrect": true
         }
-      ],
-      "explanation_ja": "OBJ. 3.10 - 運用と保守フェーズでは、脆弱性を検出し緩和するために継続的な監視と定期的なパッチ適用が必要です。完全なシステム再設計は高コストで非現実的です。未使用の機能の無効化はセキュリティを向上させる可能性がありますが、脆弱性に対処しません。暗号化は保存データを保護しますが、システムの脆弱性の悪用を防ぎません。継続的な監視により、脅威がリアルタイムで特定され対処されます。"
+      ]
     },
     {
       "questionNumber": 99,
@@ -6115,7 +6116,8 @@
       "explanation": "OBJ. 5.5 - Service accounts should be configured with the minimum necessary permissions and undergo regular password rotation to mitigate risks. Assigning administrative privileges exposes systems to privilege escalation attacks. Using shared credentials prevents accountability and increases security risks. Allowing personal accounts leads to a lack of oversight and improper access control. Properly managing service accounts is crucial for secure access provisioning.\n  For support or reporting issues, include Question ID: 67d96868101758fe20fc04e5 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "自動化プロセスに使用されるサービスアカウントを処理するための最もセキュアなアプローチはどれですか？",
+      "question_ja": "自動化プロセスに使用されるサービスアカウントを処理するための最も安全なアプローチはどれですか？",
+      "explanation_ja": "OBJ. 5.5 - サービスアカウントは最小限の必要な権限で構成し、リスクを軽減するために定期的なパスワードローテーションを行うべきです。管理者権限の割り当てはシステムを権限昇格攻撃にさらします。共有資格情報の使用は説明責任を妨げ、セキュリティリスクを増大させます。個人アカウントの使用は監視の欠如と不適切なアクセス制御につながります。",
       "answers_ja": [
         {
           "id": "c",
@@ -6129,7 +6131,7 @@
         },
         {
           "id": "b",
-          "text": "サービスアカウントを最小限の必要な権限で構成し、パスワードローテーションを強制する。",
+          "text": "最小限の必要な権限でサービスアカウントを構成し、パスワードローテーションを施行する。",
           "isCorrect": true
         },
         {
@@ -6137,8 +6139,7 @@
           "text": "組織全体のすべてのサービスアカウントに共有資格情報を使用する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 5.5 - サービスアカウントは最小限の必要な権限で構成し、リスクを緩和するために定期的なパスワードローテーションを行う必要があります。管理者権限の割り当てはシステムを権限昇格攻撃にさらします。共有資格情報の使用は説明責任を妨げ、セキュリティリスクを増大させます。個人アカウントの許可は監視の欠如と不適切なアクセス制御につながります。サービスアカウントの適切な管理は、安全なアクセスプロビジョニングにとって重要です。"
+      ]
     },
     {
       "questionNumber": 100,
@@ -6177,16 +6178,17 @@
       "explanation": "OBJ. 8.1 - Establishing a change control process is critical to ensuring that modifications to operational software are properly reviewed, tested, and authorized before implementation. This minimizes the risk of introducing vulnerabilities or operational disruptions. While access controls and integrity monitoring are important, the root of the issue is the lack of formal control over code changes, which is best addressed through a structured change management process.\n  For support or reporting issues, include Question ID: 67d969d2b65d1238350b8cb1 in your ticket. Thank you.",
       "links": [],
       "relatedLecture": null,
-      "question_ja": "Samはオンラインフォーラムウェブサイトのソフトウェア開発部門でセキュリティエンジニアとして働いています。簡易リスク評価を実施したところ、ソフトウェアチームが運用ソフトウェアのコードをリアルタイムで変更しており、潜在的な脆弱性を生み出す可能性があることを発見しました。Samはこの問題を修正するために部門マネージャーに何を推奨すべきですか？",
+      "question_ja": "Samはソフトウェア開発部門のセキュリティエンジニアとしてオンラインフォーラムWebサイトで働いています。簡易リスク評価を実施したところ、ソフトウェアチームが運用中のソフトウェアコードをリアルタイムで変更しており、潜在的な脆弱性を生み出す可能性があることを発見しました。Samが部門マネージャーに推奨すべき対策は何ですか？",
+      "explanation_ja": "OBJ. 8.1 - 変更管理プロセスの確立は、運用ソフトウェアへの変更が実施前に適切にレビュー、テスト、認可されることを保証するために不可欠です。これにより、脆弱性や運用上の中断が導入されるリスクが最小限に抑えられます。アクセス制御や整合性監視は重要ですが、問題の根本はコード変更に対する正式な制御の欠如であり、構造化された変更管理プロセスで最も効果的に対処できます。",
       "answers_ja": [
         {
           "id": "c",
-          "text": "問題のあるソフトウェア開発者にセキュリティ意識向上トレーニングを受けさせることを要求する。",
+          "text": "問題のソフトウェア開発者にセキュリティ意識向上トレーニングを受けさせる。",
           "isCorrect": false
         },
         {
           "id": "b",
-          "text": "コードの変更を記録し、エラーが発生した場合に以前の変更を復元するために整合性監視ソフトウェアをインストールする。",
+          "text": "コード変更をキャプチャし、エラー発生時に以前の変更を復元するための整合性監視ソフトウェアをインストールする。",
           "isCorrect": false
         },
         {
@@ -6196,11 +6198,10 @@
         },
         {
           "id": "d",
-          "text": "ソフトウェアチームが運用コードにアクセスすることを防ぐために強力なアクセス制御と最小権限を実装する。",
+          "text": "ソフトウェアチームが運用コードにアクセスするのを防ぐために強力なアクセス制御と最小権限を実装する。",
           "isCorrect": false
         }
-      ],
-      "explanation_ja": "OBJ. 8.1 - 変更管理プロセスの確立は、運用ソフトウェアへの変更が実装前に適切にレビュー、テスト、承認されることを保証するために重要です。これにより、脆弱性の導入や運用の中断のリスクが最小化されます。アクセス制御と整合性監視は重要ですが、問題の根本原因はコード変更に対する正式な制御の欠如であり、構造化された変更管理プロセスによって最もよく対処されます。"
+      ]
     }
   ]
 }

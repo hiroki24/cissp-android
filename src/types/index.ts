@@ -5,6 +5,12 @@ export interface Answer {
   feedback?: string;
 }
 
+export interface AnswerJa {
+  id: string;
+  text: string;
+  isCorrect?: boolean;
+}
+
 export interface Question {
   questionNumber: number;
   questionId: number;
@@ -13,7 +19,7 @@ export interface Question {
   question: string;
   question_ja?: string;
   answers: Answer[];
-  answers_ja?: Answer[];
+  answers_ja?: AnswerJa[];
   correctAnswer: string;
   correctAnswerText: string;
   explanation: string;
@@ -26,6 +32,7 @@ export interface Question {
 export interface QuizFile {
   course: string;
   totalQuestions: number;
+  extractedAt?: string;
   questions: Omit<Question, 'test_number'>[];
 }
 

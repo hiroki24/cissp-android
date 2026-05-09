@@ -15,7 +15,7 @@ import {
   recordSessionAnswer,
   advanceSession,
 } from '@/lib/quizEngine';
-import type { QuizSession, Answer } from '@/types';
+import type { QuizSession } from '@/types';
 
 export default function QuizScreen() {
   const router = useRouter();
@@ -79,8 +79,7 @@ export default function QuizScreen() {
   const questionText =
     language === 'ja' ? question.question_ja || question.question : question.question;
 
-  const answers: Answer[] =
-    language === 'ja' ? question.answers_ja || question.answers : question.answers;
+  const answers = language === 'ja' ? question.answers_ja || question.answers : question.answers;
 
   const getAnswerState = (id: string): 'default' | 'correct' | 'wrong' => {
     if (!answered) return 'default';
