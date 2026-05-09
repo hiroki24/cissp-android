@@ -1,0 +1,64 @@
+name: Auto Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  tag-release:
+    name: Bump version and tag release
+    runs-on: ubuntu-latest
+    # Skip if this push is already the bot's version-bump commit (prevents infinite loop)
+    if: github.actor != 'github-actions[bot]'
+    outputs:
+      version: ${{ steps.version.outputs.VERSION }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.11.0'
+          cache: 'npm'
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump patch version
+        run: npm version patch --no-git-tag-version
+
+      - name: Get new version
+        id: version
+        run: echo "VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
+      - name: Commit version bump
+        run: |
+          git add package.json package-lock.json
+          git commit -m "chore: bump version to v${{ steps.version.outputs.VERSION }} [skip ci]"
+
+      - name: Create annotated tag
+        run: git tag -a "v${{ steps.version.outputs.VERSION }}" -m "Release v${{ steps.version.outputs.VERSION }}"
+
+      - name: Push version bump commit and tag
+        run: |
+          git push origin HEAD:main
+          git push origin "v${{ steps.version.outputs.VERSION }}"
+
+  # Call release.yml directly — no PAT needed, avoids the GITHUB_TOKEN
+  # limitation where tag pushes don't trigger downstream workflows.
+  release:
+    needs: tag-release
+    if: needs.tag-release.result == 'success'
+    uses: ./.github/workflows/release.yml
+    with:
+      version: ${{ needs.tag-release.outputs.version }}
+    secrets: inherit
