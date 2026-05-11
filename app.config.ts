@@ -25,7 +25,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   icon: './src/assets/images/icon.png',
   scheme: 'cisspquiz',
   userInterfaceStyle: 'automatic',
-  newArchEnabled: true,
+  newArchEnabled: false,
   splash: {
     image: './src/assets/images/splash-icon.png',
     resizeMode: 'contain',
